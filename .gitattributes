@@ -1,0 +1,6 @@
+# The build runs on Linux in CI but is edited on Windows. Normalise line
+# endings in the repo so the data commits don't churn on every run.
+* text=auto eol=lf
+*.png binary
+*.parquet binary
+*.pkl binary

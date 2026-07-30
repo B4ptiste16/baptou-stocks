@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+
+# Raw price panels are large and regenerable — never commit them.
+data/raw/
+*.parquet

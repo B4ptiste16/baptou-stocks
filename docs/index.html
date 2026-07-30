@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baptou Stocks — Opportunity Screener</title>
+<meta name="description" content="Rules-based screener over the entire US listed universe, grouped by theme.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Baptou&nbsp;Stocks</h1>
+      <span class="sub">Rules-based screener · entire US listed universe</span>
+    </div>
+    <div class="market" id="market"></div>
+  </div>
+</header>
+
+<div class="notice wrap">
+  <strong>This is a screener, not advice.</strong>
+  Every item below is a chart or volatility condition that matched a written
+  rule — it is not a prediction, and nothing here accounts for your situation,
+  time horizon or risk tolerance. Data is delayed and may contain errors.
+  Verify prices, spreads and levels with your broker before trading anything.
+</div>
+
+<nav class="tabs wrap" id="tabs">
+  <button class="tab active" data-view="ideas">Opportunities</button>
+  <button class="tab" data-view="pairs">Pairs</button>
+  <button class="tab" data-view="method">Method</button>
+</nav>
+
+<!-- ------------------------------------------------------------- IDEAS -- -->
+<section id="view-ideas" class="view wrap">
+
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="Search ticker, name or setup…" autocomplete="off">
+    <div class="seg" id="dirFilter">
+      <button data-dir="all" class="on">All</button>
+      <button data-dir="long">Long</button>
+      <button data-dir="short">Short</button>
+    </div>
+    <select id="actionFilter">
+      <option value="all">Any action</option>
+      <option value="equity">Stock only</option>
+      <option value="options">Has options play</option>
+      <option value="premium_sell">Premium selling</option>
+      <option value="premium_buy">Premium buying</option>
+      <option value="leveraged">Leveraged</option>
+    </select>
+    <label class="slider">
+      Min conviction <output id="convOut">55</output>
+      <input type="range" id="conv" min="50" max="95" value="55" step="5">
+    </label>
+    <select id="sort">
+      <option value="conviction">Sort: conviction</option>
+      <option value="score">Sort: setup score</option>
+      <option value="rr">Sort: risk/reward</option>
+      <option value="liquidity">Sort: liquidity</option>
+    </select>
+  </div>
+
+  <div class="themebar" id="themebar"></div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>Nothing matches these filters.</div>
+</section>
+
+<!-- ------------------------------------------------------------- PAIRS -- -->
+<section id="view-pairs" class="view wrap" hidden>
+  <p class="lead">
+    Two stocks in the same theme that normally move together have separated.
+    The mean-reverting trade is long the cheap leg, short the rich one — a
+    position largely indifferent to market direction. <strong>Half-life</strong>
+    is how many sessions the spread has historically taken to close half the
+    gap; a wide <strong>z</strong> on a spread that never reverts means nothing.
+  </p>
+  <div id="pairsList"></div>
+</section>
+
+<!-- ------------------------------------------------------------ METHOD -- -->
+<section id="view-method" class="view wrap" hidden>
+  <div class="method">
+    <h2>How this works</h2>
+    <p>
+      Every US-listed common stock is downloaded daily, filtered for tradeable
+      liquidity, then measured against a fixed set of technical setups. Nothing
+      is fitted, learned or optimised — the rules are written down and applied
+      identically to every name.
+    </p>
+
+    <h3>1. Universe</h3>
+    <p>
+      Symbol directories from NasdaqTrader cover every listing on Nasdaq, NYSE,
+      NYSE American, NYSE Arca, Cboe and IEX. Test issues, ETFs, warrants,
+      units, rights and preferred shares are removed. Names are then dropped
+      unless they trade above $3 with at least $1m of daily dollar volume and
+      have 200 sessions of history — below that, spreads and borrow costs
+      overwhelm any signal.
+    </p>
+
+    <h3>2. Setups</h3>
+    <p>
+      Each setup has a <em>gate</em> and a <em>score</em>. The gate is a hard
+      requirement: the pattern is either present or it is not, and a name that
+      fails it is never shown at any score. The score, 0–100, measures how
+      clean that instance is across weighted components — relative strength,
+      volume confirmation, trend strength, position within the range. Because
+      every component is normalised before weighting, scores are comparable
+      across different setups.
+    </p>
+    <div id="setupTable"></div>
+
+    <h3>3. From setup to action</h3>
+    <p>
+      The same pattern justifies different instruments depending on context:
+    </p>
+    <ul>
+      <li><strong>Liquidity</strong> decides what is executable at all. Options
+        on a stock trading $2m/day are a trap however good the chart is.</li>
+      <li><strong>Implied volatility</strong> decides whether you want to buy
+        or sell premium. A strong setup with expensive options is often better
+        expressed as a premium <em>sale</em> than a purchase.</li>
+      <li><strong>Expected speed</strong> matters: a squeeze breakout resolves
+        fast, so convexity is worth paying for; a trend pullback grinds for
+        weeks, where a long option just bleeds theta.</li>
+      <li><strong>Borrow risk</strong> makes a put structurally safer than
+        shorting a small cap outright — no fee, no recall.</li>
+      <li><strong>Earnings</strong> inside the holding period turn a chart bet
+        into a coin flip, and are flagged as such.</li>
+    </ul>
+
+    <h3>4. On the volatility number</h3>
+    <p>
+      A true IV <em>rank</em> needs a year of implied-volatility history, which
+      no free feed provides. What is shown instead is the ratio of at-the-money
+      implied volatility to the volatility the stock has actually delivered,
+      using a gap-resistant estimator so that one merger or FDA announcement
+      doesn't make ordinary options look cheap for months afterwards. Chains
+      that are too thin or too wide-spread to read are marked
+      <span class="pill unreliable">unreliable</span> and no volatility-based
+      suggestion is made for them.
+    </p>
+
+    <h3>5. Levels</h3>
+    <p>
+      Stops sit 2 ATR from entry and targets 3.5 ATR, so risk is scaled to each
+      stock's own volatility rather than a flat percentage. Anything whose
+      resulting reward-to-risk falls below 1.3 is discarded. These are
+      mechanical reference levels, not instructions.
+    </p>
+
+    <h3>What this cannot do</h3>
+    <p>
+      It has no knowledge of fundamentals, news, filings, guidance, litigation,
+      dilution or anything else that actually moves stocks. It cannot tell you
+      position size. It has not been backtested, and a matched pattern is not
+      an edge. Treat every card as the start of your own research.
+    </p>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span id="stamp"></span>
+  <span>Data: Yahoo Finance &amp; NasdaqTrader, delayed. Built with GitHub Actions, hosted on GitHub Pages.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
