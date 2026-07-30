@@ -139,14 +139,9 @@ def _fetch_one(args: tuple[str, float]) -> tuple[str, dict]:
     return ticker, out
 
 
-def fetch(candidates: pd.DataFrame, workers: int = 8) -> pd.DataFrame:
-    """`candidates` must be indexed by ticker with `price` and vol columns."""
-    if candidates.empty:
-        return pd.DataFrame()
-    args = [(t, float(p)) for t, p in candidates["price"].items()]
-    print(f"  options: fetching chains for {len(args)} candidates...")
-    t0 = time.time()
-    rows = {}
+def _fetch_pass(args: list[tuple[str, float]], workers: int) -> tuple[dict, bool]:
+    """One sweep over the candidates. Returns (rows, looked_throttled)."""
+    rows: dict[str, dict] = {}
     consecutive_empty = 0
     throttled = False
     with ThreadPoolExecutor(max_workers=workers) as pool:
@@ -161,10 +156,34 @@ def fetch(candidates: pd.DataFrame, workers: int = 8) -> pd.DataFrame:
                 if consecutive_empty >= 30:
                     throttled = True
                     break
+    return rows, throttled
+
+
+def fetch(candidates: pd.DataFrame, workers: int = 8) -> pd.DataFrame:
+    """`candidates` must be indexed by ticker with `price` and vol columns."""
+    if candidates.empty:
+        return pd.DataFrame()
+    args = [(t, float(p)) for t, p in candidates["price"].items()]
+    print(f"  options: fetching chains for {len(args)} candidates...")
+    t0 = time.time()
+
+    rows, throttled = _fetch_pass(args, workers)
+
+    # Zero chains across a set of screened, liquid names is not a real market
+    # condition — it means we were refused. One patient retry is worth far
+    # more than the seconds it costs, because IV drives the option suggestions.
+    if throttled or not any(d.get("has_options") for d in rows.values()):
+        print(f"  options: no chains returned, pausing "
+              f"{C.OPTIONS_RETRY_PAUSE}s and retrying once...")
+        time.sleep(C.OPTIONS_RETRY_PAUSE)
+        retry_rows, throttled = _fetch_pass(args, max(2, workers // 3))
+        for k, v in retry_rows.items():
+            if v.get("has_options") or k not in rows:
+                rows[k] = v
 
     if throttled:
-        print("  options: aborted — looks rate limited, "
-              "IV will be reported as unknown")
+        print("  options: rate limited — IV will be reported as unknown, "
+              "and no volatility-based suggestions will be made")
 
     opt = pd.DataFrame.from_dict(rows, orient="index")
     if "has_options" not in opt.columns:

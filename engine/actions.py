@@ -236,8 +236,12 @@ def build_actions(row: pd.Series, setup_id: str, direction: str,
                         "Assignment risk on the short leg near expiry."],
                     "priority": 85,
                 })
-        elif not is_long and bucket in ("small", "micro", "unknown"):
+        already_put = any(a["type"] == "long_put" for a in actions)
+        if (not is_long and iv_regime != "rich" and not already_put
+                and bucket in ("small", "micro", "unknown")):
             # Borrow risk makes puts structurally better than a stock short.
+            # Guarded against the cheap-IV branch above, which already
+            # suggests a put for its own (volatility) reasons.
             actions.append({
                 "type": "long_put",
                 "label": f"Long put — {atm:g} {exp_txt}",

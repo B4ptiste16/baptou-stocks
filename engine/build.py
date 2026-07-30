@@ -63,6 +63,12 @@ def _metrics(row: pd.Series, opt: pd.Series | None) -> dict:
 def build(limit: int | None = None, use_cache: bool = False,
           skip_options: bool = False) -> dict:
     t_start = time.time()
+    # Python block-buffers stdout when it isn't a TTY, which makes a
+    # four-minute run look like a hang when piped to a file or a CI log.
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+    except (AttributeError, ValueError):
+        pass
 
     # -------------------------------------------------------- 1. universe --
     print("[1/8] loading universe...")
@@ -124,6 +130,11 @@ def build(limit: int | None = None, use_cache: bool = False,
     for col in ("sector", "industry", "short_name", "market_cap"):
         if col not in prof.columns:
             prof[col] = "" if col != "market_cap" else 0
+    # Without this a missing value stringifies to "nan" downstream, which
+    # matches no industry pattern but isn't empty either — it would silently
+    # skip the name-based fallback.
+    prof = prof.fillna({"sector": "", "industry": "",
+                        "short_name": "", "market_cap": 0})
     feat_names = stocks["name"].reindex(feat.index).fillna("")
 
     theme_map = pd.Series(
@@ -143,6 +154,9 @@ def build(limit: int | None = None, use_cache: bool = False,
     if hits.empty or skip_options:
         opt = pd.DataFrame()
     else:
+        if C.PHASE_COOLDOWN:
+            print(f"  cooling down {C.PHASE_COOLDOWN}s before chain requests...")
+            time.sleep(C.PHASE_COOLDOWN)
         best = (hits.groupby("ticker")["score"].max()
                 .nlargest(C.TOP_N_FOR_OPTIONS).index)
         eligible = liquid.loc[

@@ -192,6 +192,38 @@ under AI rather than generic semiconductors.
 
 ---
 
+## Troubleshooting
+
+**"options: rate limited — IV will be reported as unknown"**
+
+Yahoo throttles by IP on sustained request volume. When it does, the run still
+completes and every card is still valid — you just lose the option structures
+for that day, because the engine refuses to guess at implied volatility it
+couldn't read. It recovers on its own next run.
+
+If it happens on every run, spread the load: lower `MAX_FETCH_PER_RUN` in
+`engine/profiles.py` (the backfill is the largest consumer, and it's the least
+important — it has as many runs as it needs), or raise `PHASE_COOLDOWN` and
+`OPTIONS_RETRY_PAUSE` in `engine/config.py`.
+
+Note this is far more likely when developing locally, where repeated runs hit
+the same IP within minutes. A CI runner gets a fresh IP each time and starts
+with a clean budget.
+
+**Most stocks show as theme "Other"**
+
+The profile cache is still filling. It fetches candidates every run and
+backfills the rest most-liquid-first, so it takes a handful of runs to cover
+the universe. Because the cache is committed back to the repo, progress
+persists — it does not restart each time.
+
+**The page shows "Could not load data/latest.json"**
+
+You opened `index.html` directly from disk. Browsers block `fetch` on
+`file://`. Serve the folder over HTTP instead.
+
+---
+
 ## Limitations
 
 - **No fundamentals.** No earnings quality, balance sheet, guidance,

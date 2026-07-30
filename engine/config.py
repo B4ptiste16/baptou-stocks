@@ -25,6 +25,13 @@ DOWNLOAD_PERIOD = "2y"          # need >252 bars for 52w stats + 1y vol ranks
 DOWNLOAD_RETRIES = 2
 MAX_DOWNLOAD_WORKERS = 4        # parallel chunks; higher risks throttling
 
+# Yahoo throttles on sustained request volume, and once it starts refusing it
+# refuses everything for a while. A short pause between the heavy phases lets
+# the bucket refill so the option chains — the most valuable requests in the
+# run — aren't spent into a closed door.
+PHASE_COOLDOWN = 20
+OPTIONS_RETRY_PAUSE = 45
+
 BENCHMARK = "SPY"
 SECTOR_ETFS = {
     "Technology": "XLK", "Financial Services": "XLF", "Healthcare": "XLV",

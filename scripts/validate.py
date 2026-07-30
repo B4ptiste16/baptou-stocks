@@ -112,6 +112,13 @@ def main() -> int:
             if not a.get("label") or not a.get("rationale"):
                 err(f"{t}: action {a.get('type')} missing label/rationale")
 
+        # Overlapping branches in the action mapper can emit the same
+        # instrument twice; the card would show it as two separate ideas.
+        kinds = [a["type"] for a in o["actions"]]
+        dupes = {k for k in kinds if kinds.count(k) > 1}
+        if dupes:
+            err(f"{t}: duplicate action types {sorted(dupes)}")
+
         # An IV-based recommendation must not exist without a trusted reading.
         iv_regime = o["metrics"].get("iv_regime")
         premium = {"bull_put_spread", "bear_call_spread", "long_call", "long_put"}
