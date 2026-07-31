@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Baptou Stocks — Opportunity Screener</title>
 <meta name="description" content="Rules-based screener over the entire US listed universe, grouped by theme.">
-<link rel="stylesheet" href="style.css">
+<!-- ?v= is bumped whenever the CSS or JS changes. Without it, returning
+     visitors keep a cached copy and see new data rendered by old code. -->
+<link rel="stylesheet" href="style.css?v=2">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 </head>
 <body>
@@ -30,6 +32,7 @@
 
 <nav class="tabs wrap" id="tabs">
   <button class="tab active" data-view="ideas">Opportunities</button>
+  <button class="tab" data-view="followup">Follow-up<span class="tabn" id="tabnFollow"></span></button>
   <button class="tab" data-view="pairs">Pairs</button>
   <button class="tab" data-view="method">Method</button>
 </nav>
@@ -68,6 +71,46 @@
   <div class="count" id="count"></div>
   <div class="grid" id="grid"></div>
   <div class="empty" id="empty" hidden>Nothing matches these filters.</div>
+</section>
+
+<!-- ---------------------------------------------------------- FOLLOW-UP -- -->
+<section id="view-followup" class="view wrap" hidden>
+
+  <div class="notice sim">
+    <strong>Simulated, not traded.</strong>
+    Entries assume the open of the session after the signal, fills happen
+    exactly at the stop or target, and when a single day's range covers both,
+    the stop is taken. Nothing here accounts for slippage, commission, the
+    spread, gapping through a stop, or borrow cost on shorts — real results
+    would be worse. History before <span id="liveFrom">the first run</span> was
+    reconstructed by replaying the rules on past prices, and carries
+    survivorship bias: delisted and bankrupted names are simply absent.
+  </div>
+
+  <div class="jstats" id="jstats"></div>
+
+  <div class="toolbar">
+    <input type="search" id="jq" placeholder="Search ticker, setup or theme…" autocomplete="off">
+    <div class="seg" id="jStatusFilter">
+      <button data-st="all" class="on">All</button>
+      <button data-st="open">Open</button>
+      <button data-st="target">Target</button>
+      <button data-st="stop">Stopped</button>
+      <button data-st="expired">Expired</button>
+    </div>
+    <select id="jSort">
+      <option value="date">Sort: newest</option>
+      <option value="r">Sort: best R</option>
+      <option value="rworst">Sort: worst R</option>
+      <option value="conviction">Sort: conviction</option>
+    </select>
+  </div>
+
+  <div class="count" id="jcount"></div>
+  <div id="jlist"></div>
+  <div class="empty" id="jempty" hidden>
+    No tracked trades yet. The journal fills as the screener runs.
+  </div>
 </section>
 
 <!-- ------------------------------------------------------------- PAIRS -- -->
@@ -154,6 +197,33 @@
       mechanical reference levels, not instructions.
     </p>
 
+    <h3>6. Following trades up</h3>
+    <p>
+      Every day's best ideas are recorded and then followed forward bar by bar
+      until they hit their stop, hit their target, or time out after 60
+      sessions. The <strong>Follow-up</strong> tab shows the result of each,
+      and the slider on an expanded trade re-runs the same simulation from a
+      different entry day — the stop and target move with the entry, keeping
+      their ATR distances, so you can see how much the outcome depended on
+      catching it on day one.
+    </p>
+    <p>
+      The rules are deliberately pessimistic where the data is ambiguous. A
+      daily bar cannot say whether the stop or the target was touched first,
+      so when a bar's range covers both, <strong>the stop is taken</strong>.
+      Assuming otherwise would quietly inflate every number on that tab.
+    </p>
+    <p>
+      What is <em>not</em> modelled: slippage, commission, the bid-ask spread,
+      gapping straight through a stop and filling far worse than it, and
+      borrow cost on shorts. Real results would be worse than shown, and the
+      gap widens for the less liquid names. History from before the screener
+      went live was reconstructed by replaying the rules against past prices —
+      with no lookahead, but with survivorship bias, since delisted and
+      bankrupted companies are absent from today's universe and those are
+      disproportionately the losers.
+    </p>
+
     <h3>What this cannot do</h3>
     <p>
       It has no knowledge of fundamentals, news, filings, guidance, litigation,
@@ -169,6 +239,6 @@
   <span>Data: Yahoo Finance &amp; NasdaqTrader, delayed. Built with GitHub Actions, hosted on GitHub Pages.</span>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

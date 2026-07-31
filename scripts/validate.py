@@ -53,6 +53,106 @@ def check_levels(o: dict) -> None:
         err(f"{t}: reward-to-risk {rr} below 1.0 should have been filtered")
 
 
+JOURNAL = Path("docs/data/journal.json")
+STATUSES = {"open", "target", "stop", "expired"}
+
+
+def check_journal() -> None:
+    """The follow-up tab is a performance claim, so its arithmetic has to hold.
+
+    The important check is that every reported R-multiple is reproducible from
+    the entry, stop and exit stored alongside it. If the simulation drifts,
+    this catches it before the numbers reach a page that looks authoritative.
+    """
+    if not JOURNAL.exists():
+        warn("no journal.json yet — the follow-up tab will be empty")
+        return
+    try:
+        j = json.loads(JOURNAL.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        err(f"journal.json is not valid JSON — {exc}")
+        return
+
+    rules = j.get("rules") or {}
+    stop_mult = rules.get("stop_atr_mult")
+    tgt_mult = rules.get("target_atr_mult")
+    if not stop_mult or not tgt_mult:
+        err("journal rules missing ATR multiples")
+        return
+
+    trades = j.get("trades", [])
+    counts = {k: 0 for k in STATUSES}
+
+    for t in trades:
+        tid = t.get("id", "?")
+        sim = t.get("sim") or {}
+        st = sim.get("status")
+        if st not in STATUSES:
+            err(f"journal {tid}: bad status {st!r}")
+            continue
+        counts[st] += 1
+
+        n = len(t.get("c", []))
+        for k in ("o", "h", "l", "dates"):
+            if len(t.get(k, [])) != n:
+                err(f"journal {tid}: {k} length {len(t.get(k, []))} != c length {n}")
+
+        ei = sim.get("entry_idx")
+        if ei is None or not (0 <= ei < n):
+            err(f"journal {tid}: entry_idx {ei} outside 0..{n - 1}")
+            continue
+        if ei == 0:
+            err(f"journal {tid}: entered on the signal bar itself (lookahead)")
+
+        entry, stop, target = sim.get("entry"), sim.get("stop"), sim.get("target")
+        atr = t.get("atr")
+        if None in (entry, stop, target, atr):
+            err(f"journal {tid}: missing entry/stop/target/atr")
+            continue
+
+        # Levels must sit exactly the configured ATR distance from entry.
+        long = t["direction"] == "long"
+        want_stop = entry - stop_mult * atr if long else entry + stop_mult * atr
+        want_tgt = entry + tgt_mult * atr if long else entry - tgt_mult * atr
+        if abs(stop - want_stop) > 0.011:
+            err(f"journal {tid}: stop {stop} != entry -/+ {stop_mult}xATR ({want_stop:.4f})")
+        if abs(target - want_tgt) > 0.011:
+            err(f"journal {tid}: target {target} != {tgt_mult}xATR ({want_tgt:.4f})")
+
+        # R-multiple must be reproducible from the stored prices.
+        mark = sim.get("exit_price")
+        if mark is None:
+            mark = sim.get("mark")
+        r = sim.get("r_multiple")
+        risk = abs(entry - stop)
+        if r is not None and mark is not None and risk > 0:
+            pnl = (mark - entry) if long else (entry - mark)
+            if abs(pnl / risk - r) > 0.011:
+                err(f"journal {tid}: r_multiple {r} not reproducible from "
+                    f"entry {entry} / exit {mark} (expected {pnl / risk:.3f})")
+
+        ex = sim.get("exit_idx")
+        if st == "open" and ex is not None:
+            err(f"journal {tid}: status open but has exit_idx {ex}")
+        if st != "open" and ex is None:
+            err(f"journal {tid}: status {st} but no exit_idx")
+        if ex is not None and ex < ei:
+            err(f"journal {tid}: exit_idx {ex} before entry_idx {ei}")
+
+    stats = j.get("stats") or {}
+    if stats.get("total") != len(trades):
+        err(f"journal stats total {stats.get('total')} != {len(trades)} trades")
+    for key, st in (("open", "open"), ("target_hit", "target"),
+                    ("stopped", "stop"), ("expired", "expired")):
+        if stats.get(key) is not None and stats[key] != counts[st]:
+            err(f"journal stats {key}={stats[key]} but counted {counts[st]}")
+
+    if trades:
+        print(f"  journal: {len(trades)} trades checked "
+              f"({counts['open']} open, {counts['target']} target, "
+              f"{counts['stop']} stop, {counts['expired']} expired)")
+
+
 def main() -> int:
     if not DATA.exists():
         print("FAIL: docs/data/latest.json does not exist")
@@ -141,6 +241,8 @@ def main() -> int:
         err(f"liquid ({s['liquid']}) exceeds priced ({s['priced']})")
     if len(opps) != s["opportunities"]:
         err(f"stats say {s['opportunities']} opportunities, file has {len(opps)}")
+
+    check_journal()
 
     size_kb = DATA.stat().st_size / 1024
     if size_kb > 8000:

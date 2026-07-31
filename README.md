@@ -38,6 +38,55 @@ For each stock that matches, you get:
 Plus a **Pairs** tab: same-theme stocks whose spread has stretched, with the
 correlation, OLS hedge ratio and mean-reversion half-life behind each.
 
+And a **Follow-up** tab, which is where the screener has to answer for itself.
+
+---
+
+## Following trades up
+
+Each day's best ideas are recorded and then followed forward bar by bar until
+they hit their stop, hit their target, or time out. Expanding a trade draws
+its price history with the entry, stop, target and exit marked, and a slider
+re-runs the whole simulation from a different entry day — levels move with the
+entry, keeping their ATR distances — so you can see how much the result
+depended on catching it on day one.
+
+The simulation rules, stated plainly because they decide every number there:
+
+| | |
+|---|---|
+| Entry | the open of the session *after* the signal — the first price you could actually pay |
+| Stop | entry −/+ 2 × ATR, using the ATR as of the signal date |
+| Target | entry +/− 3.5 × ATR |
+| Exit | first bar whose low touches the stop or whose high touches the target |
+| Same bar | if one bar's range covers **both**, the stop is taken |
+| Timeout | 60 sessions, marked out at the close |
+
+That same-bar rule matters. A daily bar cannot say which level was hit first,
+and assuming the good one would inflate every statistic on the page.
+
+**Not modelled:** slippage, commission, the bid-ask spread, gapping through a
+stop and filling far worse than it, and borrow cost on shorts. Real results
+would be worse, and the gap is not small for the wider-spread names.
+
+The browser re-runs this simulation live as you move the slider, so its
+arithmetic must match the engine's exactly. `scripts/validate.py` verifies
+every reported R-multiple is reproducible from the entry, stop and exit stored
+beside it, and the publish gate refuses anything that isn't.
+
+### Seeding history
+
+A journal that starts empty tells you nothing for months, so
+`scripts/seed_journal.py` replays the setup engine over past sessions with the
+price panel truncated to each date — no lookahead. It is a sanity check on the
+rules, not a track record, and it carries **survivorship bias**: the universe
+is today's listed names, so anything delisted, acquired or bankrupted in the
+meantime is absent, and those are disproportionately the losers.
+
+```bash
+python -m scripts.seed_journal --days 70
+```
+
 ---
 
 ## Setup
@@ -112,12 +161,19 @@ engine/
   leverage.py     single-stock and sector leveraged ETF mapping
   pairs.py        same-theme spread z-scores with hedge ratio and half-life
   actions.py      setup + context -> concrete expression, with warnings
-  build.py        orchestrator -> docs/data/latest.json
+  journal.py      records suggestions and follows them to stop/target/timeout
+  build.py        orchestrator -> docs/data/{latest,journal}.json
 docs/             the dashboard (static, zero dependencies)
 scripts/
   validate.py     structural checks; CI refuses to publish if these fail
+  seed_journal.py replays the rules over past sessions to seed the journal
   summary.py      writes the run report to the Actions job summary
 ```
+
+Only the *seed* of each tracked trade is stored — ticker, setup, date,
+reference price and ATR. Bars, exits and statistics are recomputed from the
+price panels on every run, so the journal cannot drift out of sync with the
+price history the way an incrementally-appended file would.
 
 Everything is computed across the whole universe at once as wide DataFrames,
 so ~5,600 tickers cost barely more than a hundred would. A full run takes a

@@ -20,6 +20,7 @@ import pandas as pd
 from . import actions as A
 from . import config as C
 from . import indicators as I
+from . import journal as JN
 from . import options as O
 from . import pairs as PR
 from . import prices as P
@@ -286,6 +287,32 @@ def build(limit: int | None = None, use_cache: bool = False,
         })
     theme_rows.sort(key=lambda t: t["order"])
 
+    # -------------------------------------------------------- 9. journal --
+    # Record today's best ideas, then re-derive every tracked trade from the
+    # current price panels. Bars are never stored, only the seed, so the
+    # journal cannot drift away from the price history.
+    print("[+] updating trade journal...")
+    as_of_str = str(pd.Timestamp(as_of).date())
+    seeds = JN.load_seeds()
+    dropped = JN.prune(seeds, pd.Timestamp(as_of))
+    added = JN.record(seeds, opportunities, as_of_str)
+    journal = JN.build(seeds, panels, as_of_str)
+    JN.save_seeds(seeds)
+    js = journal["stats"]
+    print(f"  {added} new trades recorded, {dropped} pruned; tracking "
+          f"{js['total']} ({js['open']} open, {js['closed']} closed)")
+    if js["closed"]:
+        print(f"  closed record: {js['target_hit']} target / {js['stopped']} "
+              f"stop / {js['expired']} expired, "
+              f"win rate {js['win_rate']:.0%}, avg {js['avg_r']:+.2f}R")
+
+    # allow_nan=False makes Python raise rather than emit bare `NaN`, which is
+    # not valid JSON and which browsers refuse to parse — a failure that is
+    # otherwise invisible until the page is open.
+    (C.OUT_DIR / "journal.json").write_text(
+        json.dumps(journal, separators=(",", ":"), allow_nan=False),
+        encoding="utf-8")
+
     bench_ret_21 = float(bench.iloc[-1] / bench.iloc[-22] - 1) * 100
     regime = ("risk-on" if breadth > 0.60 else
               "risk-off" if breadth < 0.40 else "mixed")
@@ -309,6 +336,10 @@ def build(limit: int | None = None, use_cache: bool = False,
             "breadth_above_200dma": _clean(breadth),
             "regime": regime,
         },
+        # Headline only — the full journal is a separate file the Follow-up
+        # tab loads on demand, so the main page stays light.
+        "journal": {k: js[k] for k in ("total", "open", "closed", "win_rate",
+                                       "avg_r", "target_hit", "stopped")},
         "themes": theme_rows,
         "opportunities": opportunities,
         "pairs": pairs_out,
@@ -330,7 +361,8 @@ def main() -> int:
                     skip_options=args.skip_options)
 
     out = C.OUT_DIR / "latest.json"
-    out.write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
+    out.write_text(json.dumps(payload, separators=(",", ":"), allow_nan=False),
+                   encoding="utf-8")
     size_kb = out.stat().st_size / 1024
     print(f"\nwrote {out} ({size_kb:.0f} KB)")
     print(f"  {payload['stats']['opportunities']} opportunities, "

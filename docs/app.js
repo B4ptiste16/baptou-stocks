@@ -291,6 +291,310 @@
            esc(v) + "</div></div>";
   }
 
+  /* ---------------------------------------------------------- follow-up --
+     JOURNAL is fetched lazily the first time the tab is opened, because it is
+     considerably larger than the opportunity feed and most visits never look
+     at it. */
+  var JOURNAL = null, jstate = { st: "all", q: "", sort: "date",
+                                 open: {}, entry: {} };
+
+  function loadJournal() {
+    if (JOURNAL) { renderJournal(); return; }
+    var el = $("jlist");
+    el.innerHTML = '<div class="empty">Loading trade history…</div>';
+    fetch("data/journal.json", { cache: "no-cache" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (j) { JOURNAL = j; renderJournal(); })
+      .catch(function (err) {
+        el.innerHTML = '<div class="empty">No journal yet — ' +
+          esc(err.message) + ".<br>It is created the first time the " +
+          "screener runs.</div>";
+      });
+  }
+
+  /* Mirror of `walk` in engine/journal.py. The two must agree: the server
+     computes the headline numbers, this recomputes them live as the slider
+     moves. Rule constants come from the file so they can never drift. */
+  /* Mirror of `_last_finite` in journal.py. A halted or untraded final bar
+     serialises as null, and `null - price` silently evaluates to `-price` in
+     JavaScript rather than NaN — which turned a +0.06R trade into -6.58R
+     before this existed. */
+  function lastClose(t, upto) {
+    for (var k = Math.min(upto, t.c.length - 1); k >= 0; k--) {
+      if (t.c[k] != null && isFinite(t.c[k])) return t.c[k];
+    }
+    return null;
+  }
+
+  function simulateTrade(t, entryIdx) {
+    var R = JOURNAL.rules;
+    var n = t.c.length;
+    if (entryIdx >= n) return null;
+    var entry = t.o[entryIdx];
+    if (entry == null || !(entry > 0)) return null;
+
+    var long = t.direction === "long";
+    var stop = long ? entry - R.stop_atr_mult * t.atr
+                    : entry + R.stop_atr_mult * t.atr;
+    var target = long ? entry + R.target_atr_mult * t.atr
+                      : entry - R.target_atr_mult * t.atr;
+    var risk = Math.abs(entry - stop);
+
+    var last = Math.min(n - 1, entryIdx + R.max_hold_days);
+    var mfe = 0, mae = 0, status = "open", exitIdx = null, exitPrice = null;
+
+    for (var j = entryIdx; j <= last; j++) {
+      var hi = t.h[j], lo = t.l[j];
+      if (hi == null || lo == null) continue;
+
+      mfe = Math.max(mfe, long ? hi - entry : entry - lo);
+      mae = Math.max(mae, long ? entry - lo : hi - entry);
+
+      var hitStop = long ? lo <= stop : hi >= stop;
+      var hitTarget = long ? hi >= target : lo <= target;
+
+      // Same-bar ambiguity resolves to the stop — daily bars cannot say
+      // which came first, and assuming the good one inflates everything.
+      if (hitStop) { status = "stop"; exitIdx = j; exitPrice = stop; break; }
+      if (hitTarget) { status = "target"; exitIdx = j; exitPrice = target; break; }
+    }
+
+    if (status === "open" && last === entryIdx + R.max_hold_days && last < n - 1) {
+      status = "expired"; exitIdx = last; exitPrice = lastClose(t, last);
+    }
+
+    var mark = exitPrice != null ? exitPrice : lastClose(t, n - 1);
+    if (mark == null) mark = entry;
+    var pnl = long ? mark - entry : entry - mark;
+
+    return {
+      status: status, entry_idx: entryIdx, entry: entry, stop: stop,
+      target: target, exit_idx: exitIdx, exit_price: exitPrice, mark: mark,
+      pnl_pct: pnl / entry * 100,
+      r_multiple: risk > 0 ? pnl / risk : null,
+      mfe_r: risk > 0 ? mfe / risk : null,
+      mae_r: risk > 0 ? -mae / risk : null,
+      bars_held: exitIdx != null ? exitIdx - entryIdx : n - 1 - entryIdx
+    };
+  }
+
+  var STATUS_LABEL = { open: "Open", target: "Target hit", stop: "Stopped out",
+                       expired: "Timed out", pending: "Pending" };
+
+  function chart(t, sim) {
+    var W = 720, H = 210, PADL = 46, PADR = 12, PADT = 12, PADB = 22;
+    var n = t.c.length;
+    var lo = Infinity, hi = -Infinity, i;
+    for (i = 0; i < n; i++) {
+      if (t.l[i] != null) lo = Math.min(lo, t.l[i]);
+      if (t.h[i] != null) hi = Math.max(hi, t.h[i]);
+    }
+    lo = Math.min(lo, sim.stop, sim.target);
+    hi = Math.max(hi, sim.stop, sim.target);
+    if (!isFinite(lo) || !isFinite(hi) || hi === lo) return "";
+    var pad = (hi - lo) * 0.06; lo -= pad; hi += pad;
+
+    var x = function (k) {
+      return PADL + (n < 2 ? 0 : k / (n - 1) * (W - PADL - PADR));
+    };
+    var y = function (v) {
+      return PADT + (hi - v) / (hi - lo) * (H - PADT - PADB);
+    };
+
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" class="tchart" ' +
+            'preserveAspectRatio="none" role="img" aria-label="price since signal">';
+
+    // Shade the period the position is actually held.
+    var endIdx = sim.exit_idx != null ? sim.exit_idx : n - 1;
+    s += '<rect class="held" x="' + x(sim.entry_idx).toFixed(1) + '" y="' + PADT +
+         '" width="' + Math.max(1, x(endIdx) - x(sim.entry_idx)).toFixed(1) +
+         '" height="' + (H - PADT - PADB) + '"/>';
+
+    // Stop / target / entry levels.
+    s += '<line class="lvl stop" x1="' + PADL + '" x2="' + (W - PADR) +
+         '" y1="' + y(sim.stop).toFixed(1) + '" y2="' + y(sim.stop).toFixed(1) + '"/>';
+    s += '<line class="lvl tgt" x1="' + PADL + '" x2="' + (W - PADR) +
+         '" y1="' + y(sim.target).toFixed(1) + '" y2="' + y(sim.target).toFixed(1) + '"/>';
+    s += '<line class="lvl entry" x1="' + PADL + '" x2="' + (W - PADR) +
+         '" y1="' + y(sim.entry).toFixed(1) + '" y2="' + y(sim.entry).toFixed(1) + '"/>';
+
+    // High-low range, then the close line on top.
+    var band = "";
+    for (i = 0; i < n; i++) {
+      if (t.h[i] == null || t.l[i] == null) continue;
+      band += '<line x1="' + x(i).toFixed(1) + '" x2="' + x(i).toFixed(1) +
+              '" y1="' + y(t.h[i]).toFixed(1) + '" y2="' + y(t.l[i]).toFixed(1) + '"/>';
+    }
+    s += '<g class="range">' + band + "</g>";
+
+    var d = "", started = false;
+    for (i = 0; i < n; i++) {
+      if (t.c[i] == null) continue;
+      d += (started ? "L" : "M") + x(i).toFixed(1) + " " + y(t.c[i]).toFixed(1);
+      started = true;
+    }
+    s += '<path class="px" d="' + d + '"/>';
+
+    // Entry and exit markers.
+    s += '<circle class="mk entry" cx="' + x(sim.entry_idx).toFixed(1) +
+         '" cy="' + y(sim.entry).toFixed(1) + '" r="4"/>';
+    if (sim.exit_idx != null) {
+      s += '<circle class="mk ' + sim.status + '" cx="' + x(sim.exit_idx).toFixed(1) +
+           '" cy="' + y(sim.exit_price).toFixed(1) + '" r="4.5"/>';
+    }
+
+    // Axis labels.
+    s += '<text class="ax" x="4" y="' + (y(hi - pad) + 4).toFixed(1) + '">' +
+         num(hi - pad, 2) + "</text>";
+    s += '<text class="ax" x="4" y="' + (y(lo + pad) + 4).toFixed(1) + '">' +
+         num(lo + pad, 2) + "</text>";
+    s += '<text class="ax" x="' + PADL + '" y="' + (H - 6) + '">' +
+         esc(t.dates[0]) + "</text>";
+    s += '<text class="ax end" x="' + (W - PADR) + '" y="' + (H - 6) +
+         '" text-anchor="end">' + esc(t.dates[n - 1]) + "</text>";
+
+    return s + "</svg>";
+  }
+
+  function rClass(r) {
+    if (r == null) return "";
+    return r > 0.05 ? "up" : r < -0.05 ? "dn" : "";
+  }
+
+  function tradeDetail(t) {
+    var idx = jstate.entry[t.id];
+    if (idx == null) idx = t.sim.entry_idx;
+    var sim = simulateTrade(t, idx) || t.sim;
+    var n = t.c.length;
+    var moved = idx !== t.sim.entry_idx;
+
+    var h = '<div class="tdetail">';
+    h += chart(t, sim);
+
+    h += '<div class="slider-row">' +
+      '<label>Entry day' +
+      '<input type="range" class="entrySlider" data-id="' + esc(t.id) +
+      '" min="1" max="' + (n - 1) + '" value="' + idx + '"></label>' +
+      '<span class="entryDate">' + esc(t.dates[idx]) +
+      " @ open $" + num(t.o[idx], 2) +
+      (moved ? ' <em>(moved from ' + esc(t.dates[t.sim.entry_idx]) + ')</em>' : "") +
+      "</span></div>";
+
+    h += '<div class="tgrid">' +
+      mcell("Status", STATUS_LABEL[sim.status] || sim.status) +
+      mcell("Entry", "$" + num(sim.entry, 2)) +
+      mcell("Stop", "$" + num(sim.stop, 2)) +
+      mcell("Target", "$" + num(sim.target, 2)) +
+      mcell(sim.exit_price != null ? "Exit" : "Last",
+            "$" + num(sim.exit_price != null ? sim.exit_price : sim.mark, 2)) +
+      mcell("Result", (sim.r_multiple == null ? "–"
+             : signed(sim.r_multiple, 2) + "R")) +
+      mcell("P&L", signed(sim.pnl_pct, 2) + "%") +
+      mcell("Held", sim.bars_held + " sessions") +
+      mcell("Best (MFE)", sim.mfe_r == null ? "–" : signed(sim.mfe_r, 2) + "R") +
+      mcell("Worst (MAE)", sim.mae_r == null ? "–" : signed(sim.mae_r, 2) + "R") +
+      "</div>";
+
+    h += '<p class="tnote">Signalled ' + esc(t.suggested_on) + " on <strong>" +
+         esc(t.setup_label) + "</strong> at $" + num(t.signal_price, 2) +
+         ", ATR $" + num(t.atr, 2) + ". Move the slider to see how the same " +
+         "setup would have gone entered on a different day — the stop and " +
+         "target follow the entry, keeping the same ATR distances.</p>";
+
+    return h + "</div>";
+  }
+
+  function tradeRow(t) {
+    var open = !!jstate.open[t.id];
+    var sim = t.sim;
+    var r = sim.r_multiple;
+    var h = '<article class="trade ' + sim.status + '" data-id="' + esc(t.id) + '">';
+
+    h += '<div class="thead"><div class="tmain">' +
+      '<div class="crow1"><span class="tick">' + esc(t.ticker) + "</span>" +
+      '<span class="badge ' + t.direction + '">' + t.direction + "</span>" +
+      '<span class="pill st ' + sim.status + '">' +
+        (STATUS_LABEL[sim.status] || sim.status) + "</span>" +
+      (t.seeded ? '<span class="pill seeded">replayed</span>' : "") +
+      "</div>" +
+      '<div class="cname">' + esc(t.setup_label) + " · " + esc(t.theme_label) +
+      " · signalled " + esc(t.suggested_on) + "</div></div>";
+
+    h += '<div class="tres"><div class="v ' + rClass(r) + '">' +
+      (r == null ? "–" : signed(r, 2) + "R") + '</div>' +
+      '<div class="l">' + signed(sim.pnl_pct, 1) + "% · " +
+      sim.bars_held + "d</div></div></div>";
+
+    if (open) h += tradeDetail(t);
+    return h + "</article>";
+  }
+
+  function jMatches(t) {
+    if (jstate.st !== "all" && t.sim.status !== jstate.st) return false;
+    if (jstate.q) {
+      var hay = (t.ticker + " " + t.name + " " + t.setup_label + " " +
+                 t.theme_label).toLowerCase();
+      if (hay.indexOf(jstate.q) < 0) return false;
+    }
+    return true;
+  }
+
+  function renderJournalStats() {
+    var s = JOURNAL.stats;
+    var wr = s.win_rate == null ? "–" : Math.round(s.win_rate * 100) + "%";
+    $("jstats").innerHTML =
+      jstat("Tracked", s.total) +
+      jstat("Open", s.open) +
+      jstat("Closed", s.closed) +
+      jstat("Target hit", s.target_hit, "up") +
+      jstat("Stopped", s.stopped, "dn") +
+      jstat("Timed out", s.expired) +
+      jstat("Win rate", wr) +
+      jstat("Avg result", s.avg_r == null ? "–" : signed(s.avg_r, 2) + "R",
+            rClass(s.avg_r)) +
+      jstat("Total", s.total_r == null ? "–" : signed(s.total_r, 1) + "R",
+            rClass(s.total_r));
+    var tn = $("tabnFollow");
+    if (tn) tn.textContent = s.total ? " " + s.total : "";
+  }
+
+  function jstat(k, v, cls) {
+    return '<div class="jstat"><div class="k">' + esc(k) + '</div>' +
+           '<div class="v ' + (cls || "") + '">' + esc(v) + "</div></div>";
+  }
+
+  function renderJournal() {
+    if (!JOURNAL) return;
+    renderJournalStats();
+
+    var list = JOURNAL.trades.filter(jMatches);
+    list.sort(function (a, b) {
+      switch (jstate.sort) {
+        case "r": return (b.sim.r_multiple || -99) - (a.sim.r_multiple || -99);
+        case "rworst": return (a.sim.r_multiple || 99) - (b.sim.r_multiple || 99);
+        case "conviction": return b.conviction - a.conviction;
+        default: return a.suggested_on < b.suggested_on ? 1 : -1;
+      }
+    });
+
+    $("jcount").textContent = list.length + " of " + JOURNAL.trades.length +
+      " tracked trades";
+    $("jempty").hidden = list.length > 0;
+    $("jlist").innerHTML = list.map(function (t) {
+      try { return tradeRow(t); }
+      catch (e) { console.error("trade render failed", t.id, e); return ""; }
+    }).join("");
+
+    var seeded = JOURNAL.trades.filter(function (t) { return t.seeded; });
+    var lf = $("liveFrom");
+    if (lf && seeded.length) {
+      lf.textContent = "the first live run";
+    }
+  }
+
   function renderSetupTable() {
     var seen = {}, rows = [];
     DATA.opportunities.forEach(function (o) {
@@ -365,9 +669,56 @@
       [].forEach.call(this.children, function (c) {
         c.classList.toggle("active", c === b);
       });
-      ["ideas", "pairs", "method"].forEach(function (v) {
+      ["ideas", "followup", "pairs", "method"].forEach(function (v) {
         $("view-" + v).hidden = v !== b.dataset.view;
       });
+      if (b.dataset.view === "followup") loadJournal();
+    });
+
+    // ---- follow-up tab ----
+    $("jq").addEventListener("input", function (e) {
+      jstate.q = e.target.value.trim().toLowerCase();
+      renderJournal();
+    });
+
+    $("jStatusFilter").addEventListener("click", function (e) {
+      var b = e.target.closest("button");
+      if (!b) return;
+      jstate.st = b.dataset.st;
+      [].forEach.call(this.children, function (c) {
+        c.classList.toggle("on", c === b);
+      });
+      renderJournal();
+    });
+
+    $("jSort").addEventListener("change", function (e) {
+      jstate.sort = e.target.value; renderJournal();
+    });
+
+    $("jlist").addEventListener("click", function (e) {
+      if (e.target.closest(".tdetail")) return;   // don't collapse on slider
+      var head = e.target.closest(".thead");
+      if (!head) return;
+      var id = head.closest(".trade").dataset.id;
+      jstate.open[id] = !jstate.open[id];
+      renderJournal();
+    });
+
+    // Redraw only the expanded trade as the slider moves, so dragging stays
+    // smooth and the input keeps focus.
+    $("jlist").addEventListener("input", function (e) {
+      var sl = e.target.closest(".entrySlider");
+      if (!sl) return;
+      var id = sl.dataset.id;
+      jstate.entry[id] = +sl.value;
+      var t = JOURNAL.trades.find(function (x) { return x.id === id; });
+      if (!t) return;
+      var art = sl.closest(".trade");
+      var detail = art.querySelector(".tdetail");
+      if (!detail) return;
+      detail.outerHTML = tradeDetail(t);
+      var moved = art.querySelector(".entrySlider");
+      if (moved) { moved.focus(); }
     });
   }
 

@@ -250,6 +250,72 @@ body {
 .notes li { padding-left: 13px; position: relative; }
 .notes li::before { content: "·"; position: absolute; left: 3px; font-weight: 700; }
 
+/* ---------------------------------------------------------- follow-up -- */
+.tabn { font-size: 10.5px; opacity: .6; font-variant-numeric: tabular-nums; }
+.notice.sim { background: var(--panel-2); border-left-color: var(--ink-3); }
+
+.jstats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: 8px; margin-bottom: 14px;
+}
+.jstat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.jstat .k { font-size: 9.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; }
+.jstat .v { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.jstat .v.up { color: var(--long); } .jstat .v.dn { color: var(--short); }
+
+.trade {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); margin-bottom: 9px; overflow: hidden;
+}
+.trade.target { border-left: 3px solid var(--long); }
+.trade.stop { border-left: 3px solid var(--short); }
+.trade.open { border-left: 3px solid var(--accent); }
+.trade.expired { border-left: 3px solid var(--ink-3); }
+
+.thead { display: flex; gap: 12px; align-items: center; padding: 11px 14px; cursor: pointer; }
+.thead:hover { background: var(--panel-2); }
+.tmain { flex: 1; min-width: 0; }
+.tres { text-align: right; flex: 0 0 auto; }
+.tres .v { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.tres .v.up { color: var(--long); } .tres .v.dn { color: var(--short); }
+.tres .l { font-size: 10.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+.pill.st.target { background: var(--long-bg); color: var(--long); border-color: transparent; }
+.pill.st.stop { background: var(--short-bg); color: var(--short); border-color: transparent; }
+.pill.st.open { background: var(--accent-bg); color: var(--accent); border-color: transparent; }
+.pill.st.expired { background: var(--panel-2); color: var(--ink-3); }
+.pill.seeded { background: var(--panel-2); color: var(--ink-3); font-style: italic; }
+
+.tdetail { border-top: 1px solid var(--line); background: var(--panel-2); padding: 12px 14px; }
+
+.tchart { width: 100%; height: 210px; display: block; margin-bottom: 6px; }
+.tchart .px { fill: none; stroke: var(--ink); stroke-width: 1.6; }
+.tchart .range line { stroke: var(--ink-3); stroke-width: 1; opacity: .28; }
+.tchart .held { fill: var(--accent); opacity: .07; }
+.tchart .lvl { stroke-width: 1.2; stroke-dasharray: 5 4; opacity: .85; }
+.tchart .lvl.stop { stroke: var(--short); }
+.tchart .lvl.tgt { stroke: var(--long); }
+.tchart .lvl.entry { stroke: var(--ink-3); stroke-dasharray: 2 3; }
+.tchart .mk { stroke: var(--panel); stroke-width: 1.5; }
+.tchart .mk.entry { fill: var(--ink-2); }
+.tchart .mk.target { fill: var(--long); }
+.tchart .mk.stop { fill: var(--short); }
+.tchart .mk.expired { fill: var(--ink-3); }
+.tchart .ax { fill: var(--ink-3); font-size: 10px; font-family: var(--mono); }
+
+.slider-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 11px; }
+.slider-row label { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); flex: 1 1 240px; }
+.slider-row input[type=range] { flex: 1; accent-color: var(--accent); min-width: 130px; }
+.slider-row .entryDate { font-family: var(--mono); font-size: 12px; color: var(--ink); }
+.slider-row .entryDate em { color: var(--warn); font-style: normal; }
+
+.tgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 7px; }
+.tgrid > div { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
+.tgrid .k { font-size: 9.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; }
+.tgrid .v { font-family: var(--mono); font-size: 12.5px; font-weight: 600; }
+
+.tnote { font-size: 12px; color: var(--ink-3); margin: 10px 0 0; }
+
 /* -------------------------------------------------------------- pairs -- */
 .lead { color: var(--ink-2); font-size: 13.5px; max-width: 760px; }
 .pair {
