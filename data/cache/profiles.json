@@ -748,6 +748,14 @@
 "short_name": "American Integrity Insurance Gr",
 "ts": 1785450118.8843129
 },
+"AIIO": {
+"industry": "Auto Manufacturers",
+"market_cap": 505844480,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Robo.ai Inc.",
+"ts": 1785883498.3535225
+},
 "AIN": {
 "industry": "Textile Manufacturing",
 "market_cap": 2101670016,
@@ -2108,6 +2116,14 @@
 "short_name": "Atlantic Union Bankshares Corpo",
 "ts": 1785450121.5775957
 },
+"AUDC": {
+"industry": "Communication Equipment",
+"market_cap": 255554288,
+"misses": 0,
+"sector": "Technology",
+"short_name": "AudioCodes Ltd.",
+"ts": 1785883498.870532
+},
 "AUGO": {
 "industry": "Gold",
 "market_cap": 4755324928,
@@ -2254,6 +2270,14 @@
 "sector": "Healthcare",
 "short_name": "Avalo Therapeutics, Inc.",
 "ts": 1785450124.4815612
+},
+"AVXL": {
+"industry": "Biotechnology",
+"market_cap": 291916064,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Anavex Life Sciences Corp.",
+"ts": 1785883498.376197
 },
 "AVY": {
 "industry": "Packaging & Containers",
@@ -2521,6 +2545,14 @@
 "sector": "Technology",
 "short_name": "BlackBerry Limited",
 "ts": 1785450117.278429
+},
+"BBAI": {
+"industry": "Information Technology Services",
+"market_cap": 1510407680,
+"misses": 0,
+"sector": "Technology",
+"short_name": "BigBear.ai, Inc.",
+"ts": 1785883472.833943
 },
 "BBAR": {
 "industry": "Banks - Regional",
@@ -6333,6 +6365,14 @@
 "short_name": "DuPont de Nemours, Inc.",
 "ts": 1785451973.1686323
 },
+"DDD": {
+"industry": "Computer Hardware",
+"market_cap": 581492160,
+"misses": 0,
+"sector": "Technology",
+"short_name": "3D Systems Corporation",
+"ts": 1785883498.3503506
+},
 "DDOG": {
 "industry": "Software - Application",
 "market_cap": 95596666880,
@@ -6563,10 +6603,10 @@
 "DJP": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1785796709.901402
+"ts": 1785883497.918306
 },
 "DJT": {
 "industry": "Internet Content & Information",
@@ -7281,6 +7321,14 @@
 "short_name": "Everforth, Inc.",
 "ts": 1785514098.276747
 },
+"EFR": {
+"industry": "Asset Management",
+"market_cap": 314721760,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Eaton Vance Senior Floating-Rat",
+"ts": 1785883498.7035809
+},
 "EFSC": {
 "industry": "Banks - Regional",
 "market_cap": 2401729792,
@@ -7461,6 +7509,14 @@
 "sector": "Real Estate",
 "short_name": "Equity Lifestyle Properties, In",
 "ts": 1785513951.5323827
+},
+"ELTX": {
+"industry": "Biotechnology",
+"market_cap": 82995648,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Elicio Therapeutics, Inc.",
+"ts": 1785883472.8323681
 },
 "ELV": {
 "industry": "Healthcare Plans",
@@ -8362,6 +8418,14 @@
 "sector": "Financial Services",
 "short_name": "FB Financial Corporation",
 "ts": 1785450775.898593
+},
+"FBLA": {
+"industry": "Banks - Regional",
+"market_cap": 254844416,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "FB Bancorp, Inc.",
+"ts": 1785883498.9685094
 },
 "FBNC": {
 "industry": "Banks - Regional",
@@ -10104,6 +10168,14 @@
 "sector": "Real Estate",
 "short_name": "Global Net Lease, Inc.",
 "ts": 1785514097.95766
+},
+"GNPX": {
+"industry": "Biotechnology",
+"market_cap": 2231817,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Genprex, Inc.",
+"ts": 1785883472.8555026
 },
 "GNRC": {
 "industry": "Specialty Industrial Machinery",
@@ -13300,6 +13372,14 @@
 "short_name": "Loews Corporation",
 "ts": 1785513955.0816472
 },
+"LAC": {
+"industry": "Other Industrial Metals & Mining",
+"market_cap": 1081272320,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Lithium Americas Corp.",
+"ts": 1785883472.855066
+},
 "LAD": {
 "industry": "Auto & Truck Dealerships",
 "market_cap": 9237041152,
@@ -13371,6 +13451,14 @@
 "short_name": "LandBridge Company LLC",
 "ts": 1785514098.8021977
 },
+"LBGJ": {
+"industry": "Specialty Industrial Machinery",
+"market_cap": 59779,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Li Bang International Corporati",
+"ts": 1785883472.8622482
+},
 "LBRDA": {
 "industry": "Telecom Services",
 "market_cap": 4794896384,
@@ -13430,6 +13518,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "LCI Industries",
 "ts": 1785513969.3501928
+},
+"LCNB": {
+"industry": "Banks - Regional",
+"market_cap": 290925984,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "LCNB Corporation",
+"ts": 1785883499.020551
 },
 "LCUT": {
 "industry": "Furnishings, Fixtures & Appliances",
@@ -15089,6 +15185,14 @@
 "short_name": "Movado Group Inc.",
 "ts": 1785537484.504598
 },
+"MOVE": {
+"industry": "Software - Infrastructure",
+"market_cap": 379438752,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Corvex, Inc.",
+"ts": 1785883498.452423
+},
 "MP": {
 "industry": "Other Industrial Metals & Mining",
 "market_cap": 7416404480,
@@ -15556,6 +15660,14 @@
 "short_name": "MVB Financial Corp.",
 "ts": 1785537492.8245215
 },
+"MVIS": {
+"industry": "Scientific & Technical Instruments",
+"market_cap": 85344336,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Microvision, Inc.",
+"ts": 1785883498.590122
+},
 "MWA": {
 "industry": "Specialty Industrial Machinery",
 "market_cap": 3954023936,
@@ -15919,6 +16031,14 @@
 "short_name": "NextEra Energy, Inc.",
 "ts": 1785451950.3145773
 },
+"NEGG": {
+"industry": "Internet Retail",
+"market_cap": 320893376,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Newegg Commerce, Inc.",
+"ts": 1785883472.7936156
+},
 "NEM": {
 "industry": "Gold",
 "market_cap": 100901576704,
@@ -16103,10 +16223,18 @@
 "NHIC": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1785796709.901402
+"ts": 1785883497.918306
+},
+"NHS": {
+"industry": "Asset Management",
+"market_cap": 0,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "",
+"ts": 1785883499.032102
 },
 "NI": {
 "industry": "Utilities - Regulated Gas",
@@ -18607,6 +18735,14 @@
 "sector": "Consumer Defensive",
 "short_name": "Philip Morris International Inc",
 "ts": 1785451949.9765573
+},
+"PMI": {
+"industry": "Medical Devices",
+"market_cap": 8831852,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Picard Medical, Inc.",
+"ts": 1785883498.4056342
 },
 "PML": {
 "industry": "Asset Management",
@@ -23266,6 +23402,14 @@
 "short_name": "TON Strategy Company",
 "ts": 1785796710.6466951
 },
+"TOP": {
+"industry": "Capital Markets",
+"market_cap": 1363216256,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "TOP Financial Group Limited",
+"ts": 1785883498.6605422
+},
 "TOST": {
 "industry": "Software - Infrastructure",
 "market_cap": 19052998656,
@@ -25002,6 +25146,14 @@
 "short_name": "",
 "ts": 1785514082.5006557
 },
+"VXZ": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1785883497.918306
+},
 "VYGR": {
 "industry": "Biotechnology",
 "market_cap": 183076496,
@@ -25237,6 +25389,14 @@
 "sector": "Consumer Defensive",
 "short_name": "Westrock Coffee Company",
 "ts": 1785514780.7924728
+},
+"WETO": {
+"industry": "Software - Infrastructure",
+"market_cap": 4374864,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Wetour Robotics Limited",
+"ts": 1785883473.0945342
 },
 "WEX": {
 "industry": "Software - Infrastructure",
@@ -26096,13 +26256,21 @@
 "short_name": "Z Squared Inc.",
 "ts": 1785450782.3822067
 },
+"ZTG": {
+"industry": "Consulting Services",
+"market_cap": 103242632,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Zenta Group Company Limited",
+"ts": 1785883473.130181
+},
 "ZTR": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1785796709.901402
+"ts": 1785883497.918306
 },
 "ZTS": {
 "industry": "Drug Manufacturers - Specialty & Generic",
