@@ -1941,6 +1941,14 @@
 "short_name": "Strive, Inc.",
 "ts": 1785450120.1708086
 },
+"ASTC": {
+"industry": "Scientific & Technical Instruments",
+"market_cap": 18302444,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Astrotech Corporation",
+"ts": 1785969719.6164794
+},
 "ASTE": {
 "industry": "Farm & Heavy Construction Machinery",
 "market_cap": 1181821184,
@@ -2582,6 +2590,14 @@
 "sector": "Financial Services",
 "short_name": "Barings BDC, Inc.",
 "ts": 1785450122.9992628
+},
+"BBGI": {
+"industry": "Broadcasting",
+"market_cap": 44740480,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "Beasley Broadcast Group, Inc.",
+"ts": 1785969719.6360505
 },
 "BBIO": {
 "industry": "Biotechnology",
@@ -4500,6 +4516,14 @@
 "short_name": "CF Bankshares Inc.",
 "ts": 1785450787.0219567
 },
+"CFFI": {
+"industry": "Banks - Regional",
+"market_cap": 283426752,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "C&F Financial Corporation",
+"ts": 1785969719.604675
+},
 "CFFN": {
 "industry": "Banks - Regional",
 "market_cap": 1102119424,
@@ -6277,6 +6301,14 @@
 "short_name": "Diebold Nixdorf Incorporated",
 "ts": 1785514096.516781
 },
+"DBGI": {
+"industry": "Apparel Retail",
+"market_cap": 9355123,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Digital Brands Group, Inc.",
+"ts": 1785969719.5855184
+},
 "DBI": {
 "industry": "Footwear & Accessories",
 "market_cap": 306693568,
@@ -6723,6 +6755,14 @@
 "sector": "Healthcare",
 "short_name": "Denali Therapeutics Inc.",
 "ts": 1785514084.7634706
+},
+"DNN": {
+"industry": "Uranium",
+"market_cap": 2796502272,
+"misses": 0,
+"sector": "Energy",
+"short_name": "Denison Mines Corp",
+"ts": 1785969719.5750751
 },
 "DNOW": {
 "industry": "Industrial Distribution",
@@ -10979,6 +11019,14 @@
 "short_name": "Harmonic Inc.",
 "ts": 1785514099.31275
 },
+"HLLY": {
+"industry": "Auto Parts",
+"market_cap": 365924320,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Holley Inc.",
+"ts": 1785969719.6233873
+},
 "HLMN": {
 "industry": "Tools & Accessories",
 "market_cap": 1544169472,
@@ -12585,6 +12633,14 @@
 "short_name": "Johnson Controls International ",
 "ts": 1785451955.1357255
 },
+"JDZG": {
+"industry": "Education & Training Services",
+"market_cap": 20769200,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "JIADE LIMITED",
+"ts": 1785969695.4844787
+},
 "JEF": {
 "industry": "Capital Markets",
 "market_cap": 11243509760,
@@ -12692,6 +12748,14 @@
 "sector": "Real Estate",
 "short_name": "St. Joe Company (The)",
 "ts": 1785514105.5766144
+},
+"JOF": {
+"industry": "Asset Management",
+"market_cap": 0,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "",
+"ts": 1785969719.7916884
 },
 "JOUT": {
 "industry": "Leisure",
@@ -14519,6 +14583,14 @@
 "short_name": "MasterCraft Boat Holdings, Inc.",
 "ts": 1785514781.1749094
 },
+"MCGA": {
+"industry": "Shell Companies",
+"market_cap": 241236192,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Yorkville Acquisition Corp.",
+"ts": 1785969719.820922
+},
 "MCHB": {
 "industry": "Banks - Regional",
 "market_cap": 3717733888,
@@ -16223,10 +16295,10 @@
 "NHIC": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1785883497.918306
+"ts": 1785969719.2967365
 },
 "NHS": {
 "industry": "Asset Management",
@@ -17491,6 +17563,14 @@
 "short_name": "OppFi Inc.",
 "ts": 1785514778.769078
 },
+"OPHC": {
+"industry": "Banks - Regional",
+"market_cap": 107838912,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "OptimumBank Holdings, Inc.",
+"ts": 1785969695.5664105
+},
 "OPLN": {
 "industry": "Auto & Truck Dealerships",
 "market_cap": 4199703552,
@@ -18389,6 +18469,14 @@
 "sector": "Financial Services",
 "short_name": "PennyMac Financial Services, In",
 "ts": 1785513969.9020147
+},
+"PFX": {
+"industry": "Asset Management",
+"market_cap": 89189496,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "PhenixFIN Corporation",
+"ts": 1785969695.5005798
 },
 "PG": {
 "industry": "Household & Personal Products",
@@ -21075,6 +21163,14 @@
 "sector": "Financial Services",
 "short_name": "Stifel Financial Corporation",
 "ts": 1785513953.5933075
+},
+"SFBC": {
+"industry": "Banks - Regional",
+"market_cap": 111853552,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Sound Financial Bancorp, Inc.",
+"ts": 1785969719.8327916
 },
 "SFBS": {
 "industry": "Banks - Regional",
@@ -25149,10 +25245,10 @@
 "VXZ": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1785883497.918306
+"ts": 1785969719.2967365
 },
 "VYGR": {
 "industry": "Biotechnology",
@@ -26140,6 +26236,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Yum China Holdings, Inc.",
 "ts": 1785513959.3454707
+},
+"YXT": {
+"industry": "Software - Application",
+"market_cap": 139649040,
+"misses": 0,
+"sector": "Technology",
+"short_name": "YXT.COM GROUP HOLDING LIMITED -",
+"ts": 1785969695.5184643
 },
 "Z": {
 "industry": "Internet Content & Information",
