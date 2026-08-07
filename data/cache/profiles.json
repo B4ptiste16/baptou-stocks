@@ -3904,6 +3904,14 @@
 "short_name": "Byline Bancorp, Inc.",
 "ts": 1785450783.536442
 },
+"BYAH": {
+"industry": "Household & Personal Products",
+"market_cap": 2497954,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "Park Ha Biological Technology C",
+"ts": 1786140665.7348506
+},
 "BYD": {
 "industry": "Resorts & Casinos",
 "market_cap": 6470440448,
@@ -6191,6 +6199,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "China Yuchai International Limi",
 "ts": 1785514777.9844117
+},
+"CYH": {
+"industry": "Medical Care Facilities",
+"market_cap": 423028096,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Community Health Systems, Inc.",
+"ts": 1786140689.5488656
 },
 "CYRX": {
 "industry": "Integrated Freight & Logistics",
@@ -10464,6 +10480,14 @@
 "short_name": "Granite Ridge Resources, Inc.",
 "ts": 1785514780.563166
 },
+"GROY": {
+"industry": "Gold",
+"market_cap": 699351872,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Gold Royalty Corp.",
+"ts": 1786140689.409516
+},
 "GRPN": {
 "industry": "Internet Content & Information",
 "market_cap": 1047977984,
@@ -10741,6 +10765,14 @@
 "sector": "Financial Services",
 "short_name": "Huntington Bancshares Incorpora",
 "ts": 1785451955.9058168
+},
+"HBB": {
+"industry": "Furnishings, Fixtures & Appliances",
+"market_cap": 422358080,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Hamilton Beach Brands Holding C",
+"ts": 1786140665.7297661
 },
 "HBCP": {
 "industry": "Banks - Regional",
@@ -11831,6 +11863,14 @@
 "sector": "Real Estate",
 "short_name": "IHS Holding Limited",
 "ts": 1785514778.4745784
+},
+"III": {
+"industry": "Information Technology Services",
+"market_cap": 248285824,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Information Services Group, Inc",
+"ts": 1786140689.7187204
 },
 "IIIN": {
 "industry": "Metal Fabrication",
@@ -13523,6 +13563,14 @@
 "short_name": "Laureate Education, Inc.",
 "ts": 1785514085.0887313
 },
+"LAW": {
+"industry": "Software - Application",
+"market_cap": 275777952,
+"misses": 0,
+"sector": "Technology",
+"short_name": "CS Disco, Inc.",
+"ts": 1786140689.6563506
+},
 "LAZ": {
 "industry": "Capital Markets",
 "market_cap": 4158008064,
@@ -14402,6 +14450,14 @@
 "short_name": "Main Street Capital Corporation",
 "ts": 1785514089.9292486
 },
+"MAKO": {
+"industry": "Gold",
+"market_cap": 835366720,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Mako Mining Corp",
+"ts": 1786140689.5624697
+},
 "MAMA": {
 "industry": "Packaged Foods",
 "market_cap": 856945088,
@@ -14511,6 +14567,14 @@
 "sector": "Healthcare",
 "short_name": "Maze Therapeutics, Inc.",
 "ts": 1785514105.2811666
+},
+"MB": {
+"industry": "Restaurants",
+"market_cap": 153022608,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "MasterBeef Group",
+"ts": 1786140665.73524
 },
 "MBC": {
 "industry": "Furnishings, Fixtures & Appliances",
@@ -17195,6 +17259,14 @@
 "short_name": "Realty Income Corporation",
 "ts": 1785451961.1550112
 },
+"OABI": {
+"industry": "Biotechnology",
+"market_cap": 446515520,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "OmniAb, Inc.",
+"ts": 1786140665.7439084
+},
 "OBDC": {
 "industry": "Asset Management",
 "market_cap": 5332801536,
@@ -18888,6 +18960,14 @@
 "short_name": "PennyMac Mortgage Investment Tr",
 "ts": 1785514102.0045443
 },
+"PMTS": {
+"industry": "Credit Services",
+"market_cap": 319630144,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "CPI Card Group Inc.",
+"ts": 1786140665.7530813
+},
 "PN": {
 "industry": "Solar",
 "market_cap": 329013600,
@@ -20142,6 +20222,14 @@
 "sector": "Real Estate",
 "short_name": "Ryman Hospitality Properties, I",
 "ts": 1785513962.4346836
+},
+"RICK": {
+"industry": "Restaurants",
+"market_cap": 214581120,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "RCI Hospitality Holdings, Inc.",
+"ts": 1786140689.5855672
 },
 "RIG": {
 "industry": "Oil & Gas Drilling",
@@ -22057,6 +22145,14 @@
 "short_name": "Spectrum Brands Holdings, Inc.",
 "ts": 1785514093.94317
 },
+"SPCE": {
+"industry": "Aerospace & Defense",
+"market_cap": 398465536,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Virgin Galactic Holdings, Inc.",
+"ts": 1786140689.4991884
+},
 "SPFI": {
 "industry": "Banks - Regional",
 "market_cap": 838340096,
@@ -22292,6 +22388,14 @@
 "sector": "Technology",
 "short_name": "SS&C Technologies Holdings, Inc",
 "ts": 1785513948.1610017
+},
+"SSP": {
+"industry": "Broadcasting",
+"market_cap": 0,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "E.W. Scripps Company (The)",
+"ts": 1786140689.4010324
 },
 "SSRM": {
 "industry": "Gold",
@@ -23196,6 +23300,14 @@
 "short_name": "Teleflex Incorporated",
 "ts": 1785513965.0372643
 },
+"TG": {
+"industry": "Metal Fabrication",
+"market_cap": 310245696,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Tredegar Corporation",
+"ts": 1786140689.5987449
+},
 "TGB": {
 "industry": "Copper",
 "market_cap": 2449837056,
@@ -23421,6 +23533,14 @@
 "sector": "Technology",
 "short_name": "Telos Corporation",
 "ts": 1785537487.810658
+},
+"TLSI": {
+"industry": "Medical Devices",
+"market_cap": 344546784,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "TriSalus Life Sciences, Inc.",
+"ts": 1786140689.6910243
 },
 "TM": {
 "industry": "Auto Manufacturers",
@@ -24743,6 +24863,14 @@
 "sector": "Energy",
 "short_name": "Valaris Limited",
 "ts": 1785513962.3611908
+},
+"VATE": {
+"industry": "Engineering & Construction",
+"market_cap": 165202992,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "INNOVATE Corp.",
+"ts": 1786140689.4435842
 },
 "VBNK": {
 "industry": "Banks - Regional",
@@ -26260,6 +26388,14 @@
 "sector": "Technology",
 "short_name": "Yext, Inc.",
 "ts": 1785514778.1264613
+},
+"YJ": {
+"industry": "Internet Retail",
+"market_cap": 16746836,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Yunji Inc. - American Depositor",
+"ts": 1786140689.3907866
 },
 "YORW": {
 "industry": "Utilities - Regulated Water",
