@@ -1058,6 +1058,14 @@
 "short_name": "Altimmune, Inc.",
 "ts": 1785796686.6441545
 },
+"ALTG": {
+"industry": "Rental & Leasing Services",
+"market_cap": 239786928,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Alta Equipment Group Inc.",
+"ts": 1786064937.1004624
+},
 "ALTO": {
 "industry": "Specialty Chemicals",
 "market_cap": 357985536,
@@ -5616,6 +5624,14 @@
 "sector": "Healthcare",
 "short_name": "Crinetics Pharmaceuticals, Inc.",
 "ts": 1785450774.8789566
+},
+"CRON": {
+"industry": "Drug Manufacturers - Specialty & Generic",
+"market_cap": 1147142400,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Cronos Group Inc. Common Share",
+"ts": 1786064936.9531813
 },
 "CROX": {
 "industry": "Footwear & Accessories",
@@ -10184,6 +10200,14 @@
 "sector": "Healthcare",
 "short_name": "Globus Medical, Inc.",
 "ts": 1785513948.661059
+},
+"GMM": {
+"industry": "Information Technology Services",
+"market_cap": 6016287,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Global Mofy AI Limited",
+"ts": 1786064936.93647
 },
 "GNE": {
 "industry": "Utilities - Regulated Electric",
@@ -17281,6 +17305,14 @@
 "short_name": "Orion S.A.",
 "ts": 1785514779.9476008
 },
+"OESX": {
+"industry": "Electrical Equipment & Parts",
+"market_cap": 71314464,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Orion Energy Systems, Inc.",
+"ts": 1786064913.4152331
+},
 "OFG": {
 "industry": "Banks - Regional",
 "market_cap": 2229483008,
@@ -19763,6 +19795,14 @@
 "short_name": "Red Cat Holdings, Inc.",
 "ts": 1785513961.36158
 },
+"RCBC": {
+"industry": "Banks - Regional",
+"market_cap": 674093184,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "River City Bank Common stock",
+"ts": 1786064936.9008172
+},
 "RCEL": {
 "industry": "Medical Devices",
 "market_cap": 135417424,
@@ -21243,6 +21283,14 @@
 "short_name": "Super Group (SGHC) Limited",
 "ts": 1785450780.3924735
 },
+"SGHT": {
+"industry": "Medical Devices",
+"market_cap": 385766496,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Sight Sciences, Inc.",
+"ts": 1786064936.9028049
+},
 "SGI": {
 "industry": "Furnishings, Fixtures & Appliances",
 "market_cap": 14033481728,
@@ -21953,6 +22001,14 @@
 "short_name": "SoFi Technologies, Inc.",
 "ts": 1785451948.513254
 },
+"SOLS": {
+"industry": "Specialty Chemicals",
+"market_cap": 9877130240,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Solstice Advanced Materials Inc",
+"ts": 1786064937.055962
+},
 "SOLV": {
 "industry": "Medical Instruments & Supplies",
 "market_cap": 14768339968,
@@ -22362,6 +22418,14 @@
 "sector": "Basic Materials",
 "short_name": "Steel Dynamics, Inc.",
 "ts": 1785451963.3692935
+},
+"STLN": {
+"industry": "Medical Care Facilities",
+"market_cap": 498914816,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "",
+"ts": 1786064936.8897567
 },
 "STM": {
 "industry": "Semiconductors",
@@ -25245,10 +25309,10 @@
 "VXZ": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1785969719.2967365
+"ts": 1786064936.7301254
 },
 "VYGR": {
 "industry": "Biotechnology",
