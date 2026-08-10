@@ -608,6 +608,14 @@
 "short_name": "First Majestic Silver Corp.",
 "ts": 1785450117.185589
 },
+"AGCC": {
+"industry": "Beverages - Wineries & Distilleries",
+"market_cap": 347266240,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "Agencia Comercial Spirits Ltd",
+"ts": 1786400008.5747323
+},
 "AGCO": {
 "industry": "Farm & Heavy Construction Machinery",
 "market_cap": 7757125632,
@@ -3490,6 +3498,14 @@
 "sector": "Consumer Defensive",
 "short_name": "BellRing Brands, Inc.",
 "ts": 1785450783.9279656
+},
+"BRBS": {
+"industry": "Banks - Regional",
+"market_cap": 333517376,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Blue Ridge Bankshares, Inc.",
+"ts": 1786400008.6034071
 },
 "BRC": {
 "industry": "Security & Protection Services",
@@ -6687,6 +6703,14 @@
 "short_name": "Delek US Holdings, Inc.",
 "ts": 1785450775.2218628
 },
+"DKI": {
+"industry": "Electronic Gaming & Multimedia",
+"market_cap": 9124503,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "DarkIris Inc.",
+"ts": 1786400008.4627478
+},
 "DKNG": {
 "industry": "Gambling",
 "market_cap": 11768175616,
@@ -7763,6 +7787,14 @@
 "sector": "Technology",
 "short_name": "Entegris, Inc.",
 "ts": 1785451956.8900306
+},
+"ENTX": {
+"industry": "Biotechnology",
+"market_cap": 149842304,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Entera Bio Ltd.",
+"ts": 1786400008.4233484
 },
 "ENVA": {
 "industry": "Credit Services",
@@ -12347,6 +12379,14 @@
 "short_name": "Intrepid Potash, Inc",
 "ts": 1785514778.4259567
 },
+"IPW": {
+"industry": "Internet Retail",
+"market_cap": 6883775,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "iPower Inc.",
+"ts": 1786400008.4556453
+},
 "IQI": {
 "industry": "Asset Management",
 "market_cap": 0,
@@ -12860,6 +12900,22 @@
 "sector": "Financial Services",
 "short_name": "James River Group Holdings, Inc",
 "ts": 1785537492.6202042
+},
+"JUNS": {
+"industry": "Biotechnology",
+"market_cap": 4089130,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Jupiter Neurosciences, Inc.",
+"ts": 1786400008.3906782
+},
+"JWEL": {
+"industry": "Internet Retail",
+"market_cap": 9504524,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Jowell Global Ltd.",
+"ts": 1786400008.3813078
 },
 "JXN": {
 "industry": "Insurance - Life",
@@ -26223,6 +26279,14 @@
 "sector": "Healthcare",
 "short_name": "Exagen Inc.",
 "ts": 1785537493.2616591
+},
+"XHLD": {
+"industry": "Broadcasting",
+"market_cap": 37249848,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "TEN Holdings, Inc.",
+"ts": 1786400008.4358292
 },
 "XHR": {
 "industry": "REIT - Hotel & Motel",
