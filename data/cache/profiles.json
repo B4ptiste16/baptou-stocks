@@ -181,6 +181,14 @@
 "short_name": "ACADIA Pharmaceuticals Inc.",
 "ts": 1785450119.0563216
 },
+"ACB": {
+"industry": "Drug Manufacturers - Specialty & Generic",
+"market_cap": 215868368,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Aurora Cannabis Inc.",
+"ts": 1786486698.846675
+},
 "ACCO": {
 "industry": "Business Equipment & Supplies",
 "market_cap": 390250464,
@@ -503,6 +511,14 @@
 "short_name": "Aegon Ltd. New York Registry Sh",
 "ts": 1785450117.0308523
 },
+"AEHL": {
+"industry": "Building Products & Equipment",
+"market_cap": 6120773,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Antelope Enterprise Holdings Li",
+"ts": 1786486698.633864
+},
 "AEHR": {
 "industry": "Semiconductor Equipment & Materials",
 "market_cap": 2507534080,
@@ -741,6 +757,14 @@
 "sector": "Technology",
 "short_name": "C3.ai, Inc.",
 "ts": 1785450117.7947316
+},
+"AIFA": {
+"industry": "Software - Infrastructure",
+"market_cap": 20280518,
+"misses": 0,
+"sector": "Technology",
+"short_name": "All In FutureTech Alliance, Inc",
+"ts": 1786486698.8160157
 },
 "AIG": {
 "industry": "Insurance - Diversified",
@@ -5710,6 +5734,14 @@
 "short_name": "CorVel Corp.",
 "ts": 1785537480.6306095
 },
+"CRVO": {
+"industry": "Biotechnology",
+"market_cap": 41796060,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "CervoMed Inc.",
+"ts": 1786486698.7332418
+},
 "CRVS": {
 "industry": "Biotechnology",
 "market_cap": 1087289216,
@@ -7598,6 +7630,14 @@
 "short_name": "Electromed, Inc.",
 "ts": 1785450775.6518579
 },
+"ELPW": {
+"industry": "Electrical Equipment & Parts",
+"market_cap": 2483991,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Elong Power Holding Limited",
+"ts": 1786486698.6386895
+},
 "ELS": {
 "industry": "REIT - Residential",
 "market_cap": 13063023616,
@@ -8024,6 +8064,14 @@
 "sector": "Industrials",
 "short_name": "ESAB Corporation",
 "ts": 1785513966.8752315
+},
+"ESCA": {
+"industry": "Leisure",
+"market_cap": 285783712,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Escalade, Incorporated",
+"ts": 1786486698.8783147
 },
 "ESE": {
 "industry": "Scientific & Technical Instruments",
@@ -14837,6 +14885,14 @@
 "short_name": "MDU Resources Group, Inc.",
 "ts": 1785514093.6617513
 },
+"MDV": {
+"industry": "REIT - Industrial",
+"market_cap": 215101808,
+"misses": 0,
+"sector": "Real Estate",
+"short_name": "Modiv Industrial, Inc.",
+"ts": 1786486698.8105712
+},
 "MDWD": {
 "industry": "Biotechnology",
 "market_cap": 181473840,
@@ -15652,6 +15708,14 @@
 "short_name": "Madison Square Garden Sports Co",
 "ts": 1785513961.9219427
 },
+"MSGY": {
+"industry": "Engineering & Construction",
+"market_cap": 7270314,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Masonglory Limited",
+"ts": 1786486698.65151
+},
 "MSI": {
 "industry": "Communication Equipment",
 "market_cap": 71514218496,
@@ -16183,6 +16247,14 @@
 "short_name": "Intercont (Cayman) Limited",
 "ts": 1785450778.5163786
 },
+"NCTY": {
+"industry": "Capital Markets",
+"market_cap": 63689108,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "The9 Limited - American Deposit",
+"ts": 1786486698.9322205
+},
 "NDAQ": {
 "industry": "Financial Data & Stock Exchanges",
 "market_cap": 53192286208,
@@ -16277,6 +16349,14 @@
 "sector": "Healthcare",
 "short_name": "Neogen Corporation",
 "ts": 1785514101.1026993
+},
+"NEOV": {
+"industry": "Electrical Equipment & Parts",
+"market_cap": 177896816,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "NeoVolta Inc.",
+"ts": 1786486698.785415
 },
 "NESR": {
 "industry": "Oil & Gas Equipment & Services",
@@ -17290,6 +17370,14 @@
 "sector": "Healthcare",
 "short_name": "NextCure, Inc.",
 "ts": 1785450778.7480187
+},
+"NXTT": {
+"industry": "Software - Application",
+"market_cap": 9456410,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Next Technology Holding Inc.",
+"ts": 1786486698.7604039
 },
 "NYT": {
 "industry": "Publishing",
@@ -18866,6 +18954,14 @@
 "sector": "Technology",
 "short_name": "Photronics, Inc.",
 "ts": 1785450779.3960621
+},
+"PLAG": {
+"industry": "Conglomerates",
+"market_cap": 82692072,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Planet Green Holdings Corp.",
+"ts": 1786486698.5414937
 },
 "PLAY": {
 "industry": "Entertainment",
@@ -22555,6 +22651,14 @@
 "short_name": "Stagwell Inc.",
 "ts": 1785537481.7664902
 },
+"STIM": {
+"industry": "Medical Devices",
+"market_cap": 221985216,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Neuronetics, Inc.",
+"ts": 1786486698.583967
+},
 "STK": {
 "industry": "Asset Management",
 "market_cap": 0,
@@ -22872,6 +22976,14 @@
 "sector": "Basic Materials",
 "short_name": "Sensient Technologies Corporati",
 "ts": 1785513958.34542
+},
+"SXTC": {
+"industry": "Drug Manufacturers - Specialty & Generic",
+"market_cap": 1874255,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "China SXT Pharmaceuticals, Inc.",
+"ts": 1786486698.6254785
 },
 "SYBT": {
 "industry": "Banks - Regional",
@@ -23729,6 +23841,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Toll Brothers, Inc.",
 "ts": 1785513947.6055267
+},
+"TONT": {
+"industry": "Shell Companies",
+"market_cap": 153490416,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Graf Global Corp.",
+"ts": 1786486698.9210403
 },
 "TONX": {
 "industry": "Software - Application",
@@ -26200,6 +26320,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Wolverine World Wide, Inc.",
 "ts": 1785514105.8458853
+},
+"WXM": {
+"industry": "Industrial Distribution",
+"market_cap": 22337614,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "WF International Limited",
+"ts": 1786486698.6235182
 },
 "WY": {
 "industry": "REIT - Specialty",
