@@ -2544,6 +2544,14 @@
 "short_name": "BancFirst Corporation",
 "ts": 1785450123.6971004
 },
+"BANL": {
+"industry": "Oil & Gas Midstream",
+"market_cap": 12858402,
+"misses": 0,
+"sector": "Energy",
+"short_name": "CBL International Limited",
+"ts": 1786573081.8138447
+},
 "BANR": {
 "industry": "Banks - Regional",
 "market_cap": 2373505792,
@@ -3495,6 +3503,14 @@
 "short_name": "Box, Inc.",
 "ts": 1785450773.774177
 },
+"BOXL": {
+"industry": "Consumer Electronics",
+"market_cap": 5249738,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Boxlight Corporation",
+"ts": 1786573081.8777688
+},
 "BP": {
 "industry": "Oil & Gas Integrated",
 "market_cap": 113872257024,
@@ -3508,6 +3524,14 @@
 "sector": "Financial Services",
 "short_name": "Popular, Inc.",
 "ts": 1785450785.0405264
+},
+"BPRN": {
+"industry": "Banks - Regional",
+"market_cap": 294534688,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Princeton Bancorp, Inc.",
+"ts": 1786573081.771064
 },
 "BR": {
 "industry": "Information Technology Services",
@@ -4536,6 +4560,14 @@
 "sector": "Basic Materials",
 "short_name": "Century Aluminum Company",
 "ts": 1785513958.1538484
+},
+"CEPO": {
+"industry": "Shell Companies",
+"market_cap": 272084992,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Cantor Equity Partners I, Inc.",
+"ts": 1786573081.915315
 },
 "CERT": {
 "industry": "Health Information Services",
@@ -8201,6 +8233,14 @@
 "short_name": "Eaton Corporation, PLC",
 "ts": 1785451950.5527546
 },
+"ETO": {
+"industry": "Asset Management",
+"market_cap": 527370272,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Eaton Vance Tax-Advantage Globa",
+"ts": 1786573081.9011903
+},
 "ETON": {
 "industry": "Drug Manufacturers - Specialty & Generic",
 "market_cap": 1343047296,
@@ -9448,6 +9488,14 @@
 "sector": "Financial Services",
 "short_name": "Five Star Bancorp",
 "ts": 1785537480.495593
+},
+"FSBW": {
+"industry": "Banks - Regional",
+"market_cap": 325446048,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "FS Bancorp, Inc.",
+"ts": 1786573082.0912254
 },
 "FSCO": {
 "industry": "Asset Management",
@@ -26721,6 +26769,14 @@
 "sector": "Communication Services",
 "short_name": "ZipRecruiter, Inc.",
 "ts": 1785537487.9440134
+},
+"ZJYL": {
+"industry": "Medical Instruments & Supplies",
+"market_cap": 27317566,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "JIN MEDICAL INTERNATIONAL LTD.",
+"ts": 1786573081.9177206
 },
 "ZM": {
 "industry": "Software - Application",
