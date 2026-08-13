@@ -6630,7 +6630,7 @@
 "ticker": "PBI"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 0.9,
 "conviction": 81.5,
 "direction": "short",
@@ -6840,7 +6840,7 @@
 "ticker": "NNE"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 7.02,
 "conviction": 76.0,
 "direction": "long",
@@ -7470,7 +7470,7 @@
 "ticker": "TWFG"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 11.02,
 "conviction": 74.9,
 "direction": "long",
@@ -8085,7 +8085,7 @@
 "ticker": "ZBRA"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 0.44,
 "conviction": 80.6,
 "direction": "long",
@@ -9225,7 +9225,7 @@
 "ticker": "JUNS"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 4.66,
 "conviction": 86.3,
 "direction": "long",
@@ -9883,6 +9883,7 @@
 "ticker": "RBRK"
 },
 {
+"_status": "open",
 "atr": 6.79,
 "conviction": 98.6,
 "direction": "long",
@@ -9897,6 +9898,7 @@
 "ticker": "SN"
 },
 {
+"_status": "open",
 "atr": 2.42,
 "conviction": 97.2,
 "direction": "long",
@@ -9911,6 +9913,7 @@
 "ticker": "HRB"
 },
 {
+"_status": "open",
 "atr": 7.19,
 "conviction": 89.0,
 "direction": "long",
@@ -9925,6 +9928,7 @@
 "ticker": "RGEN"
 },
 {
+"_status": "open",
 "atr": 0.55,
 "conviction": 88.8,
 "direction": "long",
@@ -9939,6 +9943,7 @@
 "ticker": "LFST"
 },
 {
+"_status": "open",
 "atr": 0.43,
 "conviction": 84.8,
 "direction": "short",
@@ -9953,6 +9958,7 @@
 "ticker": "MVIS"
 },
 {
+"_status": "open",
 "atr": 7.61,
 "conviction": 84.0,
 "direction": "long",
@@ -9967,6 +9973,7 @@
 "ticker": "GKOS"
 },
 {
+"_status": "open",
 "atr": 0.78,
 "conviction": 83.0,
 "direction": "long",
@@ -9981,6 +9988,7 @@
 "ticker": "ABCL"
 },
 {
+"_status": "open",
 "atr": 1.55,
 "conviction": 81.6,
 "direction": "long",
@@ -9995,6 +10003,7 @@
 "ticker": "GHRS"
 },
 {
+"_status": "open",
 "atr": 2.46,
 "conviction": 81.4,
 "direction": "long",
@@ -10009,6 +10018,7 @@
 "ticker": "PKOH"
 },
 {
+"_status": "open",
 "atr": 0.47,
 "conviction": 81.4,
 "direction": "short",
@@ -10023,6 +10033,7 @@
 "ticker": "TDUP"
 },
 {
+"_status": "open",
 "atr": 2.86,
 "conviction": 81.1,
 "direction": "long",
@@ -10037,6 +10048,7 @@
 "ticker": "FRD"
 },
 {
+"_status": "open",
 "atr": 1.13,
 "conviction": 80.6,
 "direction": "long",
@@ -10051,6 +10063,7 @@
 "ticker": "NRIX"
 },
 {
+"_status": "open",
 "atr": 11.83,
 "conviction": 80.5,
 "direction": "long",
@@ -10065,6 +10078,7 @@
 "ticker": "MPC"
 },
 {
+"_status": "open",
 "atr": 1.41,
 "conviction": 80.0,
 "direction": "short",
@@ -10079,6 +10093,7 @@
 "ticker": "ATS"
 },
 {
+"_status": "open",
 "atr": 11.15,
 "conviction": 79.9,
 "direction": "long",
@@ -10093,6 +10108,7 @@
 "ticker": "BIO"
 },
 {
+"_status": "open",
 "atr": 2.08,
 "conviction": 79.9,
 "direction": "long",
@@ -10107,6 +10123,7 @@
 "ticker": "CLRO"
 },
 {
+"_status": "open",
 "atr": 0.65,
 "conviction": 79.9,
 "direction": "long",
@@ -10121,6 +10138,7 @@
 "ticker": "INFU"
 },
 {
+"_status": "open",
 "atr": 0.67,
 "conviction": 79.8,
 "direction": "long",
@@ -10135,6 +10153,7 @@
 "ticker": "HMC"
 },
 {
+"_status": "open",
 "atr": 1.85,
 "conviction": 79.3,
 "direction": "long",
@@ -10149,6 +10168,7 @@
 "ticker": "HBB"
 },
 {
+"_status": "open",
 "atr": 8.81,
 "conviction": 79.2,
 "direction": "long",
@@ -10163,6 +10183,7 @@
 "ticker": "DCO"
 },
 {
+"_status": "open",
 "atr": 3.54,
 "conviction": 78.9,
 "direction": "long",
@@ -10177,6 +10198,7 @@
 "ticker": "DGII"
 },
 {
+"_status": "open",
 "atr": 0.43,
 "conviction": 78.8,
 "direction": "short",
@@ -10191,6 +10213,7 @@
 "ticker": "IMXI"
 },
 {
+"_status": "open",
 "atr": 3.36,
 "conviction": 78.7,
 "direction": "short",
@@ -10205,6 +10228,7 @@
 "ticker": "MKTX"
 },
 {
+"_status": "open",
 "atr": 1.94,
 "conviction": 78.5,
 "direction": "long",
@@ -10219,6 +10243,7 @@
 "ticker": "SCSC"
 },
 {
+"_status": "open",
 "atr": 1.7,
 "conviction": 78.0,
 "direction": "short",
@@ -10231,5 +10256,355 @@
 "theme": "pharma",
 "theme_label": "Pharma",
 "ticker": "COLL"
+},
+{
+"atr": 2.32,
+"conviction": 100.0,
+"direction": "long",
+"id": "PAY|momentum_leader|2026-08-13",
+"name": "Paymentus Holdings, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 42.19,
+"suggested_on": "2026-08-13",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "PAY"
+},
+{
+"atr": 3.89,
+"conviction": 99.4,
+"direction": "long",
+"id": "CAKE|momentum_leader|2026-08-13",
+"name": "The Cheesecake Factory Incorpor",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 111.88,
+"suggested_on": "2026-08-13",
+"theme": "restaurants",
+"theme_label": "Restaurants",
+"ticker": "CAKE"
+},
+{
+"atr": 0.67,
+"conviction": 95.6,
+"direction": "long",
+"id": "AMPL|momentum_leader|2026-08-13",
+"name": "Amplitude, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 13.3,
+"suggested_on": "2026-08-13",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "AMPL"
+},
+{
+"atr": 2.38,
+"conviction": 92.3,
+"direction": "long",
+"id": "URGN|momentum_leader|2026-08-13",
+"name": "UroGen Pharma Ltd.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 48.12,
+"suggested_on": "2026-08-13",
+"theme": "biotech",
+"theme_label": "Biotech",
+"ticker": "URGN"
+},
+{
+"atr": 4.86,
+"conviction": 90.6,
+"direction": "long",
+"id": "BXC|golden_cross|2026-08-13",
+"name": "Bluelinx Holdings Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 89.63,
+"suggested_on": "2026-08-13",
+"theme": "industrials",
+"theme_label": "Industrials & Machinery",
+"ticker": "BXC"
+},
+{
+"atr": 2.22,
+"conviction": 89.7,
+"direction": "long",
+"id": "HZO|breakout_52w|2026-08-13",
+"name": "MarineMax, Inc.  (FL)",
+"setup": "breakout_52w",
+"setup_label": "Breakout to 52-week highs",
+"signal_price": 52.04,
+"suggested_on": "2026-08-13",
+"theme": "retail",
+"theme_label": "Retail & E-commerce",
+"ticker": "HZO"
+},
+{
+"atr": 10.4,
+"conviction": 89.2,
+"direction": "long",
+"id": "EAT|momentum_leader|2026-08-13",
+"name": "Brinker International, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 238.61,
+"suggested_on": "2026-08-13",
+"theme": "restaurants",
+"theme_label": "Restaurants",
+"ticker": "EAT"
+},
+{
+"atr": 1.66,
+"conviction": 89.0,
+"direction": "long",
+"id": "ATRC|golden_cross|2026-08-13",
+"name": "AtriCure, Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 43.49,
+"suggested_on": "2026-08-13",
+"theme": "medtech",
+"theme_label": "Medical Devices & Diagnostics",
+"ticker": "ATRC"
+},
+{
+"atr": 1.73,
+"conviction": 89.0,
+"direction": "long",
+"id": "HNI|golden_cross|2026-08-13",
+"name": "HNI Corporation",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 49.36,
+"suggested_on": "2026-08-13",
+"theme": "consumer",
+"theme_label": "Consumer Brands",
+"ticker": "HNI"
+},
+{
+"atr": 1.38,
+"conviction": 85.0,
+"direction": "long",
+"id": "HRTG|golden_cross|2026-08-13",
+"name": "Heritage Insurance Holdings, In",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 33.27,
+"suggested_on": "2026-08-13",
+"theme": "insurance",
+"theme_label": "Insurance",
+"ticker": "HRTG"
+},
+{
+"atr": 2.27,
+"conviction": 84.0,
+"direction": "long",
+"id": "KFRC|momentum_leader|2026-08-13",
+"name": "Kforce, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 60.45,
+"suggested_on": "2026-08-13",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "KFRC"
+},
+{
+"atr": 4.04,
+"conviction": 81.3,
+"direction": "short",
+"id": "ORA|death_cross|2026-08-13",
+"name": "Ormat Technologies, Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 113.52,
+"suggested_on": "2026-08-13",
+"theme": "clean_energy",
+"theme_label": "Clean Energy & Solar",
+"ticker": "ORA"
+},
+{
+"atr": 2.12,
+"conviction": 80.9,
+"direction": "long",
+"id": "RHI|momentum_leader|2026-08-13",
+"name": "Robert Half Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 43.78,
+"suggested_on": "2026-08-13",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "RHI"
+},
+{
+"atr": 1.46,
+"conviction": 80.5,
+"direction": "long",
+"id": "BWIN|momentum_leader|2026-08-13",
+"name": "The Baldwin Insurance Group, In",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 30.85,
+"suggested_on": "2026-08-13",
+"theme": "insurance",
+"theme_label": "Insurance",
+"ticker": "BWIN"
+},
+{
+"atr": 0.7,
+"conviction": 80.2,
+"direction": "long",
+"id": "KELYA|momentum_leader|2026-08-13",
+"name": "Kelly Services, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 16.31,
+"suggested_on": "2026-08-13",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "KELYA"
+},
+{
+"atr": 1.83,
+"conviction": 79.1,
+"direction": "short",
+"id": "QMCO|parabolic_fade|2026-08-13",
+"name": "Quantum Corporation",
+"setup": "parabolic_fade",
+"setup_label": "Parabolic move losing steam",
+"signal_price": 24.68,
+"suggested_on": "2026-08-13",
+"theme": "quantum",
+"theme_label": "Quantum Computing",
+"ticker": "QMCO"
+},
+{
+"atr": 5.01,
+"conviction": 79.0,
+"direction": "long",
+"id": "ATRO|momentum_leader|2026-08-13",
+"name": "Astronics Corporation",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 92.61,
+"suggested_on": "2026-08-13",
+"theme": "space_defense",
+"theme_label": "Space, Defense & Aerospace",
+"ticker": "ATRO"
+},
+{
+"atr": 11.93,
+"conviction": 78.5,
+"direction": "long",
+"id": "VLO|momentum_leader|2026-08-13",
+"name": "Valero Energy Corporation",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 342.92,
+"suggested_on": "2026-08-13",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "VLO"
+},
+{
+"atr": 0.5,
+"conviction": 78.3,
+"direction": "long",
+"id": "TKNO|momentum_leader|2026-08-13",
+"name": "Alpha Teknova, Inc. - Common Stock",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 7.38,
+"suggested_on": "2026-08-13",
+"theme": "other",
+"theme_label": "Other",
+"ticker": "TKNO"
+},
+{
+"atr": 0.83,
+"conviction": 78.1,
+"direction": "short",
+"id": "MNRO|momentum_laggard|2026-08-13",
+"name": "Monro, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 11.27,
+"suggested_on": "2026-08-13",
+"theme": "ev_auto",
+"theme_label": "Autos & EV",
+"ticker": "MNRO"
+},
+{
+"atr": 0.76,
+"conviction": 77.6,
+"direction": "long",
+"id": "BANL|momentum_leader|2026-08-13",
+"name": "CBL International Limited",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 7.01,
+"suggested_on": "2026-08-13",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "BANL"
+},
+{
+"atr": 5.71,
+"conviction": 76.8,
+"direction": "long",
+"id": "P|momentum_leader|2026-08-13",
+"name": "Everpure, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 117.35,
+"suggested_on": "2026-08-13",
+"theme": "hardware",
+"theme_label": "Hardware & Electronics",
+"ticker": "P"
+},
+{
+"atr": 2.17,
+"conviction": 76.7,
+"direction": "long",
+"id": "GTLB|golden_cross|2026-08-13",
+"name": "GitLab Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 43.35,
+"suggested_on": "2026-08-13",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "GTLB"
+},
+{
+"atr": 0.93,
+"conviction": 76.3,
+"direction": "long",
+"id": "CRSR|momentum_leader|2026-08-13",
+"name": "Corsair Gaming, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 13.45,
+"suggested_on": "2026-08-13",
+"theme": "hardware",
+"theme_label": "Hardware & Electronics",
+"ticker": "CRSR"
+},
+{
+"atr": 0.91,
+"conviction": 76.0,
+"direction": "long",
+"id": "MTW|breakout_52w|2026-08-13",
+"name": "Manitowoc Company, Inc. (The)",
+"setup": "breakout_52w",
+"setup_label": "Breakout to 52-week highs",
+"signal_price": 20.87,
+"suggested_on": "2026-08-13",
+"theme": "industrials",
+"theme_label": "Industrials & Machinery",
+"ticker": "MTW"
 }
 ]

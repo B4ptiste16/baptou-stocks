@@ -3419,6 +3419,14 @@
 "short_name": "Broadstone Net Lease, Inc.",
 "ts": 1785450783.8004463
 },
+"BNRG": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786659581.4598188
+},
 "BNT": {
 "industry": "Insurance - Diversified",
 "market_cap": 11729488896,
@@ -6059,6 +6067,14 @@
 "short_name": "Curbline Properties Corp.",
 "ts": 1785514083.9639711
 },
+"CURI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786659509.7252364
+},
 "CUZ": {
 "industry": "REIT - Office",
 "market_cap": 5254571008,
@@ -6595,6 +6611,14 @@
 "sector": "Healthcare",
 "short_name": "Journey Medical Corporation",
 "ts": 1785537493.3233294
+},
+"DFDV": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1786659581.4598188
 },
 "DFH": {
 "industry": "Residential Construction",
@@ -14156,6 +14180,14 @@
 "short_name": "Lindsay Corporation",
 "ts": 1785514101.2022617
 },
+"LNSR": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786659581.4598188
+},
 "LNT": {
 "industry": "Utilities - Regulated Electric",
 "market_cap": 18309259264,
@@ -20478,6 +20510,14 @@
 "short_name": "Rithm Capital Corp.",
 "ts": 1785513964.537272
 },
+"RIV": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786659581.4598188
+},
 "RIVN": {
 "industry": "Auto Manufacturers",
 "market_cap": 24359213056,
@@ -23705,6 +23745,14 @@
 "short_name": "Turkcell Iletisim Hizmetleri AS",
 "ts": 1785514104.2969444
 },
+"TKNO": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786659509.7252364
+},
 "TKO": {
 "industry": "Entertainment",
 "market_cap": 35130920960,
@@ -25917,6 +25965,14 @@
 "sector": "Technology",
 "short_name": "WEX Inc.",
 "ts": 1785513947.293932
+},
+"WEYS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786659509.7252364
 },
 "WFC": {
 "industry": "Banks - Diversified",
