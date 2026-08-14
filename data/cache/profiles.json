@@ -3991,6 +3991,14 @@
 "short_name": "Boyd Gaming Corporation",
 "ts": 1785450783.7482162
 },
+"BYND": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
+},
 "BYRN": {
 "industry": "Aerospace & Defense",
 "market_cap": 103481704,
@@ -4692,6 +4700,14 @@
 "sector": "Healthcare",
 "short_name": "CG Oncology, Inc.",
 "ts": 1785513961.2113507
+},
+"CGTL": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744547.787896
 },
 "CHCO": {
 "industry": "Banks - Regional",
@@ -6070,10 +6086,10 @@
 "CURI": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1786659509.7252364
+"ts": 1786744618.1256983
 },
 "CUZ": {
 "industry": "REIT - Office",
@@ -6615,10 +6631,10 @@
 "DFDV": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1786659581.4598188
+"ts": 1786744547.787896
 },
 "DFH": {
 "industry": "Residential Construction",
@@ -6642,6 +6658,14 @@
 "sector": "Industrials",
 "short_name": "T3 Defense Inc.",
 "ts": 1785450775.193533
+},
+"DFSC": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
 },
 "DFTX": {
 "industry": "Biotechnology",
@@ -10878,6 +10902,14 @@
 "short_name": "Halozyme Therapeutics, Inc.",
 "ts": 1785513947.0058932
 },
+"HAO": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
+},
 "HAPN": {
 "industry": "Banks - Regional",
 "market_cap": 2238327808,
@@ -11115,6 +11147,14 @@
 "sector": "Real Estate",
 "short_name": "Howard Hughes Holdings Inc.",
 "ts": 1785514095.6454487
+},
+"HHS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
 },
 "HIFS": {
 "industry": "Banks - Regional",
@@ -15575,6 +15615,14 @@
 "short_name": "Marathon Petroleum Corporation",
 "ts": 1785450778.3044379
 },
+"MPLT": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
+},
 "MPT": {
 "industry": "REIT - Healthcare Facilities",
 "market_cap": 2751259904,
@@ -17812,6 +17860,14 @@
 "short_name": "Old National Bancorp",
 "ts": 1785513948.0531228
 },
+"ONCH": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
+},
 "ONDS": {
 "industry": "Communication Equipment",
 "market_cap": 4319376384,
@@ -18403,6 +18459,14 @@
 "sector": "Energy",
 "short_name": "Pembina Pipeline Corp.",
 "ts": 1785513969.4571512
+},
+"PBAM": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
 },
 "PBF": {
 "industry": "Oil & Gas Refining & Marketing",
@@ -22377,6 +22441,14 @@
 "short_name": "SoundHound AI, Inc.",
 "ts": 1785451967.0599282
 },
+"SPAI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
+},
 "SPB": {
 "industry": "Household & Personal Products",
 "market_cap": 2044883456,
@@ -23748,10 +23820,10 @@
 "TKNO": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1786659509.7252364
+"ts": 1786744618.1256983
 },
 "TKO": {
 "industry": "Entertainment",
@@ -25682,6 +25754,14 @@
 "short_name": "vTv Therapeutics Inc.",
 "ts": 1785537484.4560752
 },
+"VUZI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1786744618.1256983
+},
 "VVV": {
 "industry": "Auto & Truck Dealerships",
 "market_cap": 4892283904,
@@ -25969,10 +26049,10 @@
 "WEYS": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1786659509.7252364
+"ts": 1786744618.1256983
 },
 "WFC": {
 "industry": "Banks - Diversified",
