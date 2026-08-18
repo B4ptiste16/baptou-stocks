@@ -7609,6 +7609,14 @@
 "short_name": "Eagle Financial Services Inc",
 "ts": 1785537485.0507126
 },
+"EFT": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787090067.9940674
+},
 "EFX": {
 "industry": "Consulting Services",
 "market_cap": 20692615168,
@@ -17287,6 +17295,14 @@
 "short_name": "NetSTREIT Corp.",
 "ts": 1785514090.192278
 },
+"NTWO": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787090067.9940674
+},
 "NU": {
 "industry": "Banks - Regional",
 "market_cap": 69993717760,
@@ -17567,10 +17583,10 @@
 "NXH": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787003925.5921078
+"ts": 1787090067.9940674
 },
 "NXP": {
 "industry": "Asset Management",
@@ -17682,6 +17698,14 @@
 "sector": "Energy",
 "short_name": "Obsidian Energy Ltd.",
 "ts": 1785537482.4540775
+},
+"OBIO": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787089999.3843863
 },
 "OBK": {
 "industry": "Banks - Regional",
@@ -23367,6 +23391,14 @@
 "short_name": "Sysco Corporation",
 "ts": 1785451965.8331907
 },
+"SZZL": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787090067.9940674
+},
 "T": {
 "industry": "Telecom Services",
 "market_cap": 159043862528,
@@ -25680,6 +25712,14 @@
 "short_name": "",
 "ts": 1785537487.342708
 },
+"VMRK": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787090067.9940674
+},
 "VNDA": {
 "industry": "Biotechnology",
 "market_cap": 311502176,
@@ -26806,6 +26846,14 @@
 "sector": "Energy",
 "short_name": "ExxonMobil Holdings Corporation",
 "ts": 1785451948.0200047
+},
+"XOS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787090067.9940674
 },
 "XP": {
 "industry": "Capital Markets",
