@@ -1486,6 +1486,14 @@
 "short_name": "Aberdeen Total Dynamic Dividend",
 "ts": 1785450121.1878629
 },
+"AOMR": {
+"industry": "REIT - Mortgage",
+"market_cap": 217255744,
+"misses": 0,
+"sector": "Real Estate",
+"short_name": "Angel Oak Mortgage REIT, Inc.",
+"ts": 1787263300.0060925
+},
 "AON": {
 "industry": "Insurance Brokers",
 "market_cap": 78290903040,
@@ -4195,6 +4203,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Callaway Golf Company",
 "ts": 1785450783.495698
+},
+"CAMP": {
+"industry": "Biotechnology",
+"market_cap": 279879264,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "CAMP4 THERAPEUTICS CORPORATION",
+"ts": 1787263300.223622
 },
 "CAMT": {
 "industry": "Semiconductor Equipment & Materials",
@@ -9422,10 +9438,10 @@
 "FNGO": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787176607.5654256
+"ts": 1787263299.7945247
 },
 "FNKO": {
 "industry": "Leisure",
@@ -10223,6 +10239,14 @@
 "short_name": "Gen Digital Inc.",
 "ts": 1785513952.6693025
 },
+"GENC": {
+"industry": "Farm & Heavy Construction Machinery",
+"market_cap": 278936064,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Gencor Industries, Inc.",
+"ts": 1787263276.2830179
+},
 "GENI": {
 "industry": "Internet Content & Information",
 "market_cap": 1843302144,
@@ -10688,6 +10712,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Canada Goose Holdings Inc. Subo",
 "ts": 1785514777.6557603
+},
+"GORO": {
+"industry": "Other Precious Metals & Mining",
+"market_cap": 226147440,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Goldgroup Mining Inc.",
+"ts": 1787263300.0629232
 },
 "GPC": {
 "industry": "Auto Parts",
@@ -11958,12 +11990,12 @@
 "ts": 1785514774.2246492
 },
 "IA": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
+"industry": "Aerospace & Defense",
+"market_cap": 374629664,
+"misses": 0,
+"sector": "Industrials",
 "short_name": "",
-"ts": 1787176607.5654256
+"ts": 1787263276.2693455
 },
 "IAG": {
 "industry": "Gold",
@@ -13684,6 +13716,14 @@
 "sector": "Technology",
 "short_name": "Kopin Corporation",
 "ts": 1785514103.104543
+},
+"KOS": {
+"industry": "Oil & Gas E&P",
+"market_cap": 1798372736,
+"misses": 0,
+"sector": "Energy",
+"short_name": "Kosmos Energy Ltd.",
+"ts": 1787263300.343005
 },
 "KR": {
 "industry": "Grocery Stores",
@@ -16726,6 +16766,14 @@
 "short_name": "NeoVolta Inc.",
 "ts": 1786486698.785415
 },
+"NERV": {
+"industry": "Biotechnology",
+"market_cap": 228710816,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Minerva Neurosciences, Inc",
+"ts": 1787263300.1114805
+},
 "NESR": {
 "industry": "Oil & Gas Equipment & Services",
 "market_cap": 2666401536,
@@ -17699,6 +17747,14 @@
 "sector": "Industrials",
 "short_name": "Quanex Building Products Corpor",
 "ts": 1785514778.2466295
+},
+"NXDT": {
+"industry": "REIT - Diversified",
+"market_cap": 300049056,
+"misses": 0,
+"sector": "Real Estate",
+"short_name": "NexPoint Diversified Real Estat",
+"ts": 1787263300.2187436
 },
 "NXE": {
 "industry": "Uranium",
@@ -22833,6 +22889,14 @@
 "short_name": "Spectrum Brands Holdings, Inc.",
 "ts": 1785514093.94317
 },
+"SPCB": {
+"industry": "Security & Protection Services",
+"market_cap": 71283136,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "SuperCom, Ltd.",
+"ts": 1787263300.1903112
+},
 "SPCE": {
 "industry": "Aerospace & Defense",
 "market_cap": 398465536,
@@ -25923,10 +25987,10 @@
 "VMRK": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787176607.5654256
+"ts": 1787263299.7945247
 },
 "VNDA": {
 "industry": "Biotechnology",
@@ -27064,12 +27128,12 @@
 "ts": 1785451948.0200047
 },
 "XOS": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1787090067.9940674
+"industry": "Farm & Heavy Construction Machinery",
+"market_cap": 52890408,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Xos, Inc.",
+"ts": 1787263300.022459
 },
 "XP": {
 "industry": "Capital Markets",
