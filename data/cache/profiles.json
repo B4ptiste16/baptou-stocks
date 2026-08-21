@@ -125,6 +125,14 @@
 "short_name": "Airbnb, Inc.",
 "ts": 1785450119.0656533
 },
+"ABOS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
+},
 "ABR": {
 "industry": "REIT - Mortgage",
 "market_cap": 998865536,
@@ -604,6 +612,14 @@
 "sector": "Financial Services",
 "short_name": "American Exceptionalism Acquisi",
 "ts": 1785450118.8995497
+},
+"AEYE": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "AFG": {
 "industry": "Insurance - Property & Casualty",
@@ -2960,6 +2976,14 @@
 "sector": "Utilities",
 "short_name": "Brookfield Renewable Corporatio",
 "ts": 1785450123.4693103
+},
+"BETA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "BETR": {
 "industry": "Mortgage Finance",
@@ -8726,6 +8750,14 @@
 "short_name": "EZCORP, Inc.",
 "ts": 1785514091.8279138
 },
+"EZRA": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
+},
 "F": {
 "industry": "Auto Manufacturers",
 "market_cap": 59255672832,
@@ -10066,6 +10098,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Gap, Inc. (The)",
 "ts": 1785513947.1940413
+},
+"GASS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "GATX": {
 "industry": "Rental & Leasing Services",
@@ -11972,6 +12012,14 @@
 "sector": "Basic Materials",
 "short_name": "Hycroft Mining Holding Corporat",
 "ts": 1785450776.753319
+},
+"HYPD": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "HYT": {
 "industry": "Asset Management",
@@ -14317,6 +14365,14 @@
 "sector": "Communication Services",
 "short_name": "Liberty Latin America Ltd.",
 "ts": 1785450777.6973448
+},
+"LIMN": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "LIN": {
 "industry": "Specialty Chemicals",
@@ -17163,6 +17219,14 @@
 "short_name": "Anbio Biotechnology",
 "ts": 1787176582.9612641
 },
+"NOA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
+},
 "NOC": {
 "industry": "Aerospace & Defense",
 "market_cap": 75982405632,
@@ -18040,6 +18104,14 @@
 "sector": "Utilities",
 "short_name": "OGE Energy Corp",
 "ts": 1785513961.6781797
+},
+"OGG": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "OGN": {
 "industry": "Drug Manufacturers - General",
@@ -20347,6 +20419,14 @@
 "short_name": "QuinStreet, Inc.",
 "ts": 1785537479.682335
 },
+"QNTM": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349337.5467658
+},
 "QQQX": {
 "industry": "Asset Management",
 "market_cap": 1438436992,
@@ -20816,6 +20896,14 @@
 "sector": "Financial Services",
 "short_name": "Regions Financial Corporation",
 "ts": 1785451961.6548536
+},
+"RFAI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787349409.1330965
 },
 "RFI": {
 "industry": "Asset Management",
