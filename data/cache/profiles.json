@@ -218,6 +218,14 @@
 "short_name": "Accel Entertainment, Inc.",
 "ts": 1785450119.595108
 },
+"ACFN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787695298.9485817
+},
 "ACGL": {
 "industry": "Insurance - Diversified",
 "market_cap": 34488737792,
@@ -3184,6 +3192,14 @@
 "short_name": "Biohaven Ltd.",
 "ts": 1785450124.1196072
 },
+"BIAF": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787695298.9485817
+},
 "BIIB": {
 "industry": "Drug Manufacturers - General",
 "market_cap": 30722488320,
@@ -3380,6 +3396,14 @@
 "sector": "Technology",
 "short_name": "Blackbaud, Inc.",
 "ts": 1785450782.8801522
+},
+"BLLN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787695298.9485817
 },
 "BLMN": {
 "industry": "Restaurants",
@@ -6564,6 +6588,14 @@
 "sector": "Industrials",
 "short_name": "Danaos Corporation",
 "ts": 1785514105.3030043
+},
+"DAIC": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787695230.0886235
 },
 "DAKT": {
 "industry": "Electronic Components",
@@ -10911,6 +10943,14 @@
 "sector": "Healthcare",
 "short_name": "Guardian Pharmacy Services, Inc",
 "ts": 1785537478.848818
+},
+"GRML": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787695298.9485817
 },
 "GRMN": {
 "industry": "Scientific & Technical Instruments",
