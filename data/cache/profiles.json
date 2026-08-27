@@ -221,10 +221,10 @@
 "ACFN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787695298.9485817
+"ts": 1787792787.1379192
 },
 "ACGL": {
 "industry": "Insurance - Diversified",
@@ -3195,10 +3195,10 @@
 "BIAF": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787695298.9485817
+"ts": 1787792714.9587054
 },
 "BIIB": {
 "industry": "Drug Manufacturers - General",
@@ -3400,10 +3400,10 @@
 "BLLN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787695298.9485817
+"ts": 1787792787.1379192
 },
 "BLMN": {
 "industry": "Restaurants",
@@ -5399,6 +5399,14 @@
 "short_name": "Cinemark Holdings Inc Cinemark ",
 "ts": 1785450774.6387336
 },
+"CNL": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
+},
 "CNM": {
 "industry": "Industrial Distribution",
 "market_cap": 8424797184,
@@ -5827,6 +5835,14 @@
 "sector": "Technology",
 "short_name": "Credo Technology Group Holding ",
 "ts": 1785451948.8121402
+},
+"CRE": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
 },
 "CRF": {
 "industry": "Asset Management",
@@ -6592,10 +6608,10 @@
 "DAIC": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787695230.0886235
+"ts": 1787792787.1379192
 },
 "DAKT": {
 "industry": "Electronic Components",
@@ -6976,6 +6992,14 @@
 "sector": "Energy",
 "short_name": "DHT Holdings, Inc.",
 "ts": 1785513968.758102
+},
+"DHX": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
 },
 "DIN": {
 "industry": "Restaurants",
@@ -8639,6 +8663,14 @@
 "short_name": "Evolv Technologies Holdings, In",
 "ts": 1785537480.6891632
 },
+"EVMN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
+},
 "EVR": {
 "industry": "Capital Markets",
 "market_cap": 12102588416,
@@ -8968,6 +9000,14 @@
 "sector": "Consumer Defensive",
 "short_name": "Franklin Covey Company",
 "ts": 1785537488.3947077
+},
+"FCAP": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
 },
 "FCBC": {
 "industry": "Banks - Regional",
@@ -10947,10 +10987,10 @@
 "GRML": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787695298.9485817
+"ts": 1787792787.1379192
 },
 "GRMN": {
 "industry": "Scientific & Technical Instruments",
@@ -18609,6 +18649,14 @@
 "short_name": "O'Reilly Automotive, Inc.",
 "ts": 1785451951.2769327
 },
+"ORMP": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
+},
 "ORN": {
 "industry": "Engineering & Construction",
 "market_cap": 396043904,
@@ -20866,6 +20914,14 @@
 "short_name": "Reddit, Inc.",
 "ts": 1785451951.2603817
 },
+"RDIB": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
+},
 "RDN": {
 "industry": "Insurance - Specialty",
 "market_cap": 5171405312,
@@ -20920,6 +20976,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "The RealReal, Inc.",
 "ts": 1785514090.5459323
+},
+"REAX": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
 },
 "REFI": {
 "industry": "REIT - Mortgage",
@@ -26175,6 +26239,14 @@
 "sector": "Financial Services",
 "short_name": "Valley National Bancorp",
 "ts": 1785513953.0696862
+},
+"VMAR": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787792787.1379192
 },
 "VMC": {
 "industry": "Building Materials",
