@@ -7680,7 +7680,7 @@
 "ticker": "MHK"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 2.44,
 "conviction": 83.3,
 "direction": "long",
@@ -7860,7 +7860,7 @@
 "ticker": "PANW"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 1.74,
 "conviction": 75.6,
 "direction": "short",
@@ -7875,7 +7875,7 @@
 "ticker": "PEGA"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 0.85,
 "conviction": 75.3,
 "direction": "long",
@@ -8505,7 +8505,7 @@
 "ticker": "AHCO"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 8.75,
 "conviction": 83.2,
 "direction": "long",
@@ -8760,7 +8760,7 @@
 "ticker": "EBS"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 9.53,
 "conviction": 97.5,
 "direction": "long",
@@ -9030,7 +9030,7 @@
 "ticker": "ALNT"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 10.51,
 "conviction": 78.3,
 "direction": "long",
@@ -9660,7 +9660,7 @@
 "ticker": "REPL"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 0.89,
 "conviction": 82.5,
 "direction": "long",
@@ -10260,7 +10260,7 @@
 "ticker": "COLL"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 2.32,
 "conviction": 100.0,
 "direction": "long",
@@ -10320,7 +10320,7 @@
 "ticker": "URGN"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 4.86,
 "conviction": 90.6,
 "direction": "long",
@@ -11085,7 +11085,7 @@
 "ticker": "BYND"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 1.46,
 "conviction": 93.0,
 "direction": "short",
@@ -11565,7 +11565,7 @@
 "ticker": "CGTL"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 1.01,
 "conviction": 78.0,
 "direction": "long",
@@ -12660,7 +12660,7 @@
 "ticker": "UFI"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 9.34,
 "conviction": 81.9,
 "direction": "long",
@@ -13379,7 +13379,7 @@
 "ticker": "CGEM"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 6.81,
 "conviction": 86.3,
 "direction": "short",
@@ -13424,7 +13424,7 @@
 "ticker": "ILMN"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 8.12,
 "conviction": 84.0,
 "direction": "long",
@@ -13634,6 +13634,7 @@
 "ticker": "AGCO"
 },
 {
+"_status": "open",
 "atr": 0.79,
 "conviction": 94.2,
 "direction": "long",
@@ -13648,6 +13649,7 @@
 "ticker": "HELP"
 },
 {
+"_status": "open",
 "atr": 2.0,
 "conviction": 93.6,
 "direction": "short",
@@ -13662,6 +13664,7 @@
 "ticker": "REAX"
 },
 {
+"_status": "open",
 "atr": 0.98,
 "conviction": 90.2,
 "direction": "short",
@@ -13676,6 +13679,7 @@
 "ticker": "MATW"
 },
 {
+"_status": "open",
 "atr": 1.57,
 "conviction": 88.1,
 "direction": "long",
@@ -13690,6 +13694,7 @@
 "ticker": "ZYME"
 },
 {
+"_status": "open",
 "atr": 1.06,
 "conviction": 88.0,
 "direction": "long",
@@ -13704,6 +13709,7 @@
 "ticker": "ARCT"
 },
 {
+"_status": "open",
 "atr": 0.48,
 "conviction": 88.0,
 "direction": "short",
@@ -13718,6 +13724,7 @@
 "ticker": "HVII"
 },
 {
+"_status": "open",
 "atr": 7.7,
 "conviction": 86.8,
 "direction": "long",
@@ -13732,6 +13739,7 @@
 "ticker": "ANF"
 },
 {
+"_status": "open",
 "atr": 1.71,
 "conviction": 85.9,
 "direction": "long",
@@ -13746,6 +13754,7 @@
 "ticker": "OESX"
 },
 {
+"_status": "open",
 "atr": 0.67,
 "conviction": 84.0,
 "direction": "short",
@@ -13760,6 +13769,7 @@
 "ticker": "CRE"
 },
 {
+"_status": "open",
 "atr": 1.77,
 "conviction": 84.0,
 "direction": "long",
@@ -13774,6 +13784,7 @@
 "ticker": "INTA"
 },
 {
+"_status": "open",
 "atr": 2.99,
 "conviction": 82.3,
 "direction": "long",
@@ -13788,6 +13799,7 @@
 "ticker": "RDNT"
 },
 {
+"_status": "open",
 "atr": 0.87,
 "conviction": 80.8,
 "direction": "long",
@@ -13802,6 +13814,7 @@
 "ticker": "QNST"
 },
 {
+"_status": "open",
 "atr": 15.22,
 "conviction": 80.4,
 "direction": "long",
@@ -13816,6 +13829,7 @@
 "ticker": "PANW"
 },
 {
+"_status": "open",
 "atr": 3.42,
 "conviction": 78.5,
 "direction": "short",
@@ -13830,6 +13844,7 @@
 "ticker": "TJX"
 },
 {
+"_status": "open",
 "atr": 0.79,
 "conviction": 78.5,
 "direction": "long",
@@ -13844,6 +13859,7 @@
 "ticker": "WT"
 },
 {
+"_status": "open",
 "atr": 1.24,
 "conviction": 78.2,
 "direction": "long",
@@ -13858,6 +13874,7 @@
 "ticker": "TWFG"
 },
 {
+"_status": "open",
 "atr": 8.95,
 "conviction": 77.8,
 "direction": "long",
@@ -13872,6 +13889,7 @@
 "ticker": "ENVA"
 },
 {
+"_status": "open",
 "atr": 0.28,
 "conviction": 75.3,
 "direction": "short",
@@ -13886,6 +13904,7 @@
 "ticker": "INSE"
 },
 {
+"_status": "open",
 "atr": 0.78,
 "conviction": 74.1,
 "direction": "long",
@@ -13900,6 +13919,7 @@
 "ticker": "PATH"
 },
 {
+"_status": "open",
 "atr": 0.43,
 "conviction": 73.7,
 "direction": "long",
@@ -13914,6 +13934,7 @@
 "ticker": "STLN"
 },
 {
+"_status": "open",
 "atr": 2.87,
 "conviction": 73.4,
 "direction": "long",
@@ -13928,6 +13949,7 @@
 "ticker": "CFFI"
 },
 {
+"_status": "open",
 "atr": 1.51,
 "conviction": 73.3,
 "direction": "long",
@@ -13942,6 +13964,7 @@
 "ticker": "BLZE"
 },
 {
+"_status": "open",
 "atr": 3.11,
 "conviction": 72.3,
 "direction": "short",
@@ -13956,6 +13979,7 @@
 "ticker": "DECK"
 },
 {
+"_status": "open",
 "atr": 10.55,
 "conviction": 72.0,
 "direction": "short",
@@ -13970,6 +13994,7 @@
 "ticker": "EVR"
 },
 {
+"_status": "open",
 "atr": 1.84,
 "conviction": 72.0,
 "direction": "long",
@@ -13982,5 +14007,355 @@
 "theme": "food_bev",
 "theme_label": "Food & Beverage",
 "ticker": "PRE"
+},
+{
+"atr": 3.19,
+"conviction": 91.5,
+"direction": "short",
+"id": "RBA|death_cross|2026-08-27",
+"name": "RB Global, Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 85.89,
+"suggested_on": "2026-08-27",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "RBA"
+},
+{
+"atr": 1.25,
+"conviction": 85.2,
+"direction": "long",
+"id": "SLS|momentum_leader|2026-08-27",
+"name": "SELLAS Life Sciences Group, Inc",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 15.21,
+"suggested_on": "2026-08-27",
+"theme": "biotech",
+"theme_label": "Biotech",
+"ticker": "SLS"
+},
+{
+"atr": 0.65,
+"conviction": 81.0,
+"direction": "long",
+"id": "TJGC|momentum_leader|2026-08-27",
+"name": "TJGC Group Limited",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 7.94,
+"suggested_on": "2026-08-27",
+"theme": "media",
+"theme_label": "Media & Entertainment",
+"ticker": "TJGC"
+},
+{
+"atr": 2.05,
+"conviction": 79.9,
+"direction": "long",
+"id": "PKOH|momentum_leader|2026-08-27",
+"name": "Park-Ohio Holdings Corp.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 47.39,
+"suggested_on": "2026-08-27",
+"theme": "industrials",
+"theme_label": "Industrials & Machinery",
+"ticker": "PKOH"
+},
+{
+"atr": 2.73,
+"conviction": 78.5,
+"direction": "long",
+"id": "AAMI|momentum_leader|2026-08-27",
+"name": "Acadian Asset Management Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 97.31,
+"suggested_on": "2026-08-27",
+"theme": "capital_mkts",
+"theme_label": "Capital Markets & Asset Managers",
+"ticker": "AAMI"
+},
+{
+"atr": 5.84,
+"conviction": 78.0,
+"direction": "long",
+"id": "FROG|momentum_leader|2026-08-27",
+"name": "JFrog Ltd.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 104.03,
+"suggested_on": "2026-08-27",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "FROG"
+},
+{
+"atr": 0.91,
+"conviction": 78.0,
+"direction": "long",
+"id": "SDGR|momentum_leader|2026-08-27",
+"name": "Schrodinger, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 20.41,
+"suggested_on": "2026-08-27",
+"theme": "health_svcs",
+"theme_label": "Healthcare Services",
+"ticker": "SDGR"
+},
+{
+"atr": 0.66,
+"conviction": 76.3,
+"direction": "long",
+"id": "MNTN|golden_cross|2026-08-27",
+"name": "MNTN, Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 12.6,
+"suggested_on": "2026-08-27",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "MNTN"
+},
+{
+"atr": 10.04,
+"conviction": 76.1,
+"direction": "long",
+"id": "LPLA|golden_cross|2026-08-27",
+"name": "LPL Financial Holdings Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 361.22,
+"suggested_on": "2026-08-27",
+"theme": "capital_mkts",
+"theme_label": "Capital Markets & Asset Managers",
+"ticker": "LPLA"
+},
+{
+"atr": 0.76,
+"conviction": 75.0,
+"direction": "long",
+"id": "JCAP|golden_cross|2026-08-27",
+"name": "Jefferson Capital, Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 21.69,
+"suggested_on": "2026-08-27",
+"theme": "fintech",
+"theme_label": "Fintech & Payments",
+"ticker": "JCAP"
+},
+{
+"atr": 0.02,
+"conviction": 74.1,
+"direction": "long",
+"id": "MKLY|squeeze_breakout|2026-08-27",
+"name": "McKinley Acquisition Corporatio",
+"setup": "squeeze_breakout",
+"setup_label": "Volatility squeeze breaking up",
+"signal_price": 10.26,
+"suggested_on": "2026-08-27",
+"theme": "capital_mkts",
+"theme_label": "Capital Markets & Asset Managers",
+"ticker": "MKLY"
+},
+{
+"atr": 1.05,
+"conviction": 73.4,
+"direction": "long",
+"id": "SAIL|golden_cross|2026-08-27",
+"name": "SailPoint, Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 20.45,
+"suggested_on": "2026-08-27",
+"theme": "cyber",
+"theme_label": "Cybersecurity",
+"ticker": "SAIL"
+},
+{
+"atr": 0.56,
+"conviction": 73.1,
+"direction": "short",
+"id": "VXX|momentum_laggard|2026-08-27",
+"name": "iPath Series B S&P 500 VIX Short-Term Futures ETN",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 18.1,
+"suggested_on": "2026-08-27",
+"theme": "other",
+"theme_label": "Other",
+"ticker": "VXX"
+},
+{
+"atr": 3.86,
+"conviction": 72.9,
+"direction": "long",
+"id": "DK|momentum_leader|2026-08-27",
+"name": "Delek US Holdings, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 70.26,
+"suggested_on": "2026-08-27",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "DK"
+},
+{
+"atr": 1.64,
+"conviction": 71.4,
+"direction": "long",
+"id": "CBL|trend_pullback|2026-08-27",
+"name": "CBL & Associates Properties, In",
+"setup": "trend_pullback",
+"setup_label": "Pullback in an uptrend",
+"signal_price": 54.94,
+"suggested_on": "2026-08-27",
+"theme": "reits",
+"theme_label": "Real Estate & REITs",
+"ticker": "CBL"
+},
+{
+"atr": 1.13,
+"conviction": 71.4,
+"direction": "long",
+"id": "GRML|golden_cross|2026-08-27",
+"name": "Greenland Mines Ltd - Common Stock",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 5.26,
+"suggested_on": "2026-08-27",
+"theme": "other",
+"theme_label": "Other",
+"ticker": "GRML"
+},
+{
+"atr": 0.17,
+"conviction": 71.3,
+"direction": "short",
+"id": "BBAI|trend_breakdown|2026-08-27",
+"name": "BigBear.ai, Inc.",
+"setup": "trend_breakdown",
+"setup_label": "Rally into resistance in a downtrend",
+"signal_price": 3.19,
+"suggested_on": "2026-08-27",
+"theme": "ai_semis",
+"theme_label": "AI & Semiconductors",
+"ticker": "BBAI"
+},
+{
+"atr": 0.8,
+"conviction": 70.7,
+"direction": "short",
+"id": "ASIX|death_cross|2026-08-27",
+"name": "AdvanSix Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 16.37,
+"suggested_on": "2026-08-27",
+"theme": "materials",
+"theme_label": "Chemicals & Materials",
+"ticker": "ASIX"
+},
+{
+"atr": 0.47,
+"conviction": 70.1,
+"direction": "long",
+"id": "FBP|trend_pullback|2026-08-27",
+"name": "First BanCorp. New",
+"setup": "trend_pullback",
+"setup_label": "Pullback in an uptrend",
+"signal_price": 27.71,
+"suggested_on": "2026-08-27",
+"theme": "banks",
+"theme_label": "Banks",
+"ticker": "FBP"
+},
+{
+"atr": 3.37,
+"conviction": 69.7,
+"direction": "short",
+"id": "CABO|momentum_laggard|2026-08-27",
+"name": "Cable One, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 22.49,
+"suggested_on": "2026-08-27",
+"theme": "telecom",
+"theme_label": "Telecom",
+"ticker": "CABO"
+},
+{
+"atr": 2.08,
+"conviction": 69.7,
+"direction": "long",
+"id": "VLTO|golden_cross|2026-08-27",
+"name": "Veralto Corp",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 98.37,
+"suggested_on": "2026-08-27",
+"theme": "industrials",
+"theme_label": "Industrials & Machinery",
+"ticker": "VLTO"
+},
+{
+"atr": 0.57,
+"conviction": 68.7,
+"direction": "long",
+"id": "PFE|golden_cross|2026-08-27",
+"name": "Pfizer, Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 28.02,
+"suggested_on": "2026-08-27",
+"theme": "pharma",
+"theme_label": "Pharma",
+"ticker": "PFE"
+},
+{
+"atr": 2.61,
+"conviction": 68.6,
+"direction": "short",
+"id": "IPST|trend_breakdown|2026-08-27",
+"name": "IP Strategy Holdings, Inc.",
+"setup": "trend_breakdown",
+"setup_label": "Rally into resistance in a downtrend",
+"signal_price": 4.71,
+"suggested_on": "2026-08-27",
+"theme": "capital_mkts",
+"theme_label": "Capital Markets & Asset Managers",
+"ticker": "IPST"
+},
+{
+"atr": 0.29,
+"conviction": 68.4,
+"direction": "short",
+"id": "NXH|momentum_laggard|2026-08-27",
+"name": "Neighborhood Intelligence, Inc. Common Stock",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 3.94,
+"suggested_on": "2026-08-27",
+"theme": "retail",
+"theme_label": "Retail & E-commerce",
+"ticker": "NXH"
+},
+{
+"atr": 0.41,
+"conviction": 68.3,
+"direction": "short",
+"id": "UPWK|trend_breakdown|2026-08-27",
+"name": "Upwork Inc.",
+"setup": "trend_breakdown",
+"setup_label": "Rally into resistance in a downtrend",
+"signal_price": 8.92,
+"suggested_on": "2026-08-27",
+"theme": "internet",
+"theme_label": "Internet & Platforms",
+"ticker": "UPWK"
 }
 ]

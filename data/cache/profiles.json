@@ -3400,10 +3400,10 @@
 "BLLN": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895662.2944756
 },
 "BLMN": {
 "industry": "Restaurants",
@@ -5402,10 +5402,10 @@
 "CNL": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895662.2944756
 },
 "CNM": {
 "industry": "Industrial Distribution",
@@ -5839,10 +5839,10 @@
 "CRE": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895590.3401647
 },
 "CRF": {
 "industry": "Asset Management",
@@ -6996,10 +6996,10 @@
 "DHX": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895662.2944756
 },
 "DIN": {
 "industry": "Restaurants",
@@ -8666,10 +8666,10 @@
 "EVMN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895662.2944756
 },
 "EVR": {
 "industry": "Capital Markets",
@@ -9004,10 +9004,10 @@
 "FCAP": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895662.2944756
 },
 "FCBC": {
 "industry": "Banks - Regional",
@@ -11197,6 +11197,14 @@
 "sector": "Technology",
 "short_name": "Guidewire Software, Inc.",
 "ts": 1785451970.2238111
+},
+"GWRS": {
+"industry": "Utilities - Regulated Water",
+"market_cap": 264053376,
+"misses": 0,
+"sector": "Utilities",
+"short_name": "Global Water Resources, Inc.",
+"ts": 1787895662.98311
 },
 "GWW": {
 "industry": "Industrial Distribution",
@@ -18652,10 +18660,10 @@
 "ORMP": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895590.3401647
 },
 "ORN": {
 "industry": "Engineering & Construction",
@@ -20917,10 +20925,10 @@
 "RDIB": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895590.3401647
 },
 "RDN": {
 "industry": "Insurance - Specialty",
@@ -20980,10 +20988,10 @@
 "REAX": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895590.3401647
 },
 "REFI": {
 "industry": "REIT - Mortgage",
@@ -26243,10 +26251,10 @@
 "VMAR": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787792787.1379192
+"ts": 1787895590.3401647
 },
 "VMC": {
 "industry": "Building Materials",
@@ -27050,6 +27058,14 @@
 "sector": "Industrials",
 "short_name": "Wabash National Corporation",
 "ts": 1785514098.9728544
+},
+"WNW": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787895662.2944756
 },
 "WOLF": {
 "industry": "Semiconductors",
