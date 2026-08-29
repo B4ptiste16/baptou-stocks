@@ -5402,10 +5402,10 @@
 "CNL": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787895662.2944756
+"ts": 1787973785.6712396
 },
 "CNM": {
 "industry": "Industrial Distribution",
@@ -6996,10 +6996,10 @@
 "DHX": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787895662.2944756
+"ts": 1787973785.6712396
 },
 "DIN": {
 "industry": "Restaurants",
@@ -8666,10 +8666,10 @@
 "EVMN": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787895662.2944756
+"ts": 1787973785.6712396
 },
 "EVR": {
 "industry": "Capital Markets",
@@ -9004,10 +9004,10 @@
 "FCAP": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1787895662.2944756
+"ts": 1787973785.6712396
 },
 "FCBC": {
 "industry": "Banks - Regional",
@@ -9152,6 +9152,14 @@
 "sector": "Industrials",
 "short_name": "Franklin Electric Co., Inc.",
 "ts": 1785514089.9364316
+},
+"FEMY": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787973785.6712396
 },
 "FENC": {
 "industry": "Biotechnology",
@@ -22191,6 +22199,14 @@
 "short_name": "Schrodinger, Inc.",
 "ts": 1785514105.0325713
 },
+"SDHY": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787973785.6712396
+},
 "SDOT": {
 "industry": "Farm Products",
 "market_cap": 14837514,
@@ -23849,6 +23865,14 @@
 "short_name": "Skyworks Solutions, Inc.",
 "ts": 1785451959.319547
 },
+"SWVL": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1787973785.6712396
+},
 "SWX": {
 "industry": "Utilities - Regulated Gas",
 "market_cap": 6539793408,
@@ -24512,6 +24536,14 @@
 "sector": "Communication Services",
 "short_name": "Millicom International Cellular",
 "ts": 1785513949.3625214
+},
+"TII": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1787973785.6712396
 },
 "TILE": {
 "industry": "Furnishings, Fixtures & Appliances",
