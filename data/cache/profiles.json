@@ -6528,6 +6528,14 @@
 "short_name": "CoreCivic, Inc.",
 "ts": 1785450775.223049
 },
+"CYCU": {
+"industry": "Information Technology Services",
+"market_cap": 94834032,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Cycurion, Inc.",
+"ts": 1788223699.4690824
+},
 "CYD": {
 "industry": "Auto Manufacturers",
 "market_cap": 1793188224,
@@ -9154,12 +9162,12 @@
 "ts": 1785514089.9364316
 },
 "FEMY": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Medical Instruments & Supplies",
+"market_cap": 28726344,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Femasys Inc.",
+"ts": 1788223699.5292091
 },
 "FENC": {
 "industry": "Biotechnology",
@@ -27376,6 +27384,14 @@
 "sector": "Technology",
 "short_name": "WidePoint Corporation",
 "ts": 1785537486.2037485
+},
+"XAIR": {
+"industry": "Medical Devices",
+"market_cap": 3908095,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Beyond Air, Inc.",
+"ts": 1788223723.3268828
 },
 "XEL": {
 "industry": "Utilities - Regulated Electric",
