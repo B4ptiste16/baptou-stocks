@@ -6299,6 +6299,14 @@
 "short_name": "",
 "ts": 1786744618.1256983
 },
+"CURR": {
+"industry": "Software - Application",
+"market_cap": 377267136,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Currenc Group Inc.",
+"ts": 1788305798.9517748
+},
 "CUZ": {
 "industry": "REIT - Office",
 "market_cap": 5254571008,
@@ -9255,6 +9263,14 @@
 "short_name": "FGI Industries Ltd.",
 "ts": 1787003925.8108935
 },
+"FGL": {
+"industry": "Engineering & Construction",
+"market_cap": 197386,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Founder Group Limited",
+"ts": 1788305774.4716427
+},
 "FHB": {
 "industry": "Banks - Regional",
 "market_cap": 3395984128,
@@ -11411,6 +11427,14 @@
 "sector": "Healthcare",
 "short_name": "Healthcare Services Group, Inc.",
 "ts": 1785514100.7047265
+},
+"HCWC": {
+"industry": "Grocery Stores",
+"market_cap": 6899603,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "Healthy Choice Wellness Corp.",
+"ts": 1788305774.4869537
 },
 "HD": {
 "industry": "Home Improvement Retail",
@@ -14481,6 +14505,14 @@
 "sector": "Technology",
 "short_name": "Littelfuse, Inc.",
 "ts": 1785451970.4987323
+},
+"LGCL": {
+"industry": "Software - Application",
+"market_cap": 186138256,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Lucas GC Limited",
+"ts": 1788305774.469562
 },
 "LGIH": {
 "industry": "Residential Construction",
@@ -23453,6 +23485,14 @@
 "short_name": "Simpson Manufacturing Company, ",
 "ts": 1785513965.0973833
 },
+"SSM": {
+"industry": "Auto Manufacturers",
+"market_cap": 6965286,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Sono Group N.V.",
+"ts": 1788305798.96417
+},
 "SSNC": {
 "industry": "Software - Application",
 "market_cap": 18445477888,
@@ -23874,12 +23914,12 @@
 "ts": 1785451959.319547
 },
 "SWVL": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Railroads",
+"market_cap": 38163436,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Swvl Holdings Corp",
+"ts": 1788305774.4680502
 },
 "SWX": {
 "industry": "Utilities - Regulated Gas",
