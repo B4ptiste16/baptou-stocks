@@ -842,6 +842,14 @@
 "short_name": "AllianzGI Artificial Intelligen",
 "ts": 1785450118.1854866
 },
+"AIOS": {
+"industry": "Information Technology Services",
+"market_cap": 41569200,
+"misses": 0,
+"sector": "Technology",
+"short_name": "AIOS Tech Inc.",
+"ts": 1788392188.2356303
+},
 "AIOT": {
 "industry": "Software - Infrastructure",
 "market_cap": 524647264,
@@ -7423,6 +7431,14 @@
 "short_name": "Blackrock Debt Strategies Fund,",
 "ts": 1785514780.3383405
 },
+"DSX": {
+"industry": "Marine Shipping",
+"market_cap": 374485312,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Diana Shipping inc.",
+"ts": 1788392187.9744422
+},
 "DSY": {
 "industry": "Household & Personal Products",
 "market_cap": 15253513,
@@ -7920,6 +7936,14 @@
 "short_name": "Encompass Health Corporation",
 "ts": 1785513953.297742
 },
+"EHI": {
+"industry": "Asset Management",
+"market_cap": 173314512,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Western Asset Global High Incom",
+"ts": 1788392188.4356287
+},
 "EIC": {
 "industry": "Asset Management",
 "market_cap": 233632560,
@@ -8320,6 +8344,14 @@
 "sector": "Healthcare",
 "short_name": "Eupraxia Pharmaceuticals Inc.",
 "ts": 1785537486.6487563
+},
+"EPSN": {
+"industry": "Oil & Gas E&P",
+"market_cap": 191090656,
+"misses": 0,
+"sector": "Energy",
+"short_name": "Epsilon Energy Ltd.",
+"ts": 1788392188.2720773
 },
 "EQBK": {
 "industry": "Banks - Regional",
@@ -8798,6 +8830,14 @@
 "sector": "Technology",
 "short_name": "ExlService Holdings, Inc.",
 "ts": 1785513958.655094
+},
+"EXOD": {
+"industry": "Software - Infrastructure",
+"market_cap": 216255328,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Exodus Movement, Inc.",
+"ts": 1788392188.4624028
 },
 "EXP": {
 "industry": "Building Materials",
@@ -9945,6 +9985,14 @@
 "short_name": "Federal Signal Corporation",
 "ts": 1785513962.0373619
 },
+"FSSL": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788392187.727101
+},
 "FSTR": {
 "industry": "Railroads",
 "market_cap": 430793024,
@@ -10627,6 +10675,14 @@
 "sector": "Consumer Defensive",
 "short_name": "General Mills, Inc.",
 "ts": 1785451959.195896
+},
+"GIW": {
+"industry": "Shell Companies",
+"market_cap": 480430720,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "GigCapital8 Corp.",
+"ts": 1788392188.547723
 },
 "GKOS": {
 "industry": "Medical Devices",
@@ -12455,6 +12511,14 @@
 "sector": "Financial Services",
 "short_name": "Intercorp Financial Services In",
 "ts": 1785537478.6790574
+},
+"IGA": {
+"industry": "Asset Management",
+"market_cap": 161544848,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Voya Global Advantage and Premi",
+"ts": 1788392188.2451684
 },
 "IGD": {
 "industry": "Asset Management",
@@ -15438,6 +15502,14 @@
 "sector": "Technology",
 "short_name": "Microchip Technology Incorporat",
 "ts": 1785451950.68688
+},
+"MCI": {
+"industry": "Asset Management",
+"market_cap": 391175968,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Barings Corporate Investors",
+"ts": 1788392188.482448
 },
 "MCK": {
 "industry": "Medical Distribution",
@@ -18484,6 +18556,14 @@
 "short_name": "OneMain Holdings, Inc.",
 "ts": 1785513961.7734916
 },
+"OMH": {
+"industry": "Real Estate Services",
+"market_cap": 5386915,
+"misses": 0,
+"sector": "Real Estate",
+"short_name": "Ohmyhome Limited",
+"ts": 1788392187.9484828
+},
 "ON": {
 "industry": "Semiconductors",
 "market_cap": 32590401536,
@@ -19256,6 +19336,14 @@
 "sector": "Healthcare",
 "short_name": "Vaxcyte, Inc.",
 "ts": 1785513964.118475
+},
+"PCYO": {
+"industry": "Utilities - Regulated Water",
+"market_cap": 268685664,
+"misses": 0,
+"sector": "Utilities",
+"short_name": "Pure Cycle Corporation",
+"ts": 1788392188.6532273
 },
 "PD": {
 "industry": "Software - Application",
@@ -22240,12 +22328,12 @@
 "ts": 1785514105.0325713
 },
 "SDHY": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
+"industry": "Asset Management",
+"market_cap": 393041792,
+"misses": 0,
+"sector": "Financial Services",
 "short_name": "",
-"ts": 1787973785.6712396
+"ts": 1788392188.5146384
 },
 "SDOT": {
 "industry": "Farm Products",
@@ -23517,6 +23605,14 @@
 "short_name": "SSR Mining Inc.",
 "ts": 1785513957.0936005
 },
+"SST": {
+"industry": "Specialty Business Services",
+"market_cap": 26213856,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "System1, Inc.",
+"ts": 1788392188.2196014
+},
 "SSTI": {
 "industry": "Software - Application",
 "market_cap": 80825672,
@@ -24340,6 +24436,14 @@
 "short_name": "Tectonic Therapeutic, Inc.",
 "ts": 1785514777.7052603
 },
+"TEI": {
+"industry": "Asset Management",
+"market_cap": 314068960,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Templeton Emerging Markets Inco",
+"ts": 1788392188.4944313
+},
 "TEL": {
 "industry": "Electronic Components",
 "market_cap": 59895943168,
@@ -24586,12 +24690,12 @@
 "ts": 1785513949.3625214
 },
 "TII": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Other Industrial Metals & Mining",
+"market_cap": 304859392,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Titan Mining Corporation",
+"ts": 1788392188.2473922
 },
 "TILE": {
 "industry": "Furnishings, Fixtures & Appliances",
@@ -24709,6 +24813,14 @@
 "sector": "Healthcare",
 "short_name": "TriSalus Life Sciences, Inc.",
 "ts": 1786140689.6910243
+},
+"TLYS": {
+"industry": "Apparel Retail",
+"market_cap": 116160880,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Tilly's, Inc.",
+"ts": 1788392188.190079
 },
 "TM": {
 "industry": "Auto Manufacturers",
@@ -26064,6 +26176,14 @@
 "short_name": "INNOVATE Corp.",
 "ts": 1786140689.4435842
 },
+"VBIO": {
+"industry": "Biotechnology",
+"market_cap": 2769277,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Valion Bio, Inc.",
+"ts": 1788392187.939432
+},
 "VBNK": {
 "industry": "Banks - Regional",
 "market_cap": 625240448,
@@ -27242,6 +27362,14 @@
 "short_name": "WSFS Financial Corporation",
 "ts": 1785514086.5172544
 },
+"WSHP": {
+"industry": "Internet Content & Information",
+"market_cap": 60519200,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "WeShop Holdings Limited",
+"ts": 1788392188.053792
+},
 "WSM": {
 "industry": "Specialty Retail",
 "market_cap": 27472640000,
@@ -27495,6 +27623,14 @@
 "sector": "Real Estate",
 "short_name": "Xenia Hotels & Resorts, Inc.",
 "ts": 1785537478.418199
+},
+"XLAB": {
+"industry": "Software - Infrastructure",
+"market_cap": 255328000,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Exascale Labs Holdings Inc.",
+"ts": 1788392188.0322793
 },
 "XMAX": {
 "industry": "Furnishings, Fixtures & Appliances",
