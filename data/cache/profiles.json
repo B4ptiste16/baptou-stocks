@@ -1687,6 +1687,14 @@
 "short_name": "Aptiv PLC",
 "ts": 1785450122.2219017
 },
+"APXT": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1788478397.3398907
+},
 "AQN": {
 "industry": "Utilities - Diversified",
 "market_cap": 4602599936,
@@ -9988,10 +9996,10 @@
 "FSSL": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788392187.727101
+"ts": 1788478397.3398907
 },
 "FSTR": {
 "industry": "Railroads",
@@ -14609,6 +14617,14 @@
 "short_name": "Labcorp Holdings Inc.",
 "ts": 1785450777.595971
 },
+"LHSW": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788478397.3398907
+},
 "LHX": {
 "industry": "Aerospace & Defense",
 "market_cap": 50653593600,
@@ -16872,6 +16888,14 @@
 "sector": "Basic Materials",
 "short_name": "NioCorp Developments Ltd.",
 "ts": 1785537478.5969417
+},
+"NBB": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788478397.3398907
 },
 "NBBK": {
 "industry": "Banks - Regional",
@@ -20539,6 +20563,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Portillo's Inc.",
 "ts": 1785514779.0703535
+},
+"PTN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788478397.3398907
 },
 "PTON": {
 "industry": "Leisure",
@@ -25450,6 +25482,14 @@
 "short_name": "Telus Corporation",
 "ts": 1785513960.6299217
 },
+"TVA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788478397.3398907
+},
 "TVTX": {
 "industry": "Biotechnology",
 "market_cap": 5326633472,
@@ -26322,6 +26362,14 @@
 "sector": "Financial Services",
 "short_name": "Invesco Trust for Investment Gr",
 "ts": 1785537490.5104158
+},
+"VHC": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788478397.3398907
 },
 "VIA": {
 "industry": "Software - Application",
