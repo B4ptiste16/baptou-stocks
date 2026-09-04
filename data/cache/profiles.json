@@ -806,6 +806,14 @@
 "short_name": "All In FutureTech Alliance, Inc",
 "ts": 1786486698.8160157
 },
+"AIFU": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "AIG": {
 "industry": "Insurance - Diversified",
 "market_cap": 41827966976,
@@ -1496,6 +1504,14 @@
 "short_name": "Annexon, Inc.",
 "ts": 1785450120.4860666
 },
+"ANPA": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "ANRO": {
 "industry": "Biotechnology",
 "market_cap": 1112858880,
@@ -1690,10 +1706,10 @@
 "APXT": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "AQN": {
 "industry": "Utilities - Diversified",
@@ -5171,6 +5187,14 @@
 "short_name": "Clearfield, Inc.",
 "ts": 1785450786.694857
 },
+"CLGN": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "CLH": {
 "industry": "Waste Management",
 "market_cap": 16760118272,
@@ -7142,6 +7166,14 @@
 "short_name": "Digital Realty Trust, Inc.",
 "ts": 1785451953.6225386
 },
+"DLTH": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "DLTR": {
 "industry": "Discount Stores",
 "market_cap": 24707889152,
@@ -7880,6 +7912,14 @@
 "sector": "Financial Services",
 "short_name": "Everest Group, Ltd.",
 "ts": 1785513947.0886443
+},
+"EGAN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
 },
 "EGBN": {
 "industry": "Banks - Regional",
@@ -9996,10 +10036,10 @@
 "FSSL": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "FSTR": {
 "industry": "Railroads",
@@ -13526,6 +13566,14 @@
 "short_name": "Jones Lang LaSalle Incorporated",
 "ts": 1785513948.265271
 },
+"JMSB": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "JNJ": {
 "industry": "Drug Manufacturers - General",
 "market_cap": 616500232192,
@@ -14620,10 +14668,10 @@
 "LHSW": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "LHX": {
 "industry": "Aerospace & Defense",
@@ -16892,10 +16940,10 @@
 "NBB": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "NBBK": {
 "industry": "Banks - Regional",
@@ -19961,6 +20009,14 @@
 "short_name": "Preformed Line Products Company",
 "ts": 1785514091.0154967
 },
+"PLRZ": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "PLSE": {
 "industry": "Medical Instruments & Supplies",
 "market_cap": 2425108480,
@@ -20567,10 +20623,10 @@
 "PTN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "PTON": {
 "industry": "Leisure",
@@ -24190,6 +24246,14 @@
 "short_name": "Talos Energy, Inc.",
 "ts": 1785514093.528624
 },
+"TANH": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1788563919.6887076
+},
 "TAP": {
 "industry": "Beverages - Brewers",
 "market_cap": 7794634752,
@@ -25485,10 +25549,10 @@
 "TVA": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "TVTX": {
 "industry": "Biotechnology",
@@ -26366,10 +26430,10 @@
 "VHC": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788478397.3398907
+"ts": 1788563919.6887076
 },
 "VIA": {
 "industry": "Software - Application",
