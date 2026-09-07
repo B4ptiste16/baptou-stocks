@@ -809,10 +809,10 @@
 "AIFU": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "AIG": {
 "industry": "Insurance - Diversified",
@@ -1507,10 +1507,10 @@
 "ANPA": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824784.1367176
 },
 "ANRO": {
 "industry": "Biotechnology",
@@ -5190,10 +5190,10 @@
 "CLGN": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824784.1367176
 },
 "CLH": {
 "industry": "Waste Management",
@@ -7169,10 +7169,10 @@
 "DLTH": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "DLTR": {
 "industry": "Discount Stores",
@@ -7916,10 +7916,10 @@
 "EGAN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "EGBN": {
 "industry": "Banks - Regional",
@@ -11922,6 +11922,14 @@
 "short_name": "Hope Bancorp, Inc.",
 "ts": 1785514105.572882
 },
+"HOS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788824855.703069
+},
 "HOV": {
 "industry": "Residential Construction",
 "market_cap": 750086976,
@@ -13569,10 +13577,10 @@
 "JMSB": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "JNJ": {
 "industry": "Drug Manufacturers - General",
@@ -14668,10 +14676,10 @@
 "LHSW": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "LHX": {
 "industry": "Aerospace & Defense",
@@ -20012,10 +20020,10 @@
 "PLRZ": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824784.1367176
 },
 "PLSE": {
 "industry": "Medical Instruments & Supplies",
@@ -20623,10 +20631,10 @@
 "PTN": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "PTON": {
 "industry": "Leisure",
@@ -24249,10 +24257,10 @@
 "TANH": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824784.1367176
 },
 "TAP": {
 "industry": "Beverages - Brewers",
@@ -25549,10 +25557,10 @@
 "TVA": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "TVTX": {
 "industry": "Biotechnology",
@@ -26430,10 +26438,10 @@
 "VHC": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1788824855.703069
 },
 "VIA": {
 "industry": "Software - Application",
