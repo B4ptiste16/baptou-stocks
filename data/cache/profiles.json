@@ -809,10 +809,10 @@
 "AIFU": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788824855.703069
+"ts": 1788910914.266441
 },
 "AIG": {
 "industry": "Insurance - Diversified",
@@ -3556,6 +3556,14 @@
 "sector": "Technology",
 "short_name": "Brand Engagement Network Inc.",
 "ts": 1785450782.4469564
+},
+"BNC": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1788910914.266441
 },
 "BNED": {
 "industry": "Specialty Retail",
@@ -7169,10 +7177,10 @@
 "DLTH": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788824855.703069
+"ts": 1788910914.266441
 },
 "DLTR": {
 "industry": "Discount Stores",
@@ -7916,10 +7924,10 @@
 "EGAN": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788824855.703069
+"ts": 1788910842.0030735
 },
 "EGBN": {
 "industry": "Banks - Regional",
@@ -11144,6 +11152,14 @@
 "short_name": "Grindr Inc.",
 "ts": 1785514094.196911
 },
+"GRNQ": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788910914.266441
+},
 "GRNT": {
 "industry": "Oil & Gas E&P",
 "market_cap": 619251712,
@@ -11925,10 +11941,10 @@
 "HOS": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1788824855.703069
+"ts": 1788910914.266441
 },
 "HOV": {
 "industry": "Residential Construction",
@@ -13577,10 +13593,10 @@
 "JMSB": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1788824855.703069
+"ts": 1788910842.0030735
 },
 "JNJ": {
 "industry": "Drug Manufacturers - General",
@@ -17443,6 +17459,14 @@
 "sector": "Healthcare",
 "short_name": "Nektar Therapeutics",
 "ts": 1785513964.730564
+},
+"NKTX": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788910914.266441
 },
 "NKX": {
 "industry": "Asset Management",
@@ -26410,6 +26434,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "V.F. Corporation",
 "ts": 1785513948.8294415
+},
+"VFF": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1788910914.266441
 },
 "VFS": {
 "industry": "Auto Manufacturers",
