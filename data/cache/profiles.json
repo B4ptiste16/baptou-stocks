@@ -1117,6 +1117,14 @@
 "short_name": "REalloys Inc.",
 "ts": 1785450119.147729
 },
+"ALP": {
+"industry": "Asset Management",
+"market_cap": 8391027,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Alpha Compute Corp",
+"ts": 1788996671.269109
+},
 "ALRM": {
 "industry": "Software - Application",
 "market_cap": 2681752832,
@@ -3558,12 +3566,12 @@
 "ts": 1785450782.4469564
 },
 "BNC": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1788910914.266441
+"industry": "Farm & Heavy Construction Machinery",
+"market_cap": 182400144,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "CEA Industries Inc.",
+"ts": 1788996671.2939255
 },
 "BNED": {
 "industry": "Specialty Retail",
@@ -4676,6 +4684,14 @@
 "sector": "Consumer Defensive",
 "short_name": "Compania Cervecerias Unidas, S.",
 "ts": 1785450785.2368488
+},
+"CD": {
+"industry": "Capital Markets",
+"market_cap": 342111808,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Chaince Digital Holdings Inc. -",
+"ts": 1788996671.2996998
 },
 "CDE": {
 "industry": "Gold",
@@ -11153,12 +11169,12 @@
 "ts": 1785514094.196911
 },
 "GRNQ": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1788910914.266441
+"industry": "Consulting Services",
+"market_cap": 23983158,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Greenpro Capital Corp.",
+"ts": 1788996671.2592278
 },
 "GRNT": {
 "industry": "Oil & Gas E&P",
@@ -11939,12 +11955,12 @@
 "ts": 1785514105.572882
 },
 "HOS": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1788910914.266441
+"industry": "Marine Shipping",
+"market_cap": 2982240000,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Hornbeck Offshore Services, Inc",
+"ts": 1788996671.2434418
 },
 "HOV": {
 "industry": "Residential Construction",
@@ -24035,6 +24051,14 @@
 "short_name": "Sun Communities, Inc.",
 "ts": 1785451966.4738967
 },
+"SUNE": {
+"industry": "Solar",
+"market_cap": 29374118,
+"misses": 0,
+"sector": "Technology",
+"short_name": "SUNation Energy, Inc.",
+"ts": 1788996671.233081
+},
 "SUPN": {
 "industry": "Drug Manufacturers - Specialty & Generic",
 "market_cap": 2589152000,
@@ -25058,6 +25082,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Travel   Leisure Co.",
 "ts": 1785513963.1869018
+},
+"TNMG": {
+"industry": "Publishing",
+"market_cap": 20870114,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "TNL Mediagene",
+"ts": 1788996647.5464203
 },
 "TNON": {
 "industry": "Medical Devices",
@@ -26296,6 +26328,14 @@
 "short_name": "Marriott Vacations Worldwide Co",
 "ts": 1785514085.8396993
 },
+"VACI": {
+"industry": "Shell Companies",
+"market_cap": 197984544,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Viking Acquisition Corp. I",
+"ts": 1788996647.4798863
+},
 "VAL": {
 "industry": "Oil & Gas Drilling",
 "market_cap": 5436957184,
@@ -27086,6 +27126,14 @@
 "sector": "Industrials",
 "short_name": "Waste Connections, Inc.",
 "ts": 1785451966.9772549
+},
+"WCT": {
+"industry": "Software - Application",
+"market_cap": 389718592,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Wellchange Holdings Company Lim",
+"ts": 1788996647.5430088
 },
 "WD": {
 "industry": "Mortgage Finance",
