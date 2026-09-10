@@ -4475,6 +4475,14 @@
 "short_name": "Colony Bankcorp, Inc.",
 "ts": 1785450783.4685025
 },
+"CBC": {
+"industry": "Banks - Regional",
+"market_cap": 7692904960,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Central Bancompany, Inc.",
+"ts": 1789082816.3430383
+},
 "CBIO": {
 "industry": "Biotechnology",
 "market_cap": 555180096,
@@ -14643,6 +14651,14 @@
 "short_name": "Levi Strauss & Co",
 "ts": 1785513957.8656821
 },
+"LEXX": {
+"industry": "Biotechnology",
+"market_cap": 8531273,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Lexaria Bioscience Corp.",
+"ts": 1789082816.336263
+},
 "LFMD": {
 "industry": "Health Information Services",
 "market_cap": 167092480,
@@ -14876,6 +14892,14 @@
 "sector": "Financial Services",
 "short_name": "Lemonade, Inc.",
 "ts": 1785513952.378036
+},
+"LMNR": {
+"industry": "Farm Products",
+"market_cap": 241337040,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "Limoneira Co",
+"ts": 1789082839.9372165
 },
 "LMT": {
 "industry": "Aerospace & Defense",
@@ -16921,6 +16945,14 @@
 "sector": "Healthcare",
 "short_name": "NewAmsterdam Pharma Company N.V",
 "ts": 1785514091.3897202
+},
+"NAN": {
+"industry": "Asset Management",
+"market_cap": 352143968,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Nuveen New York Quality Municip",
+"ts": 1789082839.884439
 },
 "NAT": {
 "industry": "Oil & Gas Midstream",
@@ -20230,6 +20262,14 @@
 "short_name": "POET Technologies Inc.",
 "ts": 1785513953.8732831
 },
+"POLE": {
+"industry": "Shell Companies",
+"market_cap": 316642272,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Andretti Acquisition Corp. II",
+"ts": 1789082840.0881457
+},
 "POOL": {
 "industry": "Industrial Distribution",
 "market_cap": 6948951552,
@@ -20771,6 +20811,14 @@
 "sector": "Consumer Defensive",
 "short_name": "Phoenix Education Partners, Inc",
 "ts": 1785514779.7030666
+},
+"PXS": {
+"industry": "Oil & Gas Midstream",
+"market_cap": 71776752,
+"misses": 0,
+"sector": "Energy",
+"short_name": "Pyxis Tankers Inc.",
+"ts": 1789082816.3419192
 },
 "PYPD": {
 "industry": "Biotechnology",
@@ -27988,6 +28036,14 @@
 "sector": "Healthcare",
 "short_name": "",
 "ts": 1785450782.220196
+},
+"YDES": {
+"industry": "Biotechnology",
+"market_cap": 276242240,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "YD Bio Limited",
+"ts": 1789082839.8711438
 },
 "YELP": {
 "industry": "Internet Content & Information",
