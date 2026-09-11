@@ -572,6 +572,14 @@
 "short_name": "Agnico Eagle Mines Limited",
 "ts": 1785450118.4302347
 },
+"AENT": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1789169651.731339
+},
 "AEO": {
 "industry": "Apparel Retail",
 "market_cap": 2900694272,
@@ -3803,6 +3811,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Dutch Bros Inc.",
 "ts": 1785450782.9530692
+},
+"BRR": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1789169651.731339
 },
 "BRSL": {
 "industry": "Gambling",
@@ -10395,6 +10411,14 @@
 "short_name": "GATX Corporation",
 "ts": 1785514085.6786296
 },
+"GAUZ": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1789169651.731339
+},
 "GBCI": {
 "industry": "Banks - Regional",
 "market_cap": 6391619072,
@@ -11048,6 +11072,14 @@
 "sector": "Basic Materials",
 "short_name": "Goldgroup Mining Inc.",
 "ts": 1787263300.0629232
+},
+"GOSS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1789169651.731339
 },
 "GPC": {
 "industry": "Auto Parts",
@@ -21699,6 +21731,14 @@
 "sector": "Real Estate",
 "short_name": "RE/MAX Holdings, Inc.",
 "ts": 1785514780.2955925
+},
+"RMBI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1789169651.731339
 },
 "RMBS": {
 "industry": "Semiconductors",
