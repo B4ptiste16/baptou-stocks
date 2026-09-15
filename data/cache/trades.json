@@ -12270,7 +12270,7 @@
 "ticker": "MRVI"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 1.26,
 "conviction": 86.0,
 "direction": "short",
@@ -15464,7 +15464,7 @@
 "ticker": "FLNC"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 1.7,
 "conviction": 68.1,
 "direction": "long",
@@ -15509,7 +15509,7 @@
 "ticker": "TOYO"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 0.77,
 "conviction": 100.0,
 "direction": "long",
@@ -18134,6 +18134,7 @@
 "ticker": "COO"
 },
 {
+"_status": "open",
 "atr": 2.48,
 "conviction": 100.0,
 "direction": "long",
@@ -18148,6 +18149,7 @@
 "ticker": "ECO"
 },
 {
+"_status": "open",
 "atr": 2.58,
 "conviction": 100.0,
 "direction": "long",
@@ -18162,6 +18164,7 @@
 "ticker": "HTFL"
 },
 {
+"_status": "open",
 "atr": 2.26,
 "conviction": 99.7,
 "direction": "long",
@@ -18190,6 +18193,7 @@
 "ticker": "XHLD"
 },
 {
+"_status": "open",
 "atr": 1.15,
 "conviction": 85.9,
 "direction": "long",
@@ -18204,6 +18208,7 @@
 "ticker": "JILL"
 },
 {
+"_status": "open",
 "atr": 1.61,
 "conviction": 85.3,
 "direction": "long",
@@ -18232,6 +18237,7 @@
 "ticker": "TTAN"
 },
 {
+"_status": "open",
 "atr": 4.68,
 "conviction": 83.5,
 "direction": "long",
@@ -18274,6 +18280,7 @@
 "ticker": "LASR"
 },
 {
+"_status": "open",
 "atr": 1.8,
 "conviction": 80.0,
 "direction": "short",
@@ -18316,6 +18323,7 @@
 "ticker": "NIQ"
 },
 {
+"_status": "open",
 "atr": 11.15,
 "conviction": 78.4,
 "direction": "short",
@@ -18330,6 +18338,7 @@
 "ticker": "KAI"
 },
 {
+"_status": "open",
 "atr": 0.67,
 "conviction": 77.8,
 "direction": "long",
@@ -18344,6 +18353,7 @@
 "ticker": "DHT"
 },
 {
+"_status": "open",
 "atr": 1.84,
 "conviction": 76.1,
 "direction": "long",
@@ -18358,6 +18368,7 @@
 "ticker": "ASMB"
 },
 {
+"_status": "open",
 "atr": 2.1,
 "conviction": 76.0,
 "direction": "short",
@@ -18428,6 +18439,7 @@
 "ticker": "OBIO"
 },
 {
+"_status": "open",
 "atr": 8.29,
 "conviction": 74.3,
 "direction": "short",
@@ -18470,6 +18482,7 @@
 "ticker": "RWT"
 },
 {
+"_status": "open",
 "atr": 6.89,
 "conviction": 73.0,
 "direction": "long",
@@ -18482,5 +18495,355 @@
 "theme": "medtech",
 "theme_label": "Medical Devices & Diagnostics",
 "ticker": "GKOS"
+},
+{
+"atr": 0.57,
+"conviction": 99.6,
+"direction": "long",
+"id": "AVAH|momentum_leader|2026-09-14",
+"name": "Aveanna Healthcare Holdings Inc",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 14.38,
+"suggested_on": "2026-09-14",
+"theme": "health_svcs",
+"theme_label": "Healthcare Services",
+"ticker": "AVAH"
+},
+{
+"atr": 0.14,
+"conviction": 91.5,
+"direction": "long",
+"id": "DV|squeeze_breakout|2026-09-14",
+"name": "DoubleVerify Holdings, Inc.",
+"setup": "squeeze_breakout",
+"setup_label": "Volatility squeeze breaking up",
+"signal_price": 13.52,
+"suggested_on": "2026-09-14",
+"theme": "media",
+"theme_label": "Media & Entertainment",
+"ticker": "DV"
+},
+{
+"atr": 2.02,
+"conviction": 89.6,
+"direction": "short",
+"id": "BROS|death_cross|2026-09-14",
+"name": "Dutch Bros Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 44.05,
+"suggested_on": "2026-09-14",
+"theme": "restaurants",
+"theme_label": "Restaurants",
+"ticker": "BROS"
+},
+{
+"atr": 1.35,
+"conviction": 87.8,
+"direction": "long",
+"id": "BWIN|breakout_52w|2026-09-14",
+"name": "The Baldwin Insurance Group, In",
+"setup": "breakout_52w",
+"setup_label": "Breakout to 52-week highs",
+"signal_price": 32.0,
+"suggested_on": "2026-09-14",
+"theme": "insurance",
+"theme_label": "Insurance",
+"ticker": "BWIN"
+},
+{
+"atr": 4.34,
+"conviction": 85.9,
+"direction": "short",
+"id": "TPR|death_cross|2026-09-14",
+"name": "Tapestry, Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 118.49,
+"suggested_on": "2026-09-14",
+"theme": "consumer",
+"theme_label": "Consumer Brands",
+"ticker": "TPR"
+},
+{
+"atr": 1.66,
+"conviction": 84.1,
+"direction": "short",
+"id": "LINC|momentum_laggard|2026-09-14",
+"name": "Lincoln Educational Services Co",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 24.97,
+"suggested_on": "2026-09-14",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "LINC"
+},
+{
+"atr": 2.45,
+"conviction": 83.9,
+"direction": "short",
+"id": "NYAX|death_cross|2026-09-14",
+"name": "Nayax Ltd.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 47.2,
+"suggested_on": "2026-09-14",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "NYAX"
+},
+{
+"atr": 8.11,
+"conviction": 83.6,
+"direction": "long",
+"id": "FNV|golden_cross|2026-09-14",
+"name": "Franco-Nevada Corporation",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 261.67,
+"suggested_on": "2026-09-14",
+"theme": "mining",
+"theme_label": "Mining & Precious Metals",
+"ticker": "FNV"
+},
+{
+"atr": 0.22,
+"conviction": 82.6,
+"direction": "short",
+"id": "FLWS|death_cross|2026-09-14",
+"name": "1-800-FLOWERS.COM, Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 3.06,
+"suggested_on": "2026-09-14",
+"theme": "retail",
+"theme_label": "Retail & E-commerce",
+"ticker": "FLWS"
+},
+{
+"atr": 0.59,
+"conviction": 81.9,
+"direction": "long",
+"id": "ACVA|momentum_leader|2026-09-14",
+"name": "ACV Auctions Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 10.41,
+"suggested_on": "2026-09-14",
+"theme": "retail",
+"theme_label": "Retail & E-commerce",
+"ticker": "ACVA"
+},
+{
+"atr": 0.51,
+"conviction": 80.8,
+"direction": "long",
+"id": "FSM|golden_cross|2026-09-14",
+"name": "Fortuna Mining Corp.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 11.63,
+"suggested_on": "2026-09-14",
+"theme": "mining",
+"theme_label": "Mining & Precious Metals",
+"ticker": "FSM"
+},
+{
+"atr": 0.55,
+"conviction": 79.7,
+"direction": "long",
+"id": "HGTY|squeeze_breakout|2026-09-14",
+"name": "Hagerty, Inc.",
+"setup": "squeeze_breakout",
+"setup_label": "Volatility squeeze breaking up",
+"signal_price": 13.93,
+"suggested_on": "2026-09-14",
+"theme": "insurance",
+"theme_label": "Insurance",
+"ticker": "HGTY"
+},
+{
+"atr": 0.28,
+"conviction": 79.5,
+"direction": "short",
+"id": "INSE|momentum_laggard|2026-09-14",
+"name": "Inspired Entertainment, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 5.19,
+"suggested_on": "2026-09-14",
+"theme": "gaming",
+"theme_label": "Gaming & Casinos",
+"ticker": "INSE"
+},
+{
+"atr": 1.24,
+"conviction": 79.1,
+"direction": "short",
+"id": "AMRZ|momentum_laggard|2026-09-14",
+"name": "Amrize Ltd",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 39.43,
+"suggested_on": "2026-09-14",
+"theme": "homebuild",
+"theme_label": "Homebuilders & Construction",
+"ticker": "AMRZ"
+},
+{
+"atr": 5.58,
+"conviction": 76.8,
+"direction": "long",
+"id": "NSIT|momentum_leader|2026-09-14",
+"name": "Insight Enterprises, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 165.37,
+"suggested_on": "2026-09-14",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "NSIT"
+},
+{
+"atr": 0.22,
+"conviction": 76.7,
+"direction": "short",
+"id": "FIP|momentum_laggard|2026-09-14",
+"name": "FTAI Infrastructure Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 3.0,
+"suggested_on": "2026-09-14",
+"theme": "industrials",
+"theme_label": "Industrials & Machinery",
+"ticker": "FIP"
+},
+{
+"atr": 0.87,
+"conviction": 75.3,
+"direction": "short",
+"id": "EVMN|momentum_laggard|2026-09-14",
+"name": "Evommune, Inc. Common Stock",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 10.43,
+"suggested_on": "2026-09-14",
+"theme": "other",
+"theme_label": "Other",
+"ticker": "EVMN"
+},
+{
+"atr": 0.41,
+"conviction": 75.1,
+"direction": "short",
+"id": "ACI|trend_breakdown|2026-09-14",
+"name": "Albertsons Companies, Inc.",
+"setup": "trend_breakdown",
+"setup_label": "Rally into resistance in a downtrend",
+"signal_price": 12.72,
+"suggested_on": "2026-09-14",
+"theme": "retail",
+"theme_label": "Retail & E-commerce",
+"ticker": "ACI"
+},
+{
+"atr": 0.26,
+"conviction": 74.3,
+"direction": "long",
+"id": "GFR|squeeze_breakout|2026-09-14",
+"name": "Greenfire Resources Ltd.",
+"setup": "squeeze_breakout",
+"setup_label": "Volatility squeeze breaking up",
+"signal_price": 6.62,
+"suggested_on": "2026-09-14",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "GFR"
+},
+{
+"atr": 1.97,
+"conviction": 74.3,
+"direction": "short",
+"id": "TNON|trend_breakdown|2026-09-14",
+"name": "Tenon Medical, Inc.",
+"setup": "trend_breakdown",
+"setup_label": "Rally into resistance in a downtrend",
+"signal_price": 5.93,
+"suggested_on": "2026-09-14",
+"theme": "medtech",
+"theme_label": "Medical Devices & Diagnostics",
+"ticker": "TNON"
+},
+{
+"atr": 1.19,
+"conviction": 74.0,
+"direction": "long",
+"id": "GFL|golden_cross|2026-09-14",
+"name": "GFL Environmental Inc. Subordin",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 42.61,
+"suggested_on": "2026-09-14",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "GFL"
+},
+{
+"atr": 3.62,
+"conviction": 73.4,
+"direction": "long",
+"id": "SXT|trend_pullback|2026-09-14",
+"name": "Sensient Technologies Corporati",
+"setup": "trend_pullback",
+"setup_label": "Pullback in an uptrend",
+"signal_price": 128.6,
+"suggested_on": "2026-09-14",
+"theme": "materials",
+"theme_label": "Chemicals & Materials",
+"ticker": "SXT"
+},
+{
+"atr": 1.06,
+"conviction": 73.3,
+"direction": "short",
+"id": "FTFT|parabolic_fade|2026-09-14",
+"name": "Future FinTech Group Inc.",
+"setup": "parabolic_fade",
+"setup_label": "Parabolic move losing steam",
+"signal_price": 8.04,
+"suggested_on": "2026-09-14",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "FTFT"
+},
+{
+"atr": 2.2,
+"conviction": 73.2,
+"direction": "short",
+"id": "AAP|death_cross|2026-09-14",
+"name": "Advance Auto Parts Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 45.01,
+"suggested_on": "2026-09-14",
+"theme": "ev_auto",
+"theme_label": "Autos & EV",
+"ticker": "AAP"
+},
+{
+"atr": 2.87,
+"conviction": 73.2,
+"direction": "short",
+"id": "CAVA|momentum_laggard|2026-09-14",
+"name": "CAVA Group, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 54.89,
+"suggested_on": "2026-09-14",
+"theme": "restaurants",
+"theme_label": "Restaurants",
+"ticker": "CAVA"
 }
 ]
