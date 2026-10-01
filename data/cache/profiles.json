@@ -881,6 +881,14 @@
 "short_name": "Adecoagro S.A.",
 "ts": 1790121031.0978074
 },
+"AGRZ": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
+},
 "AGX": {
 "industry": "Engineering & Construction",
 "market_cap": 5453960704,
@@ -2886,6 +2894,14 @@
 "short_name": "AxoGen, Inc.",
 "ts": 1789515610.4540284
 },
+"AXIN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
+},
 "AXON": {
 "industry": "Aerospace & Defense",
 "market_cap": 39820955648,
@@ -3914,6 +3930,14 @@
 "sector": "Energy",
 "short_name": "BKV Corporation",
 "ts": 1789602502.3928545
+},
+"BKYI": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "BL": {
 "industry": "Software - Application",
@@ -8038,6 +8062,14 @@
 "short_name": "",
 "ts": 1787973785.6712396
 },
+"DHY": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
+},
 "DIN": {
 "industry": "Restaurants",
 "market_cap": 361798496,
@@ -8611,6 +8643,14 @@
 "sector": "Industrials",
 "short_name": "DXP Enterprises, Inc.",
 "ts": 1790121023.3970723
+},
+"DXST": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "DXYZ": {
 "industry": "",
@@ -10305,6 +10345,14 @@
 "sector": "Utilities",
 "short_name": "FirstEnergy Corp.",
 "ts": 1789515642.0871322
+},
+"FEAM": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "FEIM": {
 "industry": "Communication Equipment",
@@ -12158,6 +12206,14 @@
 "sector": "Healthcare",
 "short_name": "Gossamer Bio, Inc.",
 "ts": 1790294684.8545768
+},
+"GOW": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "GPC": {
 "industry": "Auto Parts",
@@ -16178,6 +16234,14 @@
 "short_name": "Limoneira Co",
 "ts": 1789082839.9372165
 },
+"LMRI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
+},
 "LMT": {
 "industry": "Aerospace & Defense",
 "market_cap": 122176012288,
@@ -17873,6 +17937,14 @@
 "short_name": "MSA Safety Incorporated",
 "ts": 1789602508.3599577
 },
+"MSB": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
+},
 "MSBI": {
 "industry": "",
 "market_cap": 0,
@@ -18464,6 +18536,14 @@
 "sector": "Financial Services",
 "short_name": "",
 "ts": 1790294689.2581944
+},
+"NCA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "NCDL": {
 "industry": "Asset Management",
@@ -20895,11 +20975,12 @@
 "ts": 1789515637.323445
 },
 "PCB": {
-"industry": "Banks - Regional",
-"market_cap": 388801152,
-"sector": "Financial Services",
-"short_name": "PCB Bancorp",
-"ts": 1785450779.2683504
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "PCG": {
 "industry": "Utilities - Regulated Electric",
@@ -23860,6 +23941,14 @@
 "short_name": "Sana Biotechnology, Inc.",
 "ts": 1790036379.40919
 },
+"SANG": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
+},
 "SANM": {
 "industry": "Electronic Components",
 "market_cap": 10269789184,
@@ -24099,6 +24188,14 @@
 "sector": "Energy",
 "short_name": "SandRidge Energy, Inc.",
 "ts": 1790294677.2337058
+},
+"SDEV": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "SDGR": {
 "industry": "Health Information Services",
@@ -28629,6 +28726,14 @@
 "sector": "Healthcare",
 "short_name": "Varex Imaging Corporation",
 "ts": 1789430608.3162696
+},
+"VRME": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790815648.5723755
 },
 "VRNS": {
 "industry": "Software - Infrastructure",
