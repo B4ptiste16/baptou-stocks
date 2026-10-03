@@ -3804,6 +3804,14 @@
 "short_name": "Brookfield Infrastructure Corpo",
 "ts": 1789602507.1520474
 },
+"BIRD": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
+},
 "BIRK": {
 "industry": "Footwear & Accessories",
 "market_cap": 4955437568,
@@ -4304,6 +4312,14 @@
 "sector": "Financial Services",
 "short_name": "Popular, Inc.",
 "ts": 1789602497.4021995
+},
+"BPRE": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
 },
 "BPRN": {
 "industry": "Banks - Regional",
@@ -6186,6 +6202,14 @@
 "sector": "Communication Services",
 "short_name": "Comcast Corporation",
 "ts": 1789430639.412202
+},
+"CMCT": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
 },
 "CMDB": {
 "industry": "Marine Shipping",
@@ -8237,6 +8261,14 @@
 "sector": "Healthcare",
 "short_name": "Damora Therapeutics, Inc.",
 "ts": 1790121025.2695858
+},
+"DMRC": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
 },
 "DNA": {
 "industry": "Biotechnology",
@@ -12218,10 +12250,10 @@
 "GOW": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1790815648.5723755
+"ts": 1790988181.5827413
 },
 "GPC": {
 "industry": "Auto Parts",
@@ -17956,10 +17988,10 @@
 "MSB": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1790815648.5723755
+"ts": 1790988181.5827413
 },
 "MSBI": {
 "industry": "",
@@ -20394,10 +20426,10 @@
 "OPNW": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1790903166.4651551
+"ts": 1790988251.854799
 },
 "OPRT": {
 "industry": "Credit Services",
@@ -24232,10 +24264,10 @@
 "SDEV": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1790815648.5723755
+"ts": 1790988181.5827413
 },
 "SDGR": {
 "industry": "Health Information Services",
@@ -25058,6 +25090,14 @@
 "sector": "Technology",
 "short_name": "Similarweb Ltd.",
 "ts": 1790121035.5096555
+},
+"SMX": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
 },
 "SN": {
 "industry": "Furnishings, Fixtures & Appliances",
@@ -28855,6 +28895,14 @@
 "short_name": "Vishay Intertechnology, Inc.",
 "ts": 1789515648.0959523
 },
+"VSNT": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
+},
 "VST": {
 "industry": "Utilities - Independent Power Producers",
 "market_cap": 47233941504,
@@ -29126,6 +29174,14 @@
 "sector": "Industrials",
 "short_name": "WESCO International, Inc.",
 "ts": 1789515643.0057845
+},
+"WCCB": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
 },
 "WCN": {
 "industry": "Waste Management",
@@ -29421,6 +29477,14 @@
 "sector": "Basic Materials",
 "short_name": "Westlake Corporation",
 "ts": 1789602504.5434139
+},
+"WLTH": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1790988251.854799
 },
 "WLY": {
 "industry": "Publishing",
