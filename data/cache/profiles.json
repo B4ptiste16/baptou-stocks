@@ -939,12 +939,12 @@
 "ts": 1789602502.4282708
 },
 "AIFA": {
-"industry": "Software - Infrastructure",
-"market_cap": 20280518,
-"misses": 0,
-"sector": "Technology",
-"short_name": "All In FutureTech Alliance, Inc",
-"ts": 1786486698.8160157
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
 },
 "AIFU": {
 "industry": "",
@@ -1764,6 +1764,14 @@
 "sector": "",
 "short_name": "",
 "ts": 1790036358.6912138
+},
+"ANIX": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
 },
 "ANNX": {
 "industry": "Biotechnology",
@@ -12609,6 +12617,14 @@
 "short_name": "Gabelli Utility Trust (The)",
 "ts": 1790381306.5180786
 },
+"GUTS": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
+},
 "GVA": {
 "industry": "Engineering & Construction",
 "market_cap": 5144634368,
@@ -13384,6 +13400,14 @@
 "sector": "Financial Services",
 "short_name": "HSBC Holdings, plc.",
 "ts": 1789515647.0170527
+},
+"HSCS": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
 },
 "HSHP": {
 "industry": "Marine Shipping",
@@ -14888,6 +14912,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "707 Cayman Holdings Limited",
 "ts": 1789430600.6795702
+},
+"JENA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
 },
 "JFB": {
 "industry": "Real Estate - Development",
@@ -24870,6 +24902,14 @@
 "short_name": "Champion Homes, Inc.",
 "ts": 1789602504.6369195
 },
+"SKYD": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
+},
 "SKYH": {
 "industry": "Real Estate - Development",
 "market_cap": 804050624,
@@ -25764,12 +25804,12 @@
 "ts": 1790381307.4575765
 },
 "STFS": {
-"industry": "Advertising Agencies",
-"market_cap": 5264552,
-"misses": 0,
-"sector": "Communication Services",
-"short_name": "Star Fashion Culture Holdings L",
-"ts": 1785514777.5163012
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
 },
 "STGW": {
 "industry": "Advertising Agencies",
@@ -28649,6 +28689,14 @@
 "short_name": "",
 "ts": 1790120943.0165904
 },
+"VIVK": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791334984.3408542
+},
 "VIVO": {
 "industry": "Software - Infrastructure",
 "market_cap": 131813448,
@@ -30395,10 +30443,10 @@
 "ZTR": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1785883497.918306
+"ts": 1791334984.3408542
 },
 "ZTS": {
 "industry": "Drug Manufacturers - Specialty & Generic",

@@ -4848,7 +4848,7 @@
 "ticker": "ACIW"
 },
 {
-"_status": "open",
+"_status": "expired",
 "atr": 1.0077,
 "conviction": 100.0,
 "direction": "short",
@@ -7785,7 +7785,7 @@
 "ticker": "ORKA"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 4.98,
 "conviction": 77.7,
 "direction": "short",
@@ -8955,7 +8955,7 @@
 "ticker": "GEO"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 0.54,
 "conviction": 79.8,
 "direction": "long",
@@ -13934,7 +13934,7 @@
 "ticker": "STLN"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 2.87,
 "conviction": 73.4,
 "direction": "long",
@@ -14384,7 +14384,7 @@
 "ticker": "UPWK"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 9.82,
 "conviction": 100.0,
 "direction": "long",
@@ -18164,7 +18164,7 @@
 "ticker": "HTFL"
 },
 {
-"_status": "open",
+"_status": "target",
 "atr": 2.26,
 "conviction": 99.7,
 "direction": "long",
@@ -18299,7 +18299,7 @@
 "ticker": "CYD"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 6.66,
 "conviction": 80.0,
 "direction": "short",
@@ -19859,7 +19859,7 @@
 "ticker": "CYPH"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 0.44,
 "conviction": 82.9,
 "direction": "long",
@@ -20054,7 +20054,7 @@
 "ticker": "ATRC"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 1.32,
 "conviction": 99.2,
 "direction": "short",
@@ -20818,7 +20818,7 @@
 "ticker": "SPNT"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 12.46,
 "conviction": 90.9,
 "direction": "short",
@@ -22813,7 +22813,7 @@
 "ticker": "NAN"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 1.78,
 "conviction": 84.3,
 "direction": "short",
@@ -23248,7 +23248,7 @@
 "ticker": "CSTM"
 },
 {
-"_status": "open",
+"_status": "stop",
 "atr": 0.13,
 "conviction": 83.5,
 "direction": "short",
@@ -24147,6 +24147,7 @@
 "ticker": "CTVA"
 },
 {
+"_status": "stop",
 "atr": 5.07,
 "conviction": 98.3,
 "direction": "long",
@@ -24161,6 +24162,7 @@
 "ticker": "RVTY"
 },
 {
+"_status": "open",
 "atr": 0.19,
 "conviction": 94.6,
 "direction": "short",
@@ -24217,6 +24219,7 @@
 "ticker": "SAIQ"
 },
 {
+"_status": "open",
 "atr": 0.22,
 "conviction": 90.9,
 "direction": "short",
@@ -24259,6 +24262,7 @@
 "ticker": "MC"
 },
 {
+"_status": "open",
 "atr": 3.61,
 "conviction": 87.0,
 "direction": "long",
@@ -24273,6 +24277,7 @@
 "ticker": "COHU"
 },
 {
+"_status": "open",
 "atr": 0.26,
 "conviction": 86.7,
 "direction": "short",
@@ -24287,6 +24292,7 @@
 "ticker": "CIM"
 },
 {
+"_status": "open",
 "atr": 2.43,
 "conviction": 86.3,
 "direction": "long",
@@ -24315,6 +24321,7 @@
 "ticker": "TJGC"
 },
 {
+"_status": "open",
 "atr": 1.69,
 "conviction": 85.1,
 "direction": "short",
@@ -24329,6 +24336,7 @@
 "ticker": "JEF"
 },
 {
+"_status": "open",
 "atr": 0.16,
 "conviction": 85.1,
 "direction": "short",
@@ -24343,6 +24351,7 @@
 "ticker": "NKX"
 },
 {
+"_status": "open",
 "atr": 0.28,
 "conviction": 84.6,
 "direction": "short",
@@ -24357,6 +24366,7 @@
 "ticker": "FLG"
 },
 {
+"_status": "open",
 "atr": 0.24,
 "conviction": 84.4,
 "direction": "short",
@@ -24371,6 +24381,7 @@
 "ticker": "GT"
 },
 {
+"_status": "open",
 "atr": 1.46,
 "conviction": 84.3,
 "direction": "short",
@@ -24385,6 +24396,7 @@
 "ticker": "WD"
 },
 {
+"_status": "open",
 "atr": 0.17,
 "conviction": 84.2,
 "direction": "short",
@@ -24399,6 +24411,7 @@
 "ticker": "IVR"
 },
 {
+"_status": "open",
 "atr": 0.19,
 "conviction": 84.2,
 "direction": "short",
@@ -24427,6 +24440,7 @@
 "ticker": "TNXP"
 },
 {
+"_status": "open",
 "atr": 1.13,
 "conviction": 83.6,
 "direction": "long",
@@ -24469,6 +24483,7 @@
 "ticker": "SCNX"
 },
 {
+"_status": "open",
 "atr": 0.12,
 "conviction": 83.3,
 "direction": "short",
@@ -24481,5 +24496,355 @@
 "theme": "capital_mkts",
 "theme_label": "Capital Markets & Asset Managers",
 "ticker": "RA"
+},
+{
+"atr": 3.62,
+"conviction": 100.0,
+"direction": "long",
+"id": "ECO|momentum_leader|2026-10-06",
+"name": "Okeanis Eco Tankers Corp.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 88.6,
+"suggested_on": "2026-10-06",
+"theme": "shipping",
+"theme_label": "Shipping & Tankers",
+"ticker": "ECO"
+},
+{
+"atr": 1.84,
+"conviction": 99.0,
+"direction": "long",
+"id": "FRO|momentum_leader|2026-10-06",
+"name": "Frontline Plc",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 52.77,
+"suggested_on": "2026-10-06",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "FRO"
+},
+{
+"atr": 1.42,
+"conviction": 99.0,
+"direction": "long",
+"id": "XP|golden_cross|2026-10-06",
+"name": "XP Inc.",
+"setup": "golden_cross",
+"setup_label": "Fresh golden cross",
+"signal_price": 28.15,
+"suggested_on": "2026-10-06",
+"theme": "capital_mkts",
+"theme_label": "Capital Markets & Asset Managers",
+"ticker": "XP"
+},
+{
+"atr": 0.41,
+"conviction": 97.7,
+"direction": "short",
+"id": "FCPT|death_cross|2026-10-06",
+"name": "Four Corners Property Trust, In",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 21.23,
+"suggested_on": "2026-10-06",
+"theme": "reits",
+"theme_label": "Real Estate & REITs",
+"ticker": "FCPT"
+},
+{
+"atr": 0.37,
+"conviction": 92.7,
+"direction": "short",
+"id": "UNIT|death_cross|2026-10-06",
+"name": "Uniti Group Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 7.95,
+"suggested_on": "2026-10-06",
+"theme": "reits",
+"theme_label": "Real Estate & REITs",
+"ticker": "UNIT"
+},
+{
+"atr": 13.99,
+"conviction": 91.9,
+"direction": "long",
+"id": "ILMN|momentum_leader|2026-10-06",
+"name": "Illumina, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 273.54,
+"suggested_on": "2026-10-06",
+"theme": "medtech",
+"theme_label": "Medical Devices & Diagnostics",
+"ticker": "ILMN"
+},
+{
+"atr": 0.53,
+"conviction": 91.8,
+"direction": "short",
+"id": "LEVI|death_cross|2026-10-06",
+"name": "Levi Strauss & Co",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 20.27,
+"suggested_on": "2026-10-06",
+"theme": "consumer",
+"theme_label": "Consumer Brands",
+"ticker": "LEVI"
+},
+{
+"atr": 0.9,
+"conviction": 91.1,
+"direction": "short",
+"id": "ROL|momentum_laggard|2026-10-06",
+"name": "Rollins, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 30.35,
+"suggested_on": "2026-10-06",
+"theme": "biz_svcs",
+"theme_label": "Business & Consumer Services",
+"ticker": "ROL"
+},
+{
+"atr": 0.68,
+"conviction": 89.6,
+"direction": "long",
+"id": "RCEL|momentum_leader|2026-10-06",
+"name": "Avita Medical, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 13.25,
+"suggested_on": "2026-10-06",
+"theme": "medtech",
+"theme_label": "Medical Devices & Diagnostics",
+"ticker": "RCEL"
+},
+{
+"atr": 1.99,
+"conviction": 87.6,
+"direction": "short",
+"id": "RRR|death_cross|2026-10-06",
+"name": "Red Rock Resorts, Inc.",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 51.06,
+"suggested_on": "2026-10-06",
+"theme": "gaming",
+"theme_label": "Gaming & Casinos",
+"ticker": "RRR"
+},
+{
+"atr": 2.66,
+"conviction": 86.5,
+"direction": "short",
+"id": "WYNN|momentum_laggard|2026-10-06",
+"name": "Wynn Resorts, Limited",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 76.62,
+"suggested_on": "2026-10-06",
+"theme": "gaming",
+"theme_label": "Gaming & Casinos",
+"ticker": "WYNN"
+},
+{
+"atr": 0.25,
+"conviction": 84.9,
+"direction": "short",
+"id": "RMM|death_cross|2026-10-06",
+"name": "RiverNorth Managed Duration Mun",
+"setup": "death_cross",
+"setup_label": "Fresh death cross",
+"signal_price": 12.7,
+"suggested_on": "2026-10-06",
+"theme": "capital_mkts",
+"theme_label": "Capital Markets & Asset Managers",
+"ticker": "RMM"
+},
+{
+"atr": 4.14,
+"conviction": 84.8,
+"direction": "short",
+"id": "FLUT|momentum_laggard|2026-10-06",
+"name": "Flutter Entertainment plc",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 75.73,
+"suggested_on": "2026-10-06",
+"theme": "gaming",
+"theme_label": "Gaming & Casinos",
+"ticker": "FLUT"
+},
+{
+"atr": 0.46,
+"conviction": 84.7,
+"direction": "long",
+"id": "AIFA|momentum_leader|2026-10-06",
+"name": "All In FutureTech Alliance, Inc. - Common Stock",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 5.88,
+"suggested_on": "2026-10-06",
+"theme": "other",
+"theme_label": "Other",
+"ticker": "AIFA"
+},
+{
+"atr": 0.61,
+"conviction": 83.0,
+"direction": "short",
+"id": "KPLT|momentum_laggard|2026-10-06",
+"name": "Katapult Holdings, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 4.5,
+"suggested_on": "2026-10-06",
+"theme": "software",
+"theme_label": "Software & SaaS",
+"ticker": "KPLT"
+},
+{
+"atr": 3.56,
+"conviction": 82.7,
+"direction": "long",
+"id": "HPE|momentum_leader|2026-10-06",
+"name": "Hewlett Packard Enterprise Comp",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 68.36,
+"suggested_on": "2026-10-06",
+"theme": "hardware",
+"theme_label": "Hardware & Electronics",
+"ticker": "HPE"
+},
+{
+"atr": 0.31,
+"conviction": 82.5,
+"direction": "short",
+"id": "STWD|momentum_laggard|2026-10-06",
+"name": "STARWOOD PROPERTY TRUST, INC. S",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 12.93,
+"suggested_on": "2026-10-06",
+"theme": "reits",
+"theme_label": "Real Estate & REITs",
+"ticker": "STWD"
+},
+{
+"atr": 0.12,
+"conviction": 82.4,
+"direction": "short",
+"id": "JRVR|momentum_laggard|2026-10-06",
+"name": "James River Group Holdings, Inc",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 3.43,
+"suggested_on": "2026-10-06",
+"theme": "insurance",
+"theme_label": "Insurance",
+"ticker": "JRVR"
+},
+{
+"atr": 0.67,
+"conviction": 82.3,
+"direction": "short",
+"id": "LYEL|momentum_laggard|2026-10-06",
+"name": "Lyell Immunopharma, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 9.07,
+"suggested_on": "2026-10-06",
+"theme": "biotech",
+"theme_label": "Biotech",
+"ticker": "LYEL"
+},
+{
+"atr": 3.28,
+"conviction": 82.3,
+"direction": "long",
+"id": "PRLB|momentum_leader|2026-10-06",
+"name": "Proto Labs, Inc.",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 98.68,
+"suggested_on": "2026-10-06",
+"theme": "industrials",
+"theme_label": "Industrials & Machinery",
+"ticker": "PRLB"
+},
+{
+"atr": 1.62,
+"conviction": 82.2,
+"direction": "long",
+"id": "TRMD|momentum_leader|2026-10-06",
+"name": "TORM plc",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 41.05,
+"suggested_on": "2026-10-06",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "TRMD"
+},
+{
+"atr": 1.3,
+"conviction": 81.6,
+"direction": "short",
+"id": "PEG|trend_breakdown|2026-10-06",
+"name": "Public Service Enterprise Group",
+"setup": "trend_breakdown",
+"setup_label": "Rally into resistance in a downtrend",
+"signal_price": 71.73,
+"suggested_on": "2026-10-06",
+"theme": "utilities",
+"theme_label": "Utilities",
+"ticker": "PEG"
+},
+{
+"atr": 0.5,
+"conviction": 81.1,
+"direction": "long",
+"id": "AVAH|trend_pullback|2026-10-06",
+"name": "Aveanna Healthcare Holdings Inc",
+"setup": "trend_pullback",
+"setup_label": "Pullback in an uptrend",
+"signal_price": 12.37,
+"suggested_on": "2026-10-06",
+"theme": "health_svcs",
+"theme_label": "Healthcare Services",
+"ticker": "AVAH"
+},
+{
+"atr": 15.09,
+"conviction": 81.1,
+"direction": "long",
+"id": "MPC|momentum_leader|2026-10-06",
+"name": "Marathon Petroleum Corporation",
+"setup": "momentum_leader",
+"setup_label": "Momentum leader",
+"signal_price": 432.36,
+"suggested_on": "2026-10-06",
+"theme": "oil_gas",
+"theme_label": "Oil & Gas",
+"ticker": "MPC"
+},
+{
+"atr": 0.19,
+"conviction": 80.9,
+"direction": "short",
+"id": "TRTX|momentum_laggard|2026-10-06",
+"name": "TPG RE Finance Trust, Inc.",
+"setup": "momentum_laggard",
+"setup_label": "Momentum laggard",
+"signal_price": 6.02,
+"suggested_on": "2026-10-06",
+"theme": "reits",
+"theme_label": "Real Estate & REITs",
+"ticker": "TRTX"
 }
 ]
