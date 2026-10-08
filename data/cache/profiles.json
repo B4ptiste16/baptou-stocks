@@ -716,11 +716,12 @@
 "ts": 1789774775.9550464
 },
 "AEXA": {
-"industry": "Shell Companies",
-"market_cap": 558906048,
-"sector": "Financial Services",
-"short_name": "American Exceptionalism Acquisi",
-"ts": 1785450118.8995497
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791422338.89362
 },
 "AEYE": {
 "industry": "Software - Application",
@@ -941,10 +942,10 @@
 "AIFA": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791422267.2280612
 },
 "AIFU": {
 "industry": "",
@@ -1768,10 +1769,10 @@
 "ANIX": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791422338.89362
 },
 "ANNX": {
 "industry": "Biotechnology",
@@ -5078,6 +5079,14 @@
 "sector": "Technology",
 "short_name": "Camtek Ltd.",
 "ts": 1789602503.694459
+},
+"CANG": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791422338.89362
 },
 "CAPR": {
 "industry": "Biotechnology",
@@ -13404,10 +13413,10 @@
 "HSCS": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791422338.89362
 },
 "HSHP": {
 "industry": "Marine Shipping",
@@ -14916,10 +14925,10 @@
 "JENA": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791422338.89362
 },
 "JFB": {
 "industry": "Real Estate - Development",
@@ -15533,6 +15542,14 @@
 "sector": "Energy",
 "short_name": "Kosmos Energy Ltd.",
 "ts": 1787263300.343005
+},
+"KOYN": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791422338.89362
 },
 "KPLT": {
 "industry": "Software - Infrastructure",
@@ -18780,12 +18797,12 @@
 "ts": 1789602471.6654754
 },
 "NECB": {
-"industry": "Banks - Regional",
-"market_cap": 367711104,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "NorthEast Community Bancorp, In",
-"ts": 1785537492.867087
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791422338.89362
 },
 "NEE": {
 "industry": "Utilities - Regulated Electric",
@@ -24905,10 +24922,10 @@
 "SKYD": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791422338.89362
 },
 "SKYH": {
 "industry": "Real Estate - Development",
@@ -25404,12 +25421,12 @@
 "ts": 1789515643.5331957
 },
 "SPAI": {
-"industry": "Aerospace & Defense",
-"market_cap": 121651016,
-"misses": 0,
-"sector": "Industrials",
-"short_name": "Safe Pro Group Inc.",
-"ts": 1787003925.9708147
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791422338.89362
 },
 "SPB": {
 "industry": "Household & Personal Products",
@@ -25806,10 +25823,10 @@
 "STFS": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791422338.89362
 },
 "STGW": {
 "industry": "Advertising Agencies",
