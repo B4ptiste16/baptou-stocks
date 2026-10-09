@@ -718,18 +718,18 @@
 "AEXA": {
 "industry": "",
 "market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
+},
+"AEYE": {
+"industry": "",
+"market_cap": 0,
 "misses": 1,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
-},
-"AEYE": {
-"industry": "Software - Application",
-"market_cap": 91884320,
-"misses": 0,
-"sector": "Technology",
-"short_name": "AudioEye, Inc.",
-"ts": 1787608953.2781248
+"ts": 1791509316.449491
 },
 "AFB": {
 "industry": "Asset Management",
@@ -3567,12 +3567,12 @@
 "ts": 1789602504.5069556
 },
 "BETA": {
-"industry": "Aerospace & Defense",
-"market_cap": 5779830272,
-"misses": 0,
-"sector": "Industrials",
-"short_name": "Beta Technologies, Inc.",
-"ts": 1787608952.5814152
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "BETR": {
 "industry": "Mortgage Finance",
@@ -3695,12 +3695,12 @@
 "ts": 1789430594.3297548
 },
 "BGSI": {
-"industry": "Auto & Truck Dealerships",
-"market_cap": 2417319424,
-"misses": 0,
-"sector": "Consumer Cyclical",
-"short_name": "Boyd Group Services Inc.",
-"ts": 1787608952.3720138
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "BGT": {
 "industry": "Asset Management",
@@ -5083,10 +5083,10 @@
 "CANG": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "CAPR": {
 "industry": "Biotechnology",
@@ -11579,12 +11579,12 @@
 "ts": 1789515642.1496696
 },
 "GASS": {
-"industry": "Marine Shipping",
-"market_cap": 358098176,
-"misses": 0,
-"sector": "Industrials",
-"short_name": "StealthGas, Inc.",
-"ts": 1787608952.9705918
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "GATX": {
 "industry": "",
@@ -12629,10 +12629,10 @@
 "GUTS": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1791334984.3408542
+"ts": 1791509243.3007865
 },
 "GVA": {
 "industry": "Engineering & Construction",
@@ -13413,10 +13413,10 @@
 "HSCS": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "HSHP": {
 "industry": "Marine Shipping",
@@ -13659,12 +13659,12 @@
 "ts": 1789602505.3177931
 },
 "HYPD": {
-"industry": "Biotechnology",
-"market_cap": 50658556,
-"misses": 0,
-"sector": "Healthcare",
-"short_name": "Hyperion DeFi, Inc.",
-"ts": 1787608952.695275
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "HYT": {
 "industry": "Asset Management",
@@ -14307,12 +14307,12 @@
 "ts": 1790294679.2707713
 },
 "INSE": {
-"industry": "Gambling",
-"market_cap": 160852400,
-"misses": 0,
-"sector": "Consumer Cyclical",
-"short_name": "Inspired Entertainment, Inc.",
-"ts": 1787608926.4379213
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "INSG": {
 "industry": "Communication Equipment",
@@ -14925,10 +14925,10 @@
 "JENA": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "JFB": {
 "industry": "Real Estate - Development",
@@ -15400,12 +15400,12 @@
 "ts": 1789430642.0692787
 },
 "KMDA": {
-"industry": "Drug Manufacturers - Specialty & Generic",
-"market_cap": 486362720,
-"misses": 0,
-"sector": "Healthcare",
-"short_name": "Kamada Ltd.",
-"ts": 1787608952.8977282
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "KMI": {
 "industry": "Oil & Gas Midstream",
@@ -15546,10 +15546,10 @@
 "KOYN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "KPLT": {
 "industry": "Software - Infrastructure",
@@ -16502,12 +16502,12 @@
 "ts": 1789430638.9122844
 },
 "LPBB": {
-"industry": "Shell Companies",
-"market_cap": 309350016,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "Launch Two Acquisition Corp.",
-"ts": 1785537493.3754404
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "LPG": {
 "industry": "Oil & Gas Midstream",
@@ -18799,10 +18799,10 @@
 "NECB": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "NEE": {
 "industry": "Utilities - Regulated Electric",
@@ -19269,12 +19269,12 @@
 "ts": 1791251836.9889927
 },
 "NOA": {
-"industry": "Oil & Gas Equipment & Services",
-"market_cap": 360915328,
-"misses": 0,
-"sector": "Energy",
-"short_name": "North American Construction Gro",
-"ts": 1787608952.6690574
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "NOC": {
 "industry": "Aerospace & Defense",
@@ -19389,12 +19389,12 @@
 "ts": 1789602507.1399643
 },
 "NPV": {
-"industry": "Asset Management",
-"market_cap": 206191072,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "Nuveen Virginia Quality Municip",
-"ts": 1787608953.3112223
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "NRC": {
 "industry": "Health Information Services",
@@ -21417,6 +21417,14 @@
 "short_name": "Perma-Fix Environmental Service",
 "ts": 1790121035.877287
 },
+"PFAI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
+},
 "PFE": {
 "industry": "Drug Manufacturers - General",
 "market_cap": 157994942464,
@@ -22265,12 +22273,12 @@
 "ts": 1790121030.7930145
 },
 "PROF": {
-"industry": "Medical Devices",
-"market_cap": 258650752,
-"misses": 0,
-"sector": "Healthcare",
-"short_name": "Profound Medical Corp.",
-"ts": 1787176608.2054718
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "PRPO": {
 "industry": "Diagnostics & Research",
@@ -24922,10 +24930,10 @@
 "SKYD": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "SKYH": {
 "industry": "Real Estate - Development",
@@ -25222,6 +25230,14 @@
 "short_name": "SMX (Security Matters) Public L",
 "ts": 1791251811.9877021
 },
+"SMXT": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
+},
 "SN": {
 "industry": "Furnishings, Fixtures & Appliances",
 "market_cap": 23894632448,
@@ -25423,10 +25439,10 @@
 "SPAI": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "SPB": {
 "industry": "Household & Personal Products",
@@ -25823,10 +25839,10 @@
 "STFS": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1791422338.89362
+"ts": 1791509316.449491
 },
 "STGW": {
 "industry": "Advertising Agencies",
@@ -30210,12 +30226,12 @@
 "ts": 1789515636.7460554
 },
 "XZO": {
-"industry": "Insurance - Diversified",
-"market_cap": 1572900096,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "Exzeo Group, Inc.",
-"ts": 1787608952.4292674
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1791509316.449491
 },
 "YARW": {
 "industry": "Biotechnology",
