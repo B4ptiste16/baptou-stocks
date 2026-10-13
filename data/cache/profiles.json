@@ -3783,12 +3783,12 @@
 "ts": 1789602503.2172244
 },
 "BIAF": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787792714.9587054
+"industry": "Diagnostics & Research",
+"market_cap": 5004363,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "bioAffinity Technologies, Inc.",
+"ts": 1791859566.9077768
 },
 "BIIB": {
 "industry": "Drug Manufacturers - General",
@@ -4030,12 +4030,12 @@
 "ts": 1790121023.5571032
 },
 "BLLN": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787895662.2944756
+"industry": "Diagnostics & Research",
+"market_cap": 4391697920,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "BillionToOne, Inc.",
+"ts": 1791859591.1613088
 },
 "BLMN": {
 "industry": "Restaurants",
@@ -4087,11 +4087,11 @@
 },
 "BMBL": {
 "industry": "Internet Content & Information",
-"market_cap": 468690016,
+"market_cap": 582223680,
 "misses": 0,
 "sector": "Communication Services",
 "short_name": "Bumble Inc.",
-"ts": 1785796710.2067719
+"ts": 1791859591.162863
 },
 "BME": {
 "industry": "Asset Management",
@@ -6325,6 +6325,14 @@
 "sector": "Utilities",
 "short_name": "CMS Energy Corporation",
 "ts": 1789515641.0908515
+},
+"CMT": {
+"industry": "Specialty Chemicals",
+"market_cap": 207686816,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Core Molding Technologies Inc",
+"ts": 1791859591.3571317
 },
 "CMTV": {
 "industry": "Banks - Regional",
@@ -12419,12 +12427,12 @@
 "ts": 1789774771.485705
 },
 "GRML": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787792787.1379192
+"industry": "Other Precious Metals & Mining",
+"market_cap": 80349736,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Greenland Mines Ltd",
+"ts": 1791859591.1337895
 },
 "GRMN": {
 "industry": "Scientific & Technical Instruments",
@@ -16612,6 +16620,14 @@
 "short_name": "Stride, Inc.",
 "ts": 1789602504.7813373
 },
+"LSAK": {
+"industry": "Software - Infrastructure",
+"market_cap": 422110016,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Lesaka Technologies, Inc.",
+"ts": 1791859591.192018
+},
 "LSCC": {
 "industry": "Semiconductors",
 "market_cap": 15124803584,
@@ -17763,6 +17779,14 @@
 "sector": "",
 "short_name": "",
 "ts": 1790036358.6912138
+},
+"MNDR": {
+"industry": "Health Information Services",
+"market_cap": 3631395,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Mobile-health Network Solutions",
+"ts": 1791859591.142303
 },
 "MNDY": {
 "industry": "Software - Application",
@@ -22728,6 +22752,14 @@
 "short_name": "",
 "ts": 1789774684.1094325
 },
+"QNBC": {
+"industry": "Banks - Regional",
+"market_cap": 286931872,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "QNB Corp.",
+"ts": 1791859591.1452253
+},
 "QNST": {
 "industry": "Advertising Agencies",
 "market_cap": 1054956800,
@@ -23129,12 +23161,12 @@
 "ts": 1789774773.5285916
 },
 "REAX": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787895590.3401647
+"industry": "Real Estate Services",
+"market_cap": 509437728,
+"misses": 0,
+"sector": "Real Estate",
+"short_name": "Real REMAX Group Inc.",
+"ts": 1791859566.8811388
 },
 "REFI": {
 "industry": "REIT - Mortgage",
@@ -29505,6 +29537,14 @@
 "sector": "Industrials",
 "short_name": "Where Food Comes From, Inc.",
 "ts": 1790903167.0162687
+},
+"WFF": {
+"industry": "Specialty Industrial Machinery",
+"market_cap": 724376512,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "WF Holding Limited",
+"ts": 1791859566.9542003
 },
 "WFG": {
 "industry": "Lumber & Wood Production",
