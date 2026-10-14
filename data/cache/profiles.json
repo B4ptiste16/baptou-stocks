@@ -6383,12 +6383,12 @@
 "ts": 1789430596.2269793
 },
 "CNL": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Gold",
+"market_cap": 1073960448,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Collective Mining Ltd.",
+"ts": 1791938212.8757732
 },
 "CNM": {
 "industry": "Industrial Distribution",
@@ -8122,12 +8122,12 @@
 "ts": 1789430596.8627703
 },
 "DHX": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Software - Application",
+"market_cap": 213400624,
+"misses": 0,
+"sector": "Technology",
+"short_name": "DHI Group, Inc.",
+"ts": 1791938212.7599885
 },
 "DHY": {
 "industry": "",
@@ -9936,12 +9936,12 @@
 "ts": 1790036380.5742564
 },
 "EVMN": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Biotechnology",
+"market_cap": 213397616,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Evommune, Inc.",
+"ts": 1791938159.7862341
 },
 "EVN": {
 "industry": "Asset Management",
@@ -10302,12 +10302,12 @@
 "ts": 1790381306.4381826
 },
 "FCAP": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1787973785.6712396
+"industry": "Banks - Regional",
+"market_cap": 208336688,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "First Capital, Inc.",
+"ts": 1791938212.66774
 },
 "FCBC": {
 "industry": "Banks - Regional",
@@ -10492,6 +10492,14 @@
 "sector": "Industrials",
 "short_name": "Ferrovial N.V.",
 "ts": 1789430598.0465593
+},
+"FERA": {
+"industry": "Shell Companies",
+"market_cap": 330019680,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Fifth Era Acquisition Corp I",
+"ts": 1791938159.8766422
 },
 "FERG": {
 "industry": "Industrial Distribution",
@@ -14609,6 +14617,14 @@
 "sector": "Financial Services",
 "short_name": "IREN LIMITED",
 "ts": 1789430634.9942188
+},
+"IRLA": {
+"industry": "Biotechnology",
+"market_cap": 28345546,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "",
+"ts": 1791938212.8614893
 },
 "IRM": {
 "industry": "REIT - Specialty",
@@ -26156,6 +26172,14 @@
 "short_name": "Service Properties Trust",
 "ts": 1790036380.07624
 },
+"SVCC": {
+"industry": "Shell Companies",
+"market_cap": 231279680,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Stellar V Capital Corp.",
+"ts": 1791938159.8144872
+},
 "SVCO": {
 "industry": "Software - Application",
 "market_cap": 286673536,
@@ -29792,6 +29816,14 @@
 "sector": "Industrials",
 "short_name": "Worthington Enterprises, Inc.",
 "ts": 1789774777.447363
+},
+"WORX": {
+"industry": "Health Information Services",
+"market_cap": 1327536,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "SCWorx Corp.",
+"ts": 1791938160.0057788
 },
 "WPC": {
 "industry": "REIT - Diversified",
