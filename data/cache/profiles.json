@@ -10843,6 +10843,14 @@
 "short_name": "Firefly Aerospace Inc.",
 "ts": 1789602504.2117095
 },
+"FLYE": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
+},
 "FLYW": {
 "industry": "Software - Infrastructure",
 "market_cap": 2202184960,
@@ -14849,6 +14857,14 @@
 "sector": "Healthcare",
 "short_name": "Jazz Pharmaceuticals plc",
 "ts": 1789515639.2034857
+},
+"JBDI": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
 },
 "JBGS": {
 "industry": "REIT - Diversified",
@@ -22904,6 +22920,14 @@
 "short_name": "Brookfield Real Assets Income F",
 "ts": 1790294684.2668774
 },
+"RAC": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
+},
 "RACE": {
 "industry": "Auto Manufacturers",
 "market_cap": 71476494336,
@@ -23799,6 +23823,14 @@
 "sector": "Technology",
 "short_name": "Rapid7, Inc.",
 "ts": 1789774774.4000397
+},
+"RPGL": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
 },
 "RPM": {
 "industry": "Specialty Chemicals",
@@ -25508,6 +25540,14 @@
 "short_name": "SOPHiA GENETICS SA",
 "ts": 1789515612.86605
 },
+"SOTK": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
+},
 "SOUN": {
 "industry": "Software - Application",
 "market_cap": 2731289856,
@@ -26594,6 +26634,14 @@
 "sector": "Financial Services",
 "short_name": "BlackRock TCP Capital Corp.",
 "ts": 1790294684.3054068
+},
+"TCRT": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
 },
 "TCX": {
 "industry": "Software - Infrastructure",
@@ -29505,6 +29553,14 @@
 "sector": "Consumer Cyclical",
 "short_name": "Wendy's Company (The)",
 "ts": 1789602502.9663618
+},
+"WENN": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792022836.9863958
 },
 "WERN": {
 "industry": "",
