@@ -4125,6 +4125,14 @@
 "short_name": "Badger Meter, Inc.",
 "ts": 1789602508.3145883
 },
+"BMN": {
+"industry": "Asset Management",
+"market_cap": 135770912,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "53753",
+"ts": 1792108248.131906
+},
 "BMNR": {
 "industry": "Capital Markets",
 "market_cap": 15539110912,
@@ -6680,11 +6688,11 @@
 },
 "COTY": {
 "industry": "Household & Personal Products",
-"market_cap": 2667813376,
+"market_cap": 2809389824,
 "misses": 0,
 "sector": "Consumer Defensive",
 "short_name": "Coty Inc.",
-"ts": 1787176607.7341537
+"ts": 1792108248.1901243
 },
 "COUR": {
 "industry": "Education & Training Services",
@@ -10844,12 +10852,12 @@
 "ts": 1789602504.2117095
 },
 "FLYE": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1792022836.9863958
+"industry": "Auto Manufacturers",
+"market_cap": 5517465,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Fly-E Group, Inc.",
+"ts": 1792108248.1588676
 },
 "FLYW": {
 "industry": "Software - Infrastructure",
@@ -15903,6 +15911,14 @@
 "short_name": "Ladder Capital Corp",
 "ts": 1790036380.8233964
 },
+"LAKE": {
+"industry": "Apparel Manufacturing",
+"market_cap": 93156024,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Lakeland Industries, Inc.",
+"ts": 1792108248.2731342
+},
 "LAMR": {
 "industry": "REIT - Specialty",
 "market_cap": 14981623808,
@@ -20011,6 +20027,14 @@
 "short_name": "733085",
 "ts": 1790294680.966229
 },
+"NXGL": {
+"industry": "Medical Instruments & Supplies",
+"market_cap": 2524643,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "NexGel, Inc",
+"ts": 1792108224.2107303
+},
 "NXH": {
 "industry": "Internet Retail",
 "market_cap": 407775104,
@@ -21001,6 +21025,14 @@
 "sector": "Healthcare",
 "short_name": "Phibro Animal Health Corporatio",
 "ts": 1789430604.226916
+},
+"PAII": {
+"industry": "Shell Companies",
+"market_cap": 281394112,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Pyrophyte Acquisition Corp. II",
+"ts": 1792108248.1657774
 },
 "PAL": {
 "industry": "Integrated Freight & Logistics",
@@ -22921,12 +22953,12 @@
 "ts": 1790294684.2668774
 },
 "RAC": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1792022836.9863958
+"industry": "Shell Companies",
+"market_cap": 310569600,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Rithm Acquisition Corp.",
+"ts": 1792108248.114005
 },
 "RACE": {
 "industry": "Auto Manufacturers",
@@ -23825,12 +23857,12 @@
 "ts": 1789774774.4000397
 },
 "RPGL": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1792022836.9863958
+"industry": "Software - Application",
+"market_cap": 13453209,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Republic Power Group Limited",
+"ts": 1792108224.205118
 },
 "RPM": {
 "industry": "Specialty Chemicals",
@@ -25541,12 +25573,12 @@
 "ts": 1789515612.86605
 },
 "SOTK": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1792022836.9863958
+"industry": "Scientific & Technical Instruments",
+"market_cap": 95950592,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Sono-Tek Corporation",
+"ts": 1792108248.1322691
 },
 "SOUN": {
 "industry": "Software - Application",
@@ -26438,11 +26470,11 @@
 },
 "TACH": {
 "industry": "Shell Companies",
-"market_cap": 360180000,
+"market_cap": 363629984,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Titan Acquisition Corp.",
-"ts": 1785537492.4035277
+"ts": 1792108224.2074678
 },
 "TALK": {
 "industry": "Health Information Services",
@@ -29555,12 +29587,12 @@
 "ts": 1789602502.9663618
 },
 "WENN": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1792022836.9863958
+"industry": "Shell Companies",
+"market_cap": 391320608,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Wen Acquisition Corp",
+"ts": 1792108224.253387
 },
 "WERN": {
 "industry": "",
