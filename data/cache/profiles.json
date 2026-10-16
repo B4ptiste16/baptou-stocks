@@ -15519,6 +15519,14 @@
 "short_name": "Knowles Corporation",
 "ts": 1789774772.7352405
 },
+"KNDI": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792194651.6027014
+},
 "KNF": {
 "industry": "Building Materials",
 "market_cap": 3204890368,
@@ -26475,6 +26483,14 @@
 "sector": "Financial Services",
 "short_name": "Titan Acquisition Corp.",
 "ts": 1792108224.2074678
+},
+"TACO": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792194651.6027014
 },
 "TALK": {
 "industry": "Health Information Services",
