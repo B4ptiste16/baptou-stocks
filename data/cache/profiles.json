@@ -3447,6 +3447,14 @@
 "short_name": "Bain Capital Specialty Finance,",
 "ts": 1790121035.423619
 },
+"BCSS": {
+"industry": "Shell Companies",
+"market_cap": 593928000,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Bain Capital GSS Investment Cor",
+"ts": 1792456718.962168
+},
 "BCTX": {
 "industry": "Biotechnology",
 "market_cap": 30101264,
@@ -7705,6 +7713,14 @@
 "short_name": "Dominion Energy, Inc.",
 "ts": 1789515637.777675
 },
+"DAAQ": {
+"industry": "Shell Companies",
+"market_cap": 241039984,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Digital Asset Acquisition Corp.",
+"ts": 1792456718.9808617
+},
 "DAC": {
 "industry": "Marine Shipping",
 "market_cap": 0,
@@ -11293,10 +11309,10 @@
 "FSSL": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1792456718.5436547
 },
 "FSTR": {
 "industry": "Railroads",
@@ -15520,12 +15536,12 @@
 "ts": 1789774772.7352405
 },
 "KNDI": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1792194651.6027014
+"industry": "Recreational Vehicles",
+"market_cap": 35496836,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Kandi Technologies Group, Inc.",
+"ts": 1792456693.4543626
 },
 "KNF": {
 "industry": "Building Materials",
@@ -18693,12 +18709,12 @@
 "ts": 1789430602.876229
 },
 "NBB": {
-"industry": "",
+"industry": "Asset Management",
 "market_cap": 0,
-"misses": 3,
-"sector": "",
+"misses": 0,
+"sector": "Financial Services",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1792456718.9340708
 },
 "NBBK": {
 "industry": "Banks - Regional",
@@ -19723,6 +19739,14 @@
 "sector": "Real Estate",
 "short_name": "NetSTREIT Corp.",
 "ts": 1789602509.0910473
+},
+"NTWK": {
+"industry": "Software - Application",
+"market_cap": 79604104,
+"misses": 0,
+"sector": "Technology",
+"short_name": "NETSOL Technologies Inc.",
+"ts": 1792456693.3973534
 },
 "NTWO": {
 "industry": "Shell Companies",
@@ -23160,6 +23184,14 @@
 "short_name": "Rising Dragon Acquisition Corp.",
 "ts": 1787176607.8802242
 },
+"RDAG": {
+"industry": "Shell Companies",
+"market_cap": 391875008,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Republic Digital Acquisition Co",
+"ts": 1792456693.3896606
+},
 "RDCM": {
 "industry": "Telecom Services",
 "market_cap": 173409584,
@@ -23735,6 +23767,14 @@
 "sector": "Energy",
 "short_name": "Ranger Energy Services, Inc.",
 "ts": 1790294683.6432917
+},
+"RNGT": {
+"industry": "Shell Companies",
+"market_cap": 318592224,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Range Capital Acquisition Corp ",
+"ts": 1792456693.440341
 },
 "RNR": {
 "industry": "Insurance - Reinsurance",
@@ -24554,11 +24594,11 @@
 },
 "SDHY": {
 "industry": "Asset Management",
-"market_cap": 393041792,
+"market_cap": 372563168,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "",
-"ts": 1788392188.5146384
+"ts": 1792456693.390518
 },
 "SDOT": {
 "industry": "Farm Products",
@@ -26485,12 +26525,12 @@
 "ts": 1792108224.2074678
 },
 "TACO": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1792194651.6027014
+"industry": "Shell Companies",
+"market_cap": 393170240,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Berto Acquisition Corp.",
+"ts": 1792456693.4351964
 },
 "TALK": {
 "industry": "Health Information Services",
@@ -26821,11 +26861,11 @@
 },
 "TEI": {
 "industry": "Asset Management",
-"market_cap": 314068960,
+"market_cap": 293288480,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Templeton Emerging Markets Inco",
-"ts": 1788392188.4944313
+"ts": 1792456718.9262643
 },
 "TEL": {
 "industry": "Electronic Components",
@@ -30011,11 +30051,11 @@
 },
 "WSHP": {
 "industry": "Internet Content & Information",
-"market_cap": 60519200,
+"market_cap": 33159486,
 "misses": 0,
 "sector": "Communication Services",
 "short_name": "WeShop Holdings Limited",
-"ts": 1788392188.053792
+"ts": 1792456693.6345792
 },
 "WSM": {
 "industry": "Specialty Retail",
