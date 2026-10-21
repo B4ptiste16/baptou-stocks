@@ -9975,6 +9975,14 @@
 "short_name": "Eaton Vance Municipal Income Tr",
 "ts": 1790729197.0767248
 },
+"EVOX": {
+"industry": "Shell Companies",
+"market_cap": 324000000,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Evolution Global Acquisition Co",
+"ts": 1792541356.9833856
+},
 "EVR": {
 "industry": "Capital Markets",
 "market_cap": 10415134720,
@@ -10198,6 +10206,14 @@
 "sector": "Industrials",
 "short_name": "Factorial Energy Inc.",
 "ts": 1790294651.2454276
+},
+"FACT": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792541356.7850492
 },
 "FAF": {
 "industry": "Insurance - Specialty",
@@ -11092,11 +11108,11 @@
 },
 "FPH": {
 "industry": "Real Estate - Development",
-"market_cap": 757260736,
+"market_cap": 656687104,
 "misses": 0,
 "sector": "Real Estate",
 "short_name": "Five Point Holdings, LLC",
-"ts": 1787003926.863572
+"ts": 1792541332.9582996
 },
 "FPI": {
 "industry": "REIT - Specialty",
@@ -26724,12 +26740,12 @@
 "ts": 1790294684.3054068
 },
 "TCRT": {
-"industry": "",
-"market_cap": 0,
-"misses": 2,
-"sector": "",
-"short_name": "",
-"ts": 1792022836.9863958
+"industry": "Biotechnology",
+"market_cap": 8693591,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Alaunos Therapeutics, Inc.",
+"ts": 1792541357.0595665
 },
 "TCX": {
 "industry": "Software - Infrastructure",
@@ -28914,6 +28930,14 @@
 "short_name": "Viking Holdings Ltd",
 "ts": 1789430643.8335857
 },
+"VINP": {
+"industry": "Asset Management",
+"market_cap": 738576768,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Vinci Compass Investments Ltd.",
+"ts": 1792541357.0389957
+},
 "VIR": {
 "industry": "Biotechnology",
 "market_cap": 1793689216,
@@ -30315,11 +30339,11 @@
 },
 "XLAB": {
 "industry": "Software - Infrastructure",
-"market_cap": 255328000,
+"market_cap": 192361024,
 "misses": 0,
 "sector": "Technology",
 "short_name": "Exascale Labs Holdings Inc.",
-"ts": 1788392188.0322793
+"ts": 1792541332.9612164
 },
 "XMAX": {
 "industry": "Furnishings, Fixtures & Appliances",
