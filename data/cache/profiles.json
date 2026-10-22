@@ -3718,6 +3718,14 @@
 "short_name": "BlackRock Floating Rate Income ",
 "ts": 1790729222.9450867
 },
+"BGX": {
+"industry": "Asset Management",
+"market_cap": 133309800,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Blackstone GSO Long Short Credi",
+"ts": 1792627907.4558656
+},
 "BGY": {
 "industry": "Asset Management",
 "market_cap": 522845408,
@@ -9441,11 +9449,11 @@
 },
 "ENTX": {
 "industry": "Biotechnology",
-"market_cap": 149842304,
+"market_cap": 530194528,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Entera Bio Ltd.",
-"ts": 1786400008.4233484
+"ts": 1792627907.4682882
 },
 "ENVA": {
 "industry": "Credit Services",
@@ -10210,10 +10218,10 @@
 "FACT": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1792541356.7850492
+"ts": 1792627907.2723625
 },
 "FAF": {
 "industry": "Insurance - Specialty",
@@ -15310,7 +15318,7 @@
 "misses": 0,
 "sector": "Utilities",
 "short_name": "Kenon Holdings Ltd.",
-"ts": 1785537491.3035583
+"ts": 1792627907.4640822
 },
 "KEP": {
 "industry": "Utilities - Regulated Electric",
