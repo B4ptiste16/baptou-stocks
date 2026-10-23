@@ -2537,6 +2537,14 @@
 "short_name": "Anterix Inc.",
 "ts": 1789774772.5576186
 },
+"ATGL": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792714374.1815884
+},
 "ATI": {
 "industry": "Metal Fabrication",
 "market_cap": 25620457472,
@@ -3478,6 +3486,14 @@
 "sector": "Technology",
 "short_name": "Belden Inc",
 "ts": 1789602505.200444
+},
+"BDCI": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792714374.1815884
 },
 "BDJ": {
 "industry": "Asset Management",
@@ -10218,10 +10234,10 @@
 "FACT": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1792627907.2723625
+"ts": 1792714374.1815884
 },
 "FAF": {
 "industry": "Insurance - Specialty",
@@ -12906,6 +12922,14 @@
 "short_name": "HCA Healthcare, Inc.",
 "ts": 1789430639.9889925
 },
+"HCAI": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792714374.1815884
+},
 "HCC": {
 "industry": "Coking Coal",
 "market_cap": 4895809536,
@@ -15359,6 +15383,14 @@
 "sector": "Financial Services",
 "short_name": "Korea Fund, Inc. (The) New",
 "ts": 1790729221.5182805
+},
+"KFII": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792714374.1815884
 },
 "KFRC": {
 "industry": "Staffing & Employment Services",
@@ -18675,6 +18707,14 @@
 "sector": "Financial Services",
 "short_name": "Nuveen New York Quality Municip",
 "ts": 1789082839.884439
+},
+"NANO": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792714374.1815884
 },
 "NAT": {
 "industry": "Oil & Gas Midstream",
@@ -22199,6 +22239,14 @@
 "sector": "Financial Services",
 "short_name": "Andretti Acquisition Corp. II",
 "ts": 1789082840.0881457
+},
+"POM": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792714374.1815884
 },
 "POOL": {
 "industry": "Industrial Distribution",
@@ -25727,10 +25775,10 @@
 "SPHL": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1790644502.5616407
+"ts": 1792714374.1815884
 },
 "SPHR": {
 "industry": "Entertainment",
@@ -26574,10 +26622,10 @@
 "TANH": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1788824784.1367176
+"ts": 1792714302.0680707
 },
 "TAOX": {
 "industry": "Capital Markets",
@@ -27965,10 +28013,10 @@
 "TVA": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1788824855.703069
+"ts": 1792714374.1815884
 },
 "TVTX": {
 "industry": "Biotechnology",
