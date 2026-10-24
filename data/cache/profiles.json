@@ -2014,10 +2014,10 @@
 "APXT": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1788563919.6887076
+"ts": 1792800109.626451
 },
 "AQN": {
 "industry": "Utilities - Diversified",
@@ -2540,10 +2540,10 @@
 "ATGL": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1792714374.1815884
+"ts": 1792800109.626451
 },
 "ATI": {
 "industry": "Metal Fabrication",
@@ -3490,10 +3490,10 @@
 "BDCI": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1792714374.1815884
+"ts": 1792800109.626451
 },
 "BDJ": {
 "industry": "Asset Management",
@@ -4000,10 +4000,10 @@
 "BKYI": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1790815648.5723755
+"ts": 1792800039.5597167
 },
 "BL": {
 "industry": "Software - Application",
@@ -4308,6 +4308,14 @@
 "short_name": "",
 "ts": 1790036358.6912138
 },
+"BOLT": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792800109.626451
+},
 "BOOM": {
 "industry": "Conglomerates",
 "market_cap": 128134744,
@@ -4436,12 +4444,12 @@
 "ts": 1790294682.2176082
 },
 "BRCC": {
-"industry": "Packaged Foods",
-"market_cap": 132905360,
-"misses": 0,
-"sector": "Consumer Defensive",
-"short_name": "BRC Inc.",
-"ts": 1787608952.6824439
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792800109.626451
 },
 "BRK-A": {
 "industry": "Insurance - Diversified",
@@ -9098,10 +9106,10 @@
 "EGAN": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1788910842.0030735
+"ts": 1792800109.626451
 },
 "EGBN": {
 "industry": "Banks - Regional",
@@ -12925,10 +12933,10 @@
 "HCAI": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1792714374.1815884
+"ts": 1792800039.5597167
 },
 "HCC": {
 "industry": "Coking Coal",
@@ -12953,6 +12961,14 @@
 "sector": "Technology",
 "short_name": "The Hackett Group, Inc.",
 "ts": 1790294687.3143857
+},
+"HCMA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792800109.626451
 },
 "HCSG": {
 "industry": "Medical Care Facilities",
@@ -15132,10 +15148,10 @@
 "JMSB": {
 "industry": "",
 "market_cap": 0,
-"misses": 3,
+"misses": 4,
 "sector": "",
 "short_name": "",
-"ts": 1788910842.0030735
+"ts": 1792800039.5597167
 },
 "JNJ": {
 "industry": "Drug Manufacturers - General",
@@ -15387,10 +15403,10 @@
 "KFII": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1792714374.1815884
+"ts": 1792800109.626451
 },
 "KFRC": {
 "industry": "Staffing & Employment Services",
@@ -18711,10 +18727,10 @@
 "NANO": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1792714374.1815884
+"ts": 1792800039.5597167
 },
 "NAT": {
 "industry": "Oil & Gas Midstream",
@@ -18747,6 +18763,14 @@
 "sector": "Consumer Defensive",
 "short_name": "Nature's Sunshine Products, Inc",
 "ts": 1789430602.940413
+},
+"NAUT": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1792800109.626451
 },
 "NAVI": {
 "industry": "Credit Services",
@@ -22689,12 +22713,12 @@
 "ts": 1789515612.3984103
 },
 "PTHS": {
-"industry": "Biotechnology",
-"market_cap": 99611984,
-"misses": 0,
-"sector": "Healthcare",
-"short_name": "Pelthos Therapeutics Inc.",
-"ts": 1785537487.443819
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792800109.626451
 },
 "PTLO": {
 "industry": "Restaurants",
@@ -30184,6 +30208,14 @@
 "sector": "Financial Services",
 "short_name": "Wintrust Financial Corporation",
 "ts": 1789602500.4743137
+},
+"WTG": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1792800109.626451
 },
 "WTI": {
 "industry": "Oil & Gas E&P",
