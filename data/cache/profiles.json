@@ -2936,6 +2936,14 @@
 "short_name": "",
 "ts": 1790036358.6912138
 },
+"AXG": {
+"industry": "Capital Markets",
+"market_cap": 6046390,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Solowin Holdings",
+"ts": 1793236386.4711437
+},
 "AXGN": {
 "industry": "Medical Devices",
 "market_cap": 2417655296,
@@ -4334,10 +4342,11 @@
 },
 "BOOM": {
 "industry": "Conglomerates",
-"market_cap": 128134744,
+"market_cap": 158781536,
+"misses": 0,
 "sector": "Industrials",
 "short_name": "DMC Global Inc.",
-"ts": 1785450784.7461412
+"ts": 1793236409.8070035
 },
 "BOOT": {
 "industry": "Apparel Retail",
@@ -28418,6 +28427,14 @@
 "sector": "Technology",
 "short_name": "Ubiquiti Inc.",
 "ts": 1789430607.9164493
+},
+"ULBI": {
+"industry": "Electrical Equipment & Parts",
+"market_cap": 260113616,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Ultralife Corporation",
+"ts": 1793236409.8201592
 },
 "ULCC": {
 "industry": "Airlines",
