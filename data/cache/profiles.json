@@ -620,12 +620,12 @@
 "ts": 1793756189.8791692
 },
 "AEHL": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644430.592058
+"industry": "Building Products & Equipment",
+"market_cap": 191479600,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Antelope Enterprise Holdings Li",
+"ts": 1794535420.8355365
 },
 "AEHR": {
 "industry": "Semiconductor Equipment & Materials",
@@ -2211,6 +2211,14 @@
 "short_name": "Arrow Financial Corporation",
 "ts": 1794450377.983779
 },
+"ARQ": {
+"industry": "Pollution & Treatment Controls",
+"market_cap": 136545120,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Arq, Inc.",
+"ts": 1794535445.367698
+},
 "ARQQ": {
 "industry": "Software - Infrastructure",
 "market_cap": 271303616,
@@ -3745,11 +3753,11 @@
 },
 "BGS": {
 "industry": "Packaged Foods",
-"market_cap": 256831136,
+"market_cap": 271821600,
 "misses": 0,
 "sector": "Consumer Defensive",
 "short_name": "B&G Foods, Inc.",
-"ts": 1789430594.3297548
+"ts": 1794535420.7778301
 },
 "BGSI": {
 "industry": "Auto & Truck Dealerships",
@@ -3862,6 +3870,14 @@
 "sector": "Healthcare",
 "short_name": "Biogen Inc.",
 "ts": 1793408667.2372453
+},
+"BIII": {
+"industry": "Shell Companies",
+"market_cap": 233220000,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Black Spade Acquisition III Co",
+"ts": 1794535420.803392
 },
 "BILL": {
 "industry": "Software - Application",
@@ -5265,6 +5281,14 @@
 "sector": "",
 "short_name": "",
 "ts": 1793929533.6728437
+},
+"CASK": {
+"industry": "Beverages - Wineries & Distilleries",
+"market_cap": 364171744,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "Sempreon, Inc.",
+"ts": 1794535445.1459422
 },
 "CASS": {
 "industry": "Specialty Business Services",
@@ -8165,12 +8189,12 @@
 "ts": 1793408621.395368
 },
 "DFDV": {
-"industry": "",
-"market_cap": 0,
-"misses": 4,
-"sector": "",
-"short_name": "",
-"ts": 1790644502.5616407
+"industry": "Asset Management",
+"market_cap": 96231336,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "DeFi Development Corp.",
+"ts": 1794535445.1447744
 },
 "DFH": {
 "industry": "",
@@ -9065,6 +9089,14 @@
 "sector": "Industrials",
 "short_name": "Okeanis Eco Tankers Corp.",
 "ts": 1793408621.6721127
+},
+"ECOR": {
+"industry": "Medical Devices",
+"market_cap": 48805572,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "electroCore, Inc.",
+"ts": 1794535445.593864
 },
 "ECPG": {
 "industry": "Credit Services",
@@ -12541,6 +12573,14 @@
 "short_name": "",
 "ts": 1790988181.5827413
 },
+"GPAT": {
+"industry": "Shell Companies",
+"market_cap": 178904784,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "GP-Act III Acquisition Corp.",
+"ts": 1794535445.7157924
+},
 "GPC": {
 "industry": "Auto Parts",
 "market_cap": 17178704896,
@@ -12854,12 +12894,12 @@
 "ts": 1794282319.4101586
 },
 "GUG": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
+"industry": "Asset Management",
+"market_cap": 458423168,
+"misses": 0,
+"sector": "Financial Services",
 "short_name": "",
-"ts": 1790644430.592058
+"ts": 1794535445.4364445
 },
 "GUT": {
 "industry": "Asset Management",
@@ -13228,6 +13268,14 @@
 "sector": "Financial Services",
 "short_name": "Hamilton Insurance Group, Ltd.",
 "ts": 1794282319.5615227
+},
+"HGLB": {
+"industry": "Asset Management",
+"market_cap": 118424032,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Highland Global Allocation Fund",
+"ts": 1794535420.8449702
 },
 "HGTY": {
 "industry": "Insurance - Property & Casualty",
@@ -13742,12 +13790,12 @@
 "ts": 1794450374.8418958
 },
 "HTD": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644502.5616407
+"industry": "Asset Management",
+"market_cap": 808199872,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "John Hancock Tax Advantaged Div",
+"ts": 1794535445.3429043
 },
 "HTFL": {
 "industry": "Health Information Services",
@@ -13814,12 +13862,12 @@
 "ts": 1793408670.868292
 },
 "HUCK": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644502.5616407
+"industry": "Software - Application",
+"market_cap": 158982224,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Huckleberry.ai, Inc.",
+"ts": 1794535445.0755975
 },
 "HUM": {
 "industry": "Healthcare Plans",
@@ -14286,12 +14334,12 @@
 "ts": 1793843007.1588893
 },
 "IIM": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644430.592058
+"industry": "Asset Management",
+"market_cap": 521327264,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Invesco Value Municipal Income ",
+"ts": 1794535445.3299592
 },
 "IIPR": {
 "industry": "REIT - Industrial",
@@ -15371,6 +15419,14 @@
 "sector": "Financial Services",
 "short_name": "Nuveen Real Asset Income and Gr",
 "ts": 1794450379.1001828
+},
+"JRSH": {
+"industry": "Apparel Manufacturing",
+"market_cap": 93344560,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Jerash Holdings (US), Inc.",
+"ts": 1794535420.843403
 },
 "JRVR": {
 "industry": "Insurance - Specialty",
@@ -19424,12 +19480,12 @@
 "ts": 1790036283.23206
 },
 "NHS": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644430.592058
+"industry": "Asset Management",
+"market_cap": 229369744,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Neuberger Berman High Yield Str",
+"ts": 1794535445.4068544
 },
 "NI": {
 "industry": "Utilities - Regulated Gas",
@@ -20719,12 +20775,12 @@
 "ts": 1793408626.021913
 },
 "OKUR": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1794360332.804866
+"industry": "Biotechnology",
+"market_cap": 123980752,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "OnKure Therapeutics, Inc.",
+"ts": 1794535445.8370953
 },
 "OLED": {
 "industry": "Electronic Components",
@@ -21734,12 +21790,12 @@
 "ts": 1794282322.4353862
 },
 "PDT": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644430.592058
+"industry": "Asset Management",
+"market_cap": 581861184,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "John Hancock Premium Dividend F",
+"ts": 1794535445.3051572
 },
 "PDX": {
 "industry": "Asset Management",
@@ -22223,11 +22279,11 @@
 },
 "PLBL": {
 "industry": "Department Stores",
-"market_cap": 2092072448,
+"market_cap": 2663636736,
 "misses": 0,
 "sector": "Consumer Cyclical",
 "short_name": "Polibeli Group Ltd",
-"ts": 1790294651.7441168
+"ts": 1794535445.575639
 },
 "PLD": {
 "industry": "REIT - Industrial",
@@ -22316,6 +22372,14 @@
 "sector": "Technology",
 "short_name": "ePlus inc.",
 "ts": 1794013502.6139762
+},
+"PLX": {
+"industry": "Biotechnology",
+"market_cap": 249584000,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Protalix BioTherapeutics, Inc. ",
+"ts": 1794535420.7713058
 },
 "PLXS": {
 "industry": "Electronic Components",
@@ -22547,6 +22611,14 @@
 "sector": "Basic Materials",
 "short_name": "PPG Industries, Inc.",
 "ts": 1793675134.913053
+},
+"PPHC": {
+"industry": "Consulting Services",
+"market_cap": 327155904,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Public Policy Holding Company, ",
+"ts": 1794535445.5301952
 },
 "PPIH": {
 "industry": "Building Products & Equipment",
@@ -22883,6 +22955,14 @@
 "sector": "Technology",
 "short_name": "PSQ Holdings, Inc.",
 "ts": 1787003926.209269
+},
+"PSQL": {
+"industry": "Computer Hardware",
+"market_cap": 857666496,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Pasqal Holding SA",
+"ts": 1794535445.0747433
 },
 "PSTL": {
 "industry": "REIT - Office",
@@ -23861,12 +23941,12 @@
 "ts": 1793756186.1254578
 },
 "RICK": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644502.5616407
+"industry": "Restaurants",
+"market_cap": 207049584,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "RCI Hospitality Holdings, Inc.",
+"ts": 1794535445.5711544
 },
 "RIG": {
 "industry": "Oil & Gas Drilling",
@@ -24494,11 +24574,11 @@
 },
 "RXT": {
 "industry": "Software - Infrastructure",
-"market_cap": 968516800,
+"market_cap": 791777088,
 "misses": 0,
 "sector": "Technology",
 "short_name": "Rackspace Technology, Inc.",
-"ts": 1789774773.8761897
+"ts": 1794535445.0723946
 },
 "RY": {
 "industry": "Banks - Diversified",
@@ -25426,6 +25506,14 @@
 "sector": "Basic Materials",
 "short_name": "Skeena Resources Limited",
 "ts": 1794013503.6835365
+},
+"SKIN": {
+"industry": "Household & Personal Products",
+"market_cap": 103979400,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "SkinHealth Systems Inc.",
+"ts": 1794535445.7354677
 },
 "SKK": {
 "industry": "Engineering & Construction",
@@ -27824,12 +27912,12 @@
 "ts": 1790729222.8488019
 },
 "TOP": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790644430.592058
+"industry": "Capital Markets",
+"market_cap": 1908791424,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "TOP Financial Group Limited",
+"ts": 1794535445.0734363
 },
 "TOST": {
 "industry": "Software - Infrastructure",
