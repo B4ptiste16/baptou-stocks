@@ -367,11 +367,11 @@
 },
 "ACOG": {
 "industry": "Biotechnology",
-"market_cap": 192483088,
+"market_cap": 189555504,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Alpha Cognition Inc.",
-"ts": 1787003926.7118673
+"ts": 1795056369.2885704
 },
 "ACP": {
 "industry": "Asset Management",
@@ -1099,11 +1099,11 @@
 },
 "AKAN": {
 "industry": "Drug Manufacturers - Specialty & Generic",
-"market_cap": 1746916,
+"market_cap": 10637053,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Akanda Corp.",
-"ts": 1790121031.8701677
+"ts": 1795056346.2771342
 },
 "AKR": {
 "industry": "REIT - Retail",
@@ -14013,6 +14013,14 @@
 "short_name": "Blackrock Corporate High Yield ",
 "ts": 1794282329.7135153
 },
+"HZN": {
+"industry": "Utilities - Regulated Gas",
+"market_cap": 11121195008,
+"misses": 0,
+"sector": "Utilities",
+"short_name": "BRIGHT HORIZON ENERGY CORPORATI",
+"ts": 1795056369.2558281
+},
 "HZO": {
 "industry": "Specialty Retail",
 "market_cap": 1165296128,
@@ -17017,11 +17025,11 @@
 },
 "LRMR": {
 "industry": "Biotechnology",
-"market_cap": 344891328,
+"market_cap": 337446624,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Larimar Therapeutics, Inc.",
-"ts": 1790294677.98148
+"ts": 1795056369.2578745
 },
 "LRN": {
 "industry": "Education & Training Services",
@@ -17350,6 +17358,14 @@
 "sector": "Industrials",
 "short_name": "ManpowerGroup",
 "ts": 1793756191.451669
+},
+"MANE": {
+"industry": "Biotechnology",
+"market_cap": 5268526592,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Veradermics, Incorporated",
+"ts": 1795056346.247012
 },
 "MANH": {
 "industry": "Software - Application",
@@ -25619,6 +25635,14 @@
 "short_name": "Champion Homes, Inc.",
 "ts": 1793756190.433486
 },
+"SKYA": {
+"industry": "Software - Infrastructure",
+"market_cap": 210027856,
+"misses": 0,
+"sector": "Technology",
+"short_name": "SkyAI, Inc.",
+"ts": 1795056346.2373567
+},
 "SKYD": {
 "industry": "",
 "market_cap": 0,
@@ -29784,12 +29808,12 @@
 "ts": 1793408629.4692147
 },
 "VRSA": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1794971147.5738215
+"industry": "Banks - Regional",
+"market_cap": 720027712,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "VersaBank",
+"ts": 1795056369.2639544
 },
 "VRSK": {
 "industry": "Consulting Services",
