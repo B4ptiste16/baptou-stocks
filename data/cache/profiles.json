@@ -843,6 +843,14 @@
 "short_name": "Federal Agricultural Mortgage C",
 "ts": 1793843001.60492
 },
+"AGMB": {
+"industry": "Biotechnology",
+"market_cap": 268401456,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "AgomAb Therapeutics NV",
+"ts": 1795228983.624012
+},
 "AGNC": {
 "industry": "REIT - Mortgage",
 "market_cap": 10254413824,
@@ -1840,11 +1848,11 @@
 },
 "AOMR": {
 "industry": "REIT - Mortgage",
-"market_cap": 168307856,
+"market_cap": 123764176,
 "misses": 0,
 "sector": "Real Estate",
 "short_name": "Angel Oak Mortgage REIT, Inc.",
-"ts": 1791251836.7831473
+"ts": 1795228983.6462524
 },
 "AON": {
 "industry": "Insurance Brokers",
@@ -4288,11 +4296,11 @@
 },
 "BNAI": {
 "industry": "Software - Infrastructure",
-"market_cap": 56949168,
+"market_cap": 25626162,
 "misses": 0,
 "sector": "Technology",
 "short_name": "Brand Engagement Network Inc.",
-"ts": 1789430594.5770664
+"ts": 1795228983.62292
 },
 "BNC": {
 "industry": "Farm & Heavy Construction Machinery",
@@ -4348,6 +4356,14 @@
 "sector": "Financial Services",
 "short_name": "The Bank of New York Mellon Cor",
 "ts": 1793408661.9473603
+},
+"BOBS": {
+"industry": "Specialty Retail",
+"market_cap": 2591909376,
+"misses": 0,
+"sector": "Consumer Cyclical",
+"short_name": "Bob's Discount Furniture, Inc.",
+"ts": 1795228983.645256
 },
 "BOC": {
 "industry": "Conglomerates",
@@ -9362,6 +9378,14 @@
 "short_name": "Employers Holdings Inc",
 "ts": 1794282329.4246705
 },
+"EIKN": {
+"industry": "Biotechnology",
+"market_cap": 256842080,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Eikon Therapeutics, Inc.",
+"ts": 1795229007.24369
+},
 "EIX": {
 "industry": "Utilities - Regulated Electric",
 "market_cap": 22623213568,
@@ -11332,6 +11356,14 @@
 "sector": "Real Estate",
 "short_name": "Farmland Partners Inc.",
 "ts": 1794282329.0484526
+},
+"FPS": {
+"industry": "Electrical Equipment & Parts",
+"market_cap": 5479719936,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Forgent Power Solutions, Inc.",
+"ts": 1795228983.62901
 },
 "FR": {
 "industry": "REIT - Industrial",
@@ -13981,6 +14013,14 @@
 "short_name": "Hyster-Yale, Inc.",
 "ts": 1794450376.1083338
 },
+"HYI": {
+"industry": "Asset Management",
+"market_cap": 118401384,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Western Asset High Yield Define",
+"ts": 1795229007.2353342
+},
 "HYLN": {
 "industry": "",
 "market_cap": 0,
@@ -15326,11 +15366,11 @@
 },
 "JGH": {
 "industry": "Asset Management",
-"market_cap": 352135488,
+"market_cap": 314165600,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Nuveen Global High Income Fund ",
-"ts": 1785537491.323725
+"ts": 1795229007.403236
 },
 "JHX": {
 "industry": "Building Materials",
@@ -17783,6 +17823,14 @@
 "short_name": "Methanex Corporation",
 "ts": 1793756192.1745043
 },
+"MESH": {
+"industry": "Shell Companies",
+"market_cap": 436856256,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Meshflow Acquisition Corp.",
+"ts": 1795229007.2433283
+},
 "MET": {
 "industry": "Insurance - Life",
 "market_cap": 63560400896,
@@ -18576,12 +18624,12 @@
 "ts": 1793756192.204223
 },
 "MSB": {
-"industry": "",
+"industry": "Steel",
 "market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790988181.5827413
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Mesabi Trust",
+"ts": 1795228983.624956
 },
 "MSBI": {
 "industry": "",
@@ -20741,6 +20789,14 @@
 "sector": "Industrials",
 "short_name": "Omega Flex, Inc.",
 "ts": 1793148358.1029773
+},
+"OFRM": {
+"industry": "Packaged Foods",
+"market_cap": 514216032,
+"misses": 0,
+"sector": "Consumer Defensive",
+"short_name": "Once Upon a Farm, PBC",
+"ts": 1795229007.2365294
 },
 "OGC": {
 "industry": "Gold",
@@ -24262,11 +24318,11 @@
 },
 "RNAC": {
 "industry": "Biotechnology",
-"market_cap": 224192160,
+"market_cap": 187288448,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Cartesian Therapeutics, Inc.",
-"ts": 1790381307.410725
+"ts": 1795229007.2442172
 },
 "RNG": {
 "industry": "Software - Application",
@@ -25347,6 +25403,14 @@
 "sector": "Healthcare",
 "short_name": "Sagimet Biosciences Inc. - Seri",
 "ts": 1793843005.0710583
+},
+"SGP": {
+"industry": "Biotechnology",
+"market_cap": 1018231936,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "SpyGlass Pharma, Inc.",
+"ts": 1795228983.7949169
 },
 "SGRY": {
 "industry": "Medical Care Facilities",
@@ -30680,11 +30744,11 @@
 },
 "WSBF": {
 "industry": "Banks - Regional",
-"market_cap": 365293216,
+"market_cap": 321077376,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Waterstone Financial, Inc.",
-"ts": 1790294687.7334087
+"ts": 1795229007.2427585
 },
 "WSC": {
 "industry": "Rental & Leasing Services",
@@ -31357,6 +31421,14 @@
 "sector": "Healthcare",
 "short_name": "Zentalis Pharmaceuticals, Inc.",
 "ts": 1785514777.9462574
+},
+"ZONE": {
+"industry": "Information Technology Services",
+"market_cap": 25494848,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Zone Frontier Inc.",
+"ts": 1795228983.805086
 },
 "ZS": {
 "industry": "Software - Infrastructure",
