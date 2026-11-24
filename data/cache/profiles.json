@@ -436,6 +436,14 @@
 "short_name": "Array Digital Infrastructure, I",
 "ts": 1794282328.2162256
 },
+"ADAC": {
+"industry": "Shell Companies",
+"market_cap": 291812480,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "American Drive Acquisition Comp",
+"ts": 1795498068.2339203
+},
 "ADAG": {
 "industry": "Biotechnology",
 "market_cap": 253058016,
@@ -605,11 +613,11 @@
 },
 "AEF": {
 "industry": "Asset Management",
-"market_cap": 388149632,
+"market_cap": 301668576,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "27762",
-"ts": 1790729224.0145507
+"ts": 1795498091.410472
 },
 "AEG": {
 "industry": "Insurance - Diversified",
@@ -717,11 +725,11 @@
 },
 "AEXA": {
 "industry": "Shell Companies",
-"market_cap": 536648736,
+"market_cap": 524778144,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "American Exceptionalism Acquisi",
-"ts": 1791594808.110873
+"ts": 1795498091.178536
 },
 "AEYE": {
 "industry": "Software - Application",
@@ -834,6 +842,14 @@
 "sector": "Healthcare",
 "short_name": "agilon health, inc.",
 "ts": 1794013503.1262612
+},
+"AGLT": {
+"industry": "Computer Hardware",
+"market_cap": 1333612928,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Agility Robotics, Inc.",
+"ts": 1795498068.235086
 },
 "AGM": {
 "industry": "Credit Services",
@@ -3641,11 +3657,11 @@
 },
 "BETA": {
 "industry": "Aerospace & Defense",
-"market_cap": 4908083200,
+"market_cap": 3898037760,
 "misses": 0,
 "sector": "Industrials",
 "short_name": "Beta Technologies, Inc.",
-"ts": 1791594832.930077
+"ts": 1795498091.1871185
 },
 "BETR": {
 "industry": "Mortgage Finance",
@@ -3769,11 +3785,11 @@
 },
 "BGSI": {
 "industry": "Auto & Truck Dealerships",
-"market_cap": 2172136704,
+"market_cap": 2011012864,
 "misses": 0,
 "sector": "Consumer Cyclical",
 "short_name": "Boyd Group Services Inc.",
-"ts": 1791594832.8648527
+"ts": 1795498091.177795
 },
 "BGT": {
 "industry": "Asset Management",
@@ -3910,6 +3926,14 @@
 "sector": "Healthcare",
 "short_name": "BioAge Labs, Inc.",
 "ts": 1793408619.701003
+},
+"BIP": {
+"industry": "Utilities - Diversified",
+"market_cap": 35826270208,
+"misses": 0,
+"sector": "Utilities",
+"short_name": "Brookfield Infrastructure Partn",
+"ts": 1795498068.2311327
 },
 "BIPC": {
 "industry": "Utilities - Regulated Gas",
@@ -8518,11 +8542,11 @@
 },
 "DMII": {
 "industry": "Shell Companies",
-"market_cap": 649102976,
+"market_cap": 652924992,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Drugs Made In America Acquisiti",
-"ts": 1791594833.4007485
+"ts": 1795498091.3854752
 },
 "DMRA": {
 "industry": "Biotechnology",
@@ -10034,6 +10058,14 @@
 "short_name": "Elastic N.V.",
 "ts": 1793408621.90282
 },
+"ETB": {
+"industry": "Asset Management",
+"market_cap": 415064736,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Eaton Vance Tax-Managed Buy-Wri",
+"ts": 1795498091.4524505
+},
 "ETD": {
 "industry": "Furnishings, Fixtures & Appliances",
 "market_cap": 512657824,
@@ -10679,6 +10711,14 @@
 "sector": "Financial Services",
 "short_name": "Fidelity D & D Bancorp, Inc.",
 "ts": 1794450350.7873757
+},
+"FDGX": {
+"industry": "Shell Companies",
+"market_cap": 325046528,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "First Digital Acquisition Corp ",
+"ts": 1795498068.2299535
 },
 "FDMT": {
 "industry": "Biotechnology",
@@ -11895,11 +11935,11 @@
 },
 "GASS": {
 "industry": "Marine Shipping",
-"market_cap": 340539648,
+"market_cap": 285906368,
 "misses": 0,
 "sector": "Industrials",
 "short_name": "StealthGas, Inc.",
-"ts": 1791594833.4601018
+"ts": 1795498091.616958
 },
 "GATX": {
 "industry": "",
@@ -14703,11 +14743,11 @@
 },
 "INSE": {
 "industry": "Gambling",
-"market_cap": 100032584,
+"market_cap": 97820400,
 "misses": 0,
 "sector": "Consumer Cyclical",
 "short_name": "Inspired Entertainment, Inc.",
-"ts": 1791594808.146128
+"ts": 1795498068.234679
 },
 "INSG": {
 "industry": "Communication Equipment",
@@ -15342,12 +15382,12 @@
 "ts": 1789430600.6795702
 },
 "JENA": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1791509316.449491
+"industry": "Shell Companies",
+"market_cap": 303368256,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "Jena Acquisition Corporation II",
+"ts": 1795498091.3883235
 },
 "JFB": {
 "industry": "Real Estate - Development",
@@ -17936,12 +17976,12 @@
 "ts": 1793675108.0586011
 },
 "MGN": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1790120943.0165904
+"industry": "Engineering & Construction",
+"market_cap": 65095804,
+"misses": 0,
+"sector": "Industrials",
+"short_name": "Megan Holdings Limited",
+"ts": 1795498091.2838888
 },
 "MGNI": {
 "industry": "Advertising Agencies",
@@ -19361,11 +19401,11 @@
 },
 "NECB": {
 "industry": "Banks - Regional",
-"market_cap": 371683584,
+"market_cap": 389151552,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "NorthEast Community Bancorp, In",
-"ts": 1791594833.4199517
+"ts": 1795498091.297824
 },
 "NEE": {
 "industry": "Utilities - Regulated Electric",
@@ -19833,11 +19873,11 @@
 },
 "NOA": {
 "industry": "Oil & Gas Equipment & Services",
-"market_cap": 317583968,
+"market_cap": 228664736,
 "misses": 0,
 "sector": "Energy",
 "short_name": "North American Construction Gro",
-"ts": 1791594833.2891088
+"ts": 1795498068.235419
 },
 "NOC": {
 "industry": "Aerospace & Defense",
@@ -19953,11 +19993,11 @@
 },
 "NPV": {
 "industry": "Asset Management",
-"market_cap": 185845840,
+"market_cap": 183302688,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Nuveen Virginia Quality Municip",
-"ts": 1791594808.1129391
+"ts": 1795498091.2966883
 },
 "NRC": {
 "industry": "Health Information Services",
@@ -21488,11 +21528,11 @@
 },
 "PACH": {
 "industry": "Shell Companies",
-"market_cap": 328267488,
+"market_cap": 329690624,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Pioneer Acquisition I Corp",
-"ts": 1791594808.1499994
+"ts": 1795498091.4124432
 },
 "PACK": {
 "industry": "Packaging & Containers",
@@ -22950,11 +22990,11 @@
 },
 "PROF": {
 "industry": "Medical Devices",
-"market_cap": 252128384,
+"market_cap": 239905840,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Profound Medical Corp.",
-"ts": 1791594833.1329012
+"ts": 1795498091.3291028
 },
 "PRPO": {
 "industry": "Diagnostics & Research",
@@ -24238,11 +24278,11 @@
 },
 "RLTY": {
 "industry": "Asset Management",
-"market_cap": 231270880,
+"market_cap": 235451472,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Cohen & Steers Real Estate Oppo",
-"ts": 1791594833.581403
+"ts": 1795498091.4964187
 },
 "RM": {
 "industry": "Credit Services",
@@ -24587,6 +24627,14 @@
 "sector": "Technology",
 "short_name": "Riskified Ltd.",
 "ts": 1794013477.1386385
+},
+"RSSS": {
+"industry": "Software - Application",
+"market_cap": 106873864,
+"misses": 0,
+"sector": "Technology",
+"short_name": "Research Solutions, Inc",
+"ts": 1795498068.3401945
 },
 "RTAC": {
 "industry": "Shell Companies",
@@ -25716,12 +25764,12 @@
 "ts": 1795056346.2373567
 },
 "SKYD": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1791509316.449491
+"industry": "Entertainment",
+"market_cap": 31929927680,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "Skydance Corporation",
+"ts": 1795498091.1738994
 },
 "SKYH": {
 "industry": "Real Estate - Development",
@@ -26658,12 +26706,12 @@
 "ts": 1794450380.080481
 },
 "STFS": {
-"industry": "",
-"market_cap": 0,
-"misses": 3,
-"sector": "",
-"short_name": "",
-"ts": 1791509316.449491
+"industry": "Advertising Agencies",
+"market_cap": 70651056,
+"misses": 0,
+"sector": "Communication Services",
+"short_name": "Star Fashion Culture Holdings L",
+"ts": 1795498091.1748357
 },
 "STGW": {
 "industry": "Advertising Agencies",
@@ -28694,6 +28742,14 @@
 "sector": "Utilities",
 "short_name": "TXNM Energy, Inc.",
 "ts": 1793756188.776774
+},
+"TXR": {
+"industry": "Gold",
+"market_cap": 3982749440,
+"misses": 0,
+"sector": "Basic Materials",
+"short_name": "Torex Resources Inc.",
+"ts": 1795498091.281903
 },
 "TXRH": {
 "industry": "Restaurants",
@@ -31200,11 +31256,11 @@
 },
 "XZO": {
 "industry": "Insurance - Diversified",
-"market_cap": 1439572992,
+"market_cap": 1329415040,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Exzeo Group, Inc.",
-"ts": 1791594832.8378859
+"ts": 1795498091.1856725
 },
 "YARW": {
 "industry": "Biotechnology",
