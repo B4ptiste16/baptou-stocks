@@ -6729,6 +6729,14 @@
 "short_name": "D/B/A Compass Diversified Holdi",
 "ts": 1793843006.612765
 },
+"CODX": {
+"industry": "Medical Devices",
+"market_cap": 2055809,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Co-Diagnostics, Inc.",
+"ts": 1795581012.7592533
+},
 "COF": {
 "industry": "Credit Services",
 "market_cap": 125675487232,
@@ -10974,6 +10982,14 @@
 "short_name": "FIGS, Inc.",
 "ts": 1793675106.7565145
 },
+"FINS": {
+"industry": "Asset Management",
+"market_cap": 387969632,
+"misses": 0,
+"sector": "Financial Services",
+"short_name": "",
+"ts": 1795581036.0618265
+},
 "FIP": {
 "industry": "Conglomerates",
 "market_cap": 517636032,
@@ -12639,11 +12655,11 @@
 },
 "GORO": {
 "industry": "Gold",
-"market_cap": 549337600,
+"market_cap": 522839872,
 "misses": 0,
 "sector": "Basic Materials",
 "short_name": "Goldgroup Mining Inc.",
-"ts": 1791251836.3789525
+"ts": 1795581035.9715056
 },
 "GOSS": {
 "industry": "Biotechnology",
@@ -15087,11 +15103,11 @@
 },
 "ISOU": {
 "industry": "Uranium",
-"market_cap": 616020672,
+"market_cap": 383487520,
 "misses": 0,
 "sector": "Energy",
 "short_name": "IsoEnergy Ltd.",
-"ts": 1790294688.7912867
+"ts": 1795581012.7478395
 },
 "ISRG": {
 "industry": "Medical Instruments & Supplies",
@@ -15231,11 +15247,11 @@
 },
 "JAGX": {
 "industry": "Biotechnology",
-"market_cap": 14960119,
+"market_cap": 6833139,
 "misses": 0,
 "sector": "Healthcare",
 "short_name": "Jaguar Health, Inc.",
-"ts": 1790121022.290937
+"ts": 1795581035.9575818
 },
 "JAKK": {
 "industry": "Leisure",
@@ -15891,12 +15907,12 @@
 "ts": 1793408662.2592802
 },
 "KMDA": {
-"industry": "",
-"market_cap": 0,
-"misses": 1,
-"sector": "",
-"short_name": "",
-"ts": 1791509316.449491
+"industry": "Drug Manufacturers - Specialty & Generic",
+"market_cap": 482062208,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Kamada Ltd.",
+"ts": 1795581035.9636931
 },
 "KMI": {
 "industry": "Oil & Gas Midstream",
@@ -18847,6 +18863,14 @@
 "short_name": "Vail Resorts, Inc.",
 "ts": 1793675145.2865376
 },
+"MTRI": {
+"industry": "Biotechnology",
+"market_cap": 914067776,
+"misses": 0,
+"sector": "Healthcare",
+"short_name": "Mentari Therapeutics, Inc.",
+"ts": 1795581036.018857
+},
 "MTRN": {
 "industry": "Other Industrial Metals & Mining",
 "market_cap": 4738213888,
@@ -19705,11 +19729,11 @@
 },
 "NKSH": {
 "industry": "Banks - Regional",
-"market_cap": 269158688,
+"market_cap": 238815376,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "National Bankshares, Inc.",
-"ts": 1790729222.4280887
+"ts": 1795581035.9557526
 },
 "NKTR": {
 "industry": "Biotechnology",
@@ -20241,11 +20265,11 @@
 },
 "NTWO": {
 "industry": "Shell Companies",
-"market_cap": 261662688,
+"market_cap": 100067240,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "Newbury Street II Acquisition C",
-"ts": 1791251836.7069817
+"ts": 1795581035.95025
 },
 "NU": {
 "industry": "Banks - Regional",
@@ -21887,11 +21911,11 @@
 },
 "PCYO": {
 "industry": "Utilities - Regulated Water",
-"market_cap": 268685664,
+"market_cap": 233817184,
 "misses": 0,
 "sector": "Utilities",
 "short_name": "Pure Cycle Corporation",
-"ts": 1788392188.6532273
+"ts": 1795581012.7686367
 },
 "PD": {
 "industry": "Software - Application",
@@ -23692,6 +23716,14 @@
 "short_name": "Roblox Corporation",
 "ts": 1793408661.4539056
 },
+"RBNE": {
+"industry": "Oil & Gas Midstream",
+"market_cap": 3180000,
+"misses": 0,
+"sector": "Energy",
+"short_name": "Robin Energy Ltd.",
+"ts": 1795581012.750429
+},
 "RBRK": {
 "industry": "Software - Infrastructure",
 "market_cap": 25553616896,
@@ -24326,11 +24358,11 @@
 },
 "RMM": {
 "industry": "Asset Management",
-"market_cap": 243389616,
+"market_cap": 247140144,
 "misses": 0,
 "sector": "Financial Services",
 "short_name": "RiverNorth Managed Duration Mun",
-"ts": 1790729197.400499
+"ts": 1795581036.0626435
 },
 "RMNI": {
 "industry": "Software - Application",
