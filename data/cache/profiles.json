@@ -787,6 +787,14 @@
 "short_name": "First Majestic Silver Corp.",
 "ts": 1793675139.024935
 },
+"AGBK": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
+},
 "AGCC": {
 "industry": "Beverages - Wineries & Distilleries",
 "market_cap": 347266240,
@@ -2284,12 +2292,12 @@
 "ts": 1790294651.2517695
 },
 "ARTNA": {
-"industry": "Utilities - Regulated Water",
-"market_cap": 343376768,
-"misses": 0,
-"sector": "Utilities",
-"short_name": "Artesian Resources Corporation",
-"ts": 1790381306.7731822
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "ARTV": {
 "industry": "Biotechnology",
@@ -5235,12 +5243,12 @@
 "ts": 1793843000.472509
 },
 "CAMP": {
-"industry": "Biotechnology",
-"market_cap": 251640352,
-"misses": 0,
-"sector": "Healthcare",
-"short_name": "CAMP4 THERAPEUTICS CORPORATION",
-"ts": 1791251836.953351
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "CAMT": {
 "industry": "Semiconductor Equipment & Materials",
@@ -5824,6 +5832,14 @@
 "sector": "Financial Services",
 "short_name": "Cantor Equity Partners I, Inc.",
 "ts": 1790903166.994439
+},
+"CEPV": {
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "CERT": {
 "industry": "Health Information Services",
@@ -9963,12 +9979,12 @@
 "ts": 1793408621.8688629
 },
 "ESCA": {
-"industry": "Leisure",
-"market_cap": 285783712,
-"misses": 0,
-"sector": "Consumer Cyclical",
-"short_name": "Escalade, Incorporated",
-"ts": 1786486698.8783147
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "ESE": {
 "industry": "Scientific & Technical Instruments",
@@ -10169,6 +10185,14 @@
 "sector": "Financial Services",
 "short_name": "Eaton Vance Tax-Managed Diversi",
 "ts": 1794450375.9073217
+},
+"EUDA": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "EVAC": {
 "industry": "",
@@ -11326,12 +11350,12 @@
 "ts": 1794013476.1218092
 },
 "FOF": {
-"industry": "Asset Management",
-"market_cap": 341419424,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "Cohen & Steers Closed-End Oppor",
-"ts": 1791251811.6358576
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "FOR": {
 "industry": "Real Estate - Development",
@@ -16291,12 +16315,12 @@
 "ts": 1793843001.6332955
 },
 "KXIN": {
-"industry": "Auto & Truck Dealerships",
-"market_cap": 9013003,
-"misses": 0,
-"sector": "Consumer Cyclical",
-"short_name": "Kaixin Holdings",
-"ts": 1787608952.7645533
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "KYIV": {
 "industry": "Telecom Services",
@@ -25133,12 +25157,12 @@
 "ts": 1793675134.6492734
 },
 "SCD": {
-"industry": "Asset Management",
-"market_cap": 340159104,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "LMP Capital and Income Fund Inc",
-"ts": 1790381307.0622756
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "SCHL": {
 "industry": "Publishing",
@@ -29638,6 +29662,14 @@
 "sector": "",
 "short_name": "",
 "ts": 1788824855.703069
+},
+"VHCP": {
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795664679.715412
 },
 "VIA": {
 "industry": "Software - Application",
