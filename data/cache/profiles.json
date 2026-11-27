@@ -790,10 +790,10 @@
 "AGBK": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "AGCC": {
 "industry": "Beverages - Wineries & Distilleries",
@@ -2294,10 +2294,10 @@
 "ARTNA": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "ARTV": {
 "industry": "Biotechnology",
@@ -4159,12 +4159,12 @@
 "ts": 1794013502.2877383
 },
 "BLLN": {
-"industry": "Diagnostics & Research",
-"market_cap": 4391697920,
-"misses": 0,
-"sector": "Healthcare",
-"short_name": "BillionToOne, Inc.",
-"ts": 1791859591.1613088
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795751171.956393
 },
 "BLMN": {
 "industry": "Restaurants",
@@ -4223,12 +4223,12 @@
 "ts": 1794013502.9144201
 },
 "BMBL": {
-"industry": "Internet Content & Information",
-"market_cap": 582223680,
-"misses": 0,
-"sector": "Communication Services",
-"short_name": "Bumble Inc.",
-"ts": 1791859591.162863
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1795751171.956393
 },
 "BME": {
 "industry": "Asset Management",
@@ -5245,10 +5245,10 @@
 "CAMP": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "CAMT": {
 "industry": "Semiconductor Equipment & Materials",
@@ -5836,10 +5836,10 @@
 "CEPV": {
 "industry": "",
 "market_cap": 0,
-"misses": 2,
+"misses": 3,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751100.354614
 },
 "CERT": {
 "industry": "Health Information Services",
@@ -9981,10 +9981,10 @@
 "ESCA": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "ESE": {
 "industry": "Scientific & Technical Instruments",
@@ -10189,10 +10189,10 @@
 "EUDA": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "EVAC": {
 "industry": "",
@@ -11352,10 +11352,10 @@
 "FOF": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "FOR": {
 "industry": "Real Estate - Development",
@@ -12814,12 +12814,12 @@
 "ts": 1793843003.7335045
 },
 "GRML": {
-"industry": "Other Precious Metals & Mining",
-"market_cap": 80349736,
-"misses": 0,
-"sector": "Basic Materials",
-"short_name": "Greenland Mines Ltd",
-"ts": 1791859591.1337895
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1795751171.956393
 },
 "GRMN": {
 "industry": "Scientific & Technical Instruments",
@@ -16317,10 +16317,10 @@
 "KXIN": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "KYIV": {
 "industry": "Telecom Services",
@@ -23493,12 +23493,12 @@
 "ts": 1793842993.069807
 },
 "QNBC": {
-"industry": "Banks - Regional",
-"market_cap": 286931872,
-"misses": 0,
-"sector": "Financial Services",
-"short_name": "QNB Corp.",
-"ts": 1791859591.1452253
+"industry": "",
+"market_cap": 0,
+"misses": 1,
+"sector": "",
+"short_name": "",
+"ts": 1795751171.956393
 },
 "QNST": {
 "industry": "Advertising Agencies",
@@ -23933,12 +23933,12 @@
 "ts": 1793756191.8563457
 },
 "REAX": {
-"industry": "Real Estate Services",
-"market_cap": 509437728,
-"misses": 0,
-"sector": "Real Estate",
-"short_name": "Real REMAX Group Inc.",
-"ts": 1791859566.8811388
+"industry": "",
+"market_cap": 0,
+"misses": 2,
+"sector": "",
+"short_name": "",
+"ts": 1795751171.956393
 },
 "REFI": {
 "industry": "REIT - Mortgage",
@@ -25159,10 +25159,10 @@
 "SCD": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "SCHL": {
 "industry": "Publishing",
@@ -29666,10 +29666,10 @@
 "VHCP": {
 "industry": "",
 "market_cap": 0,
-"misses": 1,
+"misses": 2,
 "sector": "",
 "short_name": "",
-"ts": 1795664679.715412
+"ts": 1795751171.956393
 },
 "VIA": {
 "industry": "Software - Application",
